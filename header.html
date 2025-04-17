@@ -1,0 +1,40 @@
+<!-- header.html -->
+<header>
+    <a id="home-button" href="index.html">GPCREVOdb</a>
+    
+    <div class="dropdown">
+        <a href="superfamily_tree.html">Superfamily Tree</a>
+    </div>
+
+    <div class="dropdown">
+        <a href="#">Class Trees</a>
+        <div class="dropdown-content">
+            <a href="class_tree.html?class=A">Class A</a>
+            <a href="class_tree.html?class=B">Class B</a>
+            <a href="class_tree.html?class=C">Class C</a>
+            <a href="class_tree.html?class=F">Class F</a>
+            <a href="class_tree.html?class=T">Class T</a>
+            <a href="class_tree.html?class=Olf">Olfactory Receptors</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a href="#">Tools for Analysis</a>
+        <div class="dropdown-content">
+            <a href="receptor_comparison.html">Receptor Comparison</a>
+            <a href="receptor_table.html">Receptor Comparison Table Generator</a>
+            <a href="combine_orthologs.html">Combine Ortholog Alignments</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <div class="dropdown">
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="search-bar">
+        <div class="autocomplete">
+            <input type="text" id="search-box" placeholder="Enter receptor name e.g. ADRB2" />
+        </div>
+        <button type="button" class="search-button" onclick="searchReceptor()">Search</button>
+    </div>
+
+</header>

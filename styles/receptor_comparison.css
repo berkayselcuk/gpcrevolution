@@ -1,0 +1,226 @@
+/* styles/receptor_comparison.css */
+
+/* ============================
+   General Styles
+   ============================ */
+   .receptor-comparison-page * {
+    box-sizing: border-box;
+}
+
+.receptor-comparison-page {
+    margin: 20px auto;
+    font-family: inherit;
+    max-width: 1000px;
+}
+
+/* ============================
+   Form Styles
+   ============================ */
+.receptor-comparison-page #receptor-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.receptor-comparison-page #receptor-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.receptor-comparison-page .receptor-autocomplete-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.receptor-comparison-page #receptor-form input[type="text"],
+.receptor-comparison-page #receptor-form input[type="number"] {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+/* ============================
+   Button Styles
+   ============================ */
+/* Base button style */
+.receptor-comparison-page .btn {
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 4px;
+    transition: background-color 0.15s ease-in-out;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Primary button */
+.receptor-comparison-page .btn-primary {
+    background-color: #424874;
+    color: #ffffff;
+}
+
+.receptor-comparison-page .btn-primary:hover {
+    background-color: #292d49;
+}
+
+/* New download button style */
+.receptor-comparison-page .btn-download {
+    background-color: #424874;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.15s ease-in-out;
+    display: inline-block;
+}
+
+.receptor-comparison-page .btn-download:hover {
+    background-color: #292d49;
+}
+
+.receptor-comparison-page .btn:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+/* ============================
+   Autocomplete Styles
+   ============================ */
+.receptor-comparison-page .rec-autocomplete-items {
+    position: absolute;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.receptor-comparison-page .rec-autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ced4da;
+}
+
+.receptor-comparison-page .rec-autocomplete-items div:hover {
+    background-color: #e9ecef;
+}
+
+.receptor-comparison-page .rec-autocomplete-active {
+    background-color: #596574 !important;
+    color: #ffffff;
+}
+
+/* ============================
+   Alert Styles
+   ============================ */
+.receptor-comparison-page .alert {
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    position: relative;
+    font-size: 16px;
+}
+
+.receptor-comparison-page .alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.receptor-comparison-page .alert-warning {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+}
+
+.receptor-comparison-page .alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border: 1px solid #bee5eb;
+}
+
+/* ============================
+   Responsive Design
+   ============================ */
+@media (max-width: 600px) {
+    .receptor-comparison-page #receptor-form input[type="text"],
+    .receptor-comparison-page #receptor-form input[type="number"] {
+        width: 100%;
+    }
+    .receptor-comparison-page .btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+/* ============================
+   Header Styling
+   ============================ */
+.receptor-comparison-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Slider Styles */
+.receptor-comparison-page #receptor-form input[type="range"] {
+    width: 100%;              /* Make it as long as the container */
+    -webkit-appearance: none; /* Remove default styling in WebKit browsers */
+    appearance: none;
+    height: 8px;              /* Adjust track height as needed */
+    background: #e0e0e0;      /* New track color (change as desired) */
+    border-radius: 5px;       /* Rounded track corners */
+    outline: none;
+    margin: 10px 0;           /* Vertical spacing */
+  }
+  
+/* WebKit slider thumb */
+.receptor-comparison-page #receptor-form input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #424874; /* Change this to your preferred color */
+    cursor: pointer;
+    position: relative;
+    top: 50%;
+
+  }
+  
+  /* Firefox slider thumb */
+  .receptor-comparison-page #receptor-form input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #424874; /* Change this to your preferred color */
+    cursor: pointer;
+  }
+  
+  
+  /* Firefox slider track */
+  .receptor-comparison-page #receptor-form input[type="range"]::-moz-range-track {
+    height: 8px;
+    background: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  

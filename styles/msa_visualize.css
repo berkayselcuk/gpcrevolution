@@ -1,0 +1,97 @@
+/* msa_visualize.css */
+.msa-visualize {
+    font-size: 13px;
+    font-family: Arial;
+  }
+  
+/* Scrollable container for the table */
+.table-container {
+  width: 1050px;
+  height: 500px;
+  overflow: auto;
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+td {
+  padding: 5px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Sticky left column for headers */
+.sticky-col {
+  position: sticky;
+  left: 0;
+  background-color: white;
+  width: 300px;
+  z-index: 2;
+}
+
+/* First (top) row: gpcrdb numbers */
+.colnum-header td {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+  height: 26px;
+}
+
+/* Second row: FASTA header row */
+.fasta-header td {
+  position: sticky;
+  top: 35px;
+  background-color: white;
+  z-index: 9;
+}
+
+/* The corner cell (top-left) should appear above all */
+.fasta-header td.sticky-col {
+  z-index: 11;
+}
+
+/* Top-left corner cell: always visible */
+.colnum-header td.sticky-col {
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 20;
+  background-color: white;
+}
+
+/* Alternate background for even columns */
+table td:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Set the width for all cells except the sticky column */
+td:not(.sticky-col) {
+  width: 8px;
+}
+
+table, th, td {
+  border: none;
+}
+
+.colnum-header td {
+  font-weight: bold;
+}
+
+.sticky-col {
+  text-align: right;
+}
+
+/* Rotated text for gpcrdb columns */
+.rotate {
+  transform: rotate(-90deg);
+  transform-origin: 12px 15px;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+  

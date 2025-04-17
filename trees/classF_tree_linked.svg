@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" id="katman_1" viewBox="0 0 912.443 496.246">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 15px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-3 {
+        stroke-width: 3px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-5 {
+        stroke-linecap: square;
+      }
+
+      .cls-2, .cls-6 {
+        font-size: 20px;
+      }
+
+      .cls-4 {
+        stroke-width: 2px;
+      }
+
+      .cls-6 {
+        font-family: Arial-ItalicMT, Arial;
+        font-style: italic;
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <line class="cls-5" x1="307.538" y1="371.526" x2="558.538" y2="247.526"/>
+  <line class="cls-5" x1="558.538" y1="247.526" x2="499.538" y2="186.526"/>
+  <line class="cls-5" x1="499.538" y1="186.526" x2="460.538" y2="171.526"/>
+  <line class="cls-5" x1="460.538" y1="171.526" x2="453.538" y2="169.526"/>
+  <line class="cls-5" x1="453.538" y1="169.526" x2="439.538" y2="167.526"/>
+  <line class="cls-5" x1="439.538" y1="167.526" x2="435.538" y2="166.526"/>
+  <line class="cls-5" x1="435.538" y1="166.526" x2="434.538" y2="166.526"/>
+  <line class="cls-5" x1="434.538" y1="166.526" x2="381.538" y2="166.526"/>
+  <line class="cls-5" x1="434.538" y1="166.526" x2="430.538" y2="166.526"/>
+  <line class="cls-5" x1="435.538" y1="166.526" x2="434.538" y2="166.526"/>
+  <line class="cls-5" x1="434.538" y1="166.526" x2="432.538" y2="165.526"/>
+  <line class="cls-5" x1="434.538" y1="166.526" x2="426.538" y2="164.526"/>
+  <line class="cls-5" x1="439.538" y1="167.526" x2="423.538" y2="161.526"/>
+  <line class="cls-5" x1="453.538" y1="169.526" x2="432.538" y2="157.526"/>
+  <line class="cls-5" x1="432.538" y1="157.526" x2="428.538" y2="156.526"/>
+  <line class="cls-5" x1="432.538" y1="157.526" x2="429.538" y2="156.526"/>
+  <line class="cls-5" x1="429.538" y1="156.526" x2="423.538" y2="152.526"/>
+  <line class="cls-5" x1="429.538" y1="156.526" x2="421.538" y2="150.526"/>
+  <line class="cls-5" x1="460.538" y1="171.526" x2="454.538" y2="166.526"/>
+  <line class="cls-5" x1="454.538" y1="166.526" x2="435.538" y2="151.526"/>
+  <line class="cls-5" x1="454.538" y1="166.526" x2="450.538" y2="162.526"/>
+  <line class="cls-5" x1="499.538" y1="186.526" x2="479.538" y2="133.526"/>
+  <line class="cls-5" x1="479.538" y1="133.526" x2="477.538" y2="131.526"/>
+  <line class="cls-5" x1="477.538" y1="131.526" x2="469.538" y2="119.526"/>
+  <line class="cls-5" x1="469.538" y1="119.526" x2="450.538" y2="99.526"/>
+  <line class="cls-5" x1="469.538" y1="119.526" x2="453.538" y2="97.526"/>
+  <line class="cls-5" x1="453.538" y1="97.526" x2="436.538" y2="75.526"/>
+  <line class="cls-5" x1="453.538" y1="97.526" x2="429.538" y2="59.526"/>
+  <line class="cls-5" x1="477.538" y1="131.526" x2="457.538" y2="92.526"/>
+  <line class="cls-5" x1="479.538" y1="133.526" x2="477.538" y2="124.526"/>
+  <line class="cls-5" x1="477.538" y1="124.526" x2="476.538" y2="119.526"/>
+  <line class="cls-5" x1="476.538" y1="119.526" x2="473.538" y2="109.526"/>
+  <line class="cls-5" x1="473.538" y1="109.526" x2="471.538" y2="101.526"/>
+  <line class="cls-5" x1="471.538" y1="101.526" x2="470.538" y2="99.526"/>
+  <line class="cls-5" x1="470.538" y1="99.526" x2="468.538" y2="95.526"/>
+  <line class="cls-5" x1="470.538" y1="99.526" x2="470.538" y2="98.526"/>
+  <line class="cls-5" x1="471.538" y1="101.526" x2="468.538" y2="89.526"/>
+  <line class="cls-5" x1="473.538" y1="109.526" x2="469.538" y2="80.526"/>
+  <line class="cls-5" x1="476.538" y1="119.526" x2="474.538" y2="87.526"/>
+  <line class="cls-5" x1="477.538" y1="124.526" x2="479.538" y2="73.526"/>
+  <line class="cls-5" x1="558.538" y1="247.526" x2="602.538" y2="264.526"/>
+  <line class="cls-5" x1="602.538" y1="264.526" x2="643.538" y2="266.526"/>
+  <line class="cls-5" x1="643.538" y1="266.526" x2="696.538" y2="221.526"/>
+  <line class="cls-5" x1="696.538" y1="221.526" x2="712.538" y2="190.526"/>
+  <line class="cls-5" x1="712.538" y1="190.526" x2="717.538" y2="180.526"/>
+  <line class="cls-5" x1="717.538" y1="180.526" x2="721.538" y2="165.526"/>
+  <line class="cls-5" x1="721.538" y1="165.526" x2="731.538" y2="124.526"/>
+  <line class="cls-5" x1="731.538" y1="124.526" x2="735.538" y2="100.526"/>
+  <line class="cls-5" x1="735.538" y1="100.526" x2="740.538" y2="70.526"/>
+  <line class="cls-5" x1="740.538" y1="70.526" x2="741.538" y2="57.526"/>
+  <line class="cls-5" x1="740.538" y1="70.526" x2="742.538" y2="58.526"/>
+  <line class="cls-5" x1="735.538" y1="100.526" x2="739.538" y2="86.526"/>
+  <line class="cls-5" x1="731.538" y1="124.526" x2="733.538" y2="118.526"/>
+  <line class="cls-5" x1="721.538" y1="165.526" x2="737.538" y2="132.526"/>
+  <line class="cls-5" x1="717.538" y1="180.526" x2="735.538" y2="155.526"/>
+  <line class="cls-5" x1="735.538" y1="155.526" x2="738.538" y2="151.526"/>
+  <line class="cls-5" x1="738.538" y1="151.526" x2="789.538" y2="63.526"/>
+  <line class="cls-5" x1="738.538" y1="151.526" x2="747.538" y2="139.526"/>
+  <line class="cls-5" x1="747.538" y1="139.526" x2="779.538" y2="94.526"/>
+  <line class="cls-5" x1="747.538" y1="139.526" x2="777.538" y2="103.526"/>
+  <line class="cls-5" x1="735.538" y1="155.526" x2="763.538" y2="127.526"/>
+  <line class="cls-5" x1="712.538" y1="190.526" x2="769.538" y2="140.526"/>
+  <line class="cls-5" x1="696.538" y1="221.526" x2="748.538" y2="205.526"/>
+  <line class="cls-5" x1="748.538" y1="205.526" x2="767.538" y2="195.526"/>
+  <line class="cls-5" x1="767.538" y1="195.526" x2="785.538" y2="183.526"/>
+  <line class="cls-5" x1="785.538" y1="183.526" x2="803.538" y2="169.526"/>
+  <line class="cls-5" x1="785.538" y1="183.526" x2="790.538" y2="179.526"/>
+  <line class="cls-5" x1="767.538" y1="195.526" x2="775.538" y2="191.526"/>
+  <line class="cls-5" x1="775.538" y1="191.526" x2="807.538" y2="175.526"/>
+  <line class="cls-5" x1="775.538" y1="191.526" x2="801.538" y2="181.526"/>
+  <line class="cls-5" x1="748.538" y1="205.526" x2="775.538" y2="201.526"/>
+  <line class="cls-5" x1="775.538" y1="201.526" x2="801.538" y2="197.526"/>
+  <line class="cls-5" x1="801.538" y1="197.526" x2="808.538" y2="196.526"/>
+  <line class="cls-5" x1="808.538" y1="196.526" x2="810.538" y2="195.526"/>
+  <line class="cls-5" x1="810.538" y1="195.526" x2="810.538" y2="195.526"/>
+  <line class="cls-5" x1="810.538" y1="195.526" x2="824.538" y2="192.526"/>
+  <line class="cls-5" x1="808.538" y1="196.526" x2="810.538" y2="195.526"/>
+  <line class="cls-5" x1="801.538" y1="197.526" x2="825.538" y2="196.526"/>
+  <line class="cls-5" x1="775.538" y1="201.526" x2="806.538" y2="203.526"/>
+  <line class="cls-5" x1="643.538" y1="266.526" x2="694.538" y2="322.526"/>
+  <line class="cls-5" x1="694.538" y1="322.526" x2="710.538" y2="331.526"/>
+  <line class="cls-5" x1="710.538" y1="331.526" x2="714.538" y2="332.526"/>
+  <line class="cls-5" x1="714.538" y1="332.526" x2="727.538" y2="334.526"/>
+  <line class="cls-5" x1="727.538" y1="334.526" x2="733.538" y2="335.526"/>
+  <line class="cls-5" x1="727.538" y1="334.526" x2="756.538" y2="340.526"/>
+  <line class="cls-5" x1="714.538" y1="332.526" x2="722.538" y2="334.526"/>
+  <line class="cls-5" x1="710.538" y1="331.526" x2="716.538" y2="335.526"/>
+  <line class="cls-5" x1="716.538" y1="335.526" x2="731.538" y2="345.526"/>
+  <line class="cls-5" x1="731.538" y1="345.526" x2="734.538" y2="347.526"/>
+  <line class="cls-5" x1="734.538" y1="347.526" x2="744.538" y2="351.526"/>
+  <line class="cls-5" x1="734.538" y1="347.526" x2="736.538" y2="348.526"/>
+  <line class="cls-5" x1="736.538" y1="348.526" x2="742.538" y2="351.526"/>
+  <line class="cls-5" x1="742.538" y1="351.526" x2="749.538" y2="355.526"/>
+  <line class="cls-5" x1="742.538" y1="351.526" x2="754.538" y2="359.526"/>
+  <line class="cls-5" x1="736.538" y1="348.526" x2="738.538" y2="349.526"/>
+  <line class="cls-5" x1="731.538" y1="345.526" x2="735.538" y2="349.526"/>
+  <line class="cls-5" x1="735.538" y1="349.526" x2="739.538" y2="352.526"/>
+  <line class="cls-5" x1="735.538" y1="349.526" x2="741.538" y2="356.526"/>
+  <line class="cls-5" x1="716.538" y1="335.526" x2="726.538" y2="347.526"/>
+  <line class="cls-5" x1="694.538" y1="322.526" x2="697.538" y2="333.526"/>
+  <line class="cls-5" x1="697.538" y1="333.526" x2="700.538" y2="339.526"/>
+  <line class="cls-5" x1="700.538" y1="339.526" x2="710.538" y2="353.526"/>
+  <line class="cls-5" x1="700.538" y1="339.526" x2="711.538" y2="361.526"/>
+  <line class="cls-5" x1="711.538" y1="361.526" x2="714.538" y2="368.526"/>
+  <line class="cls-5" x1="714.538" y1="368.526" x2="731.538" y2="397.526"/>
+  <line class="cls-5" x1="714.538" y1="368.526" x2="731.538" y2="403.526"/>
+  <line class="cls-5" x1="711.538" y1="361.526" x2="717.538" y2="377.526"/>
+  <line class="cls-5" x1="697.538" y1="333.526" x2="698.538" y2="341.526"/>
+  <line class="cls-5" x1="698.538" y1="341.526" x2="701.538" y2="352.526"/>
+  <line class="cls-5" x1="701.538" y1="352.526" x2="705.538" y2="369.526"/>
+  <line class="cls-5" x1="705.538" y1="369.526" x2="706.538" y2="373.526"/>
+  <line class="cls-5" x1="705.538" y1="369.526" x2="706.538" y2="376.526"/>
+  <line class="cls-5" x1="701.538" y1="352.526" x2="708.538" y2="422.526"/>
+  <line class="cls-5" x1="698.538" y1="341.526" x2="699.538" y2="364.526"/>
+  <line class="cls-5" x1="602.538" y1="264.526" x2="590.538" y2="297.526"/>
+  <line class="cls-5" x1="590.538" y1="297.526" x2="589.538" y2="308.526"/>
+  <line class="cls-5" x1="589.538" y1="308.526" x2="588.538" y2="321.526"/>
+  <line class="cls-5" x1="589.538" y1="308.526" x2="585.538" y2="335.526"/>
+  <line class="cls-5" x1="590.538" y1="297.526" x2="588.538" y2="301.526"/>
+  <line class="cls-5" x1="588.538" y1="301.526" x2="586.538" y2="307.526"/>
+  <line class="cls-5" x1="586.538" y1="307.526" x2="580.538" y2="330.526"/>
+  <line class="cls-5" x1="586.538" y1="307.526" x2="582.538" y2="317.526"/>
+  <line class="cls-5" x1="582.538" y1="317.526" x2="579.538" y2="326.526"/>
+  <line class="cls-5" x1="582.538" y1="317.526" x2="580.538" y2="322.526"/>
+  <line class="cls-5" x1="588.538" y1="301.526" x2="582.538" y2="311.526"/>
+  <line class="cls-5" x1="582.538" y1="311.526" x2="574.538" y2="324.526"/>
+  <line class="cls-5" x1="574.538" y1="324.526" x2="573.538" y2="326.526"/>
+  <line class="cls-5" x1="574.538" y1="324.526" x2="572.538" y2="327.526"/>
+  <line class="cls-5" x1="582.538" y1="311.526" x2="569.538" y2="328.526"/>
+  <line class="cls-5" x1="307.538" y1="371.526" x2="269.538" y2="391.526"/>
+  <line class="cls-5" x1="269.538" y1="391.526" x2="189.538" y2="454.526"/>
+  <line class="cls-5" x1="189.538" y1="454.526" x2="183.538" y2="459.526"/>
+  <line class="cls-5" x1="183.538" y1="459.526" x2="182.538" y2="460.526"/>
+  <line class="cls-5" x1="182.538" y1="460.526" x2="172.538" y2="471.526"/>
+  <line class="cls-5" x1="182.538" y1="460.526" x2="172.538" y2="469.526"/>
+  <line class="cls-5" x1="172.538" y1="469.526" x2="171.538" y2="470.526"/>
+  <line class="cls-5" x1="172.538" y1="469.526" x2="162.538" y2="477.526"/>
+  <line class="cls-5" x1="183.538" y1="459.526" x2="173.538" y2="466.526"/>
+  <line class="cls-5" x1="189.538" y1="454.526" x2="172.538" y2="463.526"/>
+  <line class="cls-5" x1="269.538" y1="391.526" x2="225.538" y2="402.526"/>
+  <line class="cls-5" x1="225.538" y1="402.526" x2="207.538" y2="407.526"/>
+  <line class="cls-5" x1="207.538" y1="407.526" x2="156.538" y2="430.526"/>
+  <line class="cls-5" x1="207.538" y1="407.526" x2="181.538" y2="414.526"/>
+  <line class="cls-5" x1="181.538" y1="414.526" x2="169.538" y2="418.526"/>
+  <line class="cls-5" x1="169.538" y1="418.526" x2="134.538" y2="430.526"/>
+  <line class="cls-5" x1="169.538" y1="418.526" x2="117.538" y2="431.526"/>
+  <line class="cls-5" x1="181.538" y1="414.526" x2="109.538" y2="426.526"/>
+  <line class="cls-5" x1="225.538" y1="402.526" x2="163.538" y2="407.526"/>
+  <line class="cls-3" x1="1.5" y1="31.428" x2="102.5" y2="31.428"/>
+  <line class="cls-3" x1="1.5" y1="28.428" x2="1.5" y2="34.428"/>
+  <line class="cls-3" x1="102.5" y1="28.428" x2="102.5" y2="34.428"/>
+  <text class="cls-6" transform="translate(104.5 37.428)"><tspan x="0" y="0">1.0</tspan></text>
+  <path class="cls-4" d="M372,172.928c-21.082-9.496-28.79-21.547-32-29-20.642-47.928,47.814-130.713,90-122,7.469,1.543,17.254,6.602,27,22"/>
+  <path class="cls-4" d="M733,56.928c15.798-32.838,32.706-39.314,41-41,46.854-9.526,95.703,77.487,112,132,12.531,41.915,2.719,54.254-1,58-9.823,9.894-25.984,9.035-34,8"/>
+  <path class="cls-4" d="M786,336.928c28.404,11.32,34.57,27.515,36,32,12.497,39.205-45.35,98.272-86,89-6.849-1.562-16.869-5.899-27-19"/>
+  <path class="cls-4" d="M611,369.928c-2.036,2.883-13.152,33.335-40,33-28.496-.355-55.761-27.356-52-48,.747-4.099,3.272-10.995,13-18"/>
+  <text class="cls-2" transform="translate(312.015 109.101) rotate(-51.596)"><tspan x="0" y="0">Phylocluster 1</tspan></text>
+  <text class="cls-2" transform="translate(840.435 33.154) rotate(63.172)"><tspan x="0" y="0">Phylocluster 2</tspan></text>
+  <text class="cls-2" transform="translate(779.269 492.212) rotate(-51.596)"><tspan x="0" y="0">Phylocluster 3</tspan></text>
+  <text class="cls-2" transform="translate(484.593 387.696) rotate(31.282)"><tspan x="0" y="0">Phylocluster 4</tspan></text>
+  <text class="cls-1" transform="translate(592.758 303.139)"><tspan x="0" y="0">0.99</tspan></text>
+  <text class="cls-1" transform="translate(692.547 321.232)"><tspan x="0" y="0">1</tspan></text>
+  <text class="cls-1" transform="translate(696.277 235.947)"><tspan x="0" y="0">0.99</tspan></text>
+  <text class="cls-1" transform="translate(504.193 187.965)"><tspan x="0" y="0">1</tspan></text>
+<a href="../receptor.html?gene=SMO" target="_blank"><text class="cls-2" transform="translate(66.645 454.15)"><tspan x="0" y="0">SMO</tspan></text>
+  </a><a href="../receptor.html?gene=FZD3" target="_blank"><text class="cls-2" transform="translate(365.516 160.524)"><tspan x="0" y="0">FZD3</tspan></text>
+  </a><a href="../receptor.html?gene=FZD6" target="_blank"><text class="cls-2" transform="translate(430.921 41.593) rotate(59.353)"><tspan x="0" y="0">FZD6</tspan></text>
+  </a><a href="../receptor.html?gene=FZD4" target="_blank"><text class="cls-2" transform="translate(763.647 80.768) rotate(-65.353)"><tspan x="0" y="0">FZD4</tspan></text>
+  </a><a href="../receptor.html?gene=FZD10" target="_blank"><text class="cls-2" transform="translate(815.361 174.248) rotate(-26.828)"><tspan x="0" y="0">FZD10</tspan></text>
+  </a><a href="../receptor.html?gene=FZD9" target="_blank"><text class="cls-2" transform="translate(832.419 201.347)"><tspan x="0" y="0">FZD9</tspan></text>
+  </a><a href="../receptor.html?gene=FZD8" target="_blank"><text class="cls-2" transform="translate(756.036 357.097) rotate(18.139)"><tspan x="0" y="0">FZD8</tspan></text>
+  </a><a href="../receptor.html?gene=FZD5" target="_blank"><text class="cls-2" transform="translate(709.831 404.615) rotate(66.381)"><tspan x="0" y="0">FZD5</tspan></text>
+  </a><a href="../receptor.html?gene=FZD7" target="_blank"><text class="cls-2" transform="translate(540.201 364.707) rotate(-54.825)"><tspan x="0" y="0">FZD7</tspan></text>
+  </a><a href="../receptor.html?gene=FZD1" target="_blank"><text class="cls-2" transform="translate(564.777 382.667) rotate(-69.257)"><tspan x="0" y="0">FZD1</tspan></text>
+  </a><a href="../receptor.html?gene=FZD2" target="_blank"><text class="cls-2" transform="translate(594.256 386.016) rotate(-79.948)"><tspan x="0" y="0">FZD2</tspan></text>
+  </a></svg>

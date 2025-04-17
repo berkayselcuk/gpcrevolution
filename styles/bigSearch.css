@@ -1,0 +1,87 @@
+/* bigSearch.css */
+
+/* Container for the big search bar */
+#big-search-container {
+    text-align: center;
+    margin: 60px auto;
+}
+
+/* Heading above the big search bar */
+.big-search-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #424874;
+}
+
+/* Wrapper for the big search input and button */
+.big-search-bar {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    width: 50%;
+    max-width: 600px;
+}
+
+/* Big search input field styling */
+#big-search-box {
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: 2px solid #424874;
+    border-right: none;
+    border-radius: 30px 0 0 30px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+/* Big search button styling */
+#big-search-button {
+    padding: 15px 20px;
+    font-size: 20px;
+    border: 2px solid #424874;
+    border-left: none;
+    border-radius: 0 30px 30px 0;
+    background-color: #424874;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#big-search-button:hover {
+    background-color: #292d49;
+}
+
+/* Autocomplete dropdown styling for the big search bar */
+.big-autocomplete-items {
+    position: absolute;
+    border: 2px solid #424874;
+    background-color: #ffffff;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+/* Each autocomplete item */
+.big-autocomplete-items div {
+    padding: 15px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Hover effect for autocomplete items */
+.big-autocomplete-items div:hover {
+    background-color: #e9e9e9;
+}
+
+/* Active autocomplete item */
+.big-autocomplete-active {
+    background-color: #A6B1E1 !important;
+    color: #ffffff;
+}
+#big-search-box::placeholder {
+    font-style: italic;
+}

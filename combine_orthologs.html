@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPCR Evolution Database - Combine Orthologous Alignments</title>
+    <!-- Link to main CSS files -->
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/combine_orthologs.css">
+</head>
+<body>
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Page Title Outside the Main Container -->
+    <h1 class="combine-orthologs-page-title">Combine Orthologous Alignments</h1>
+
+    <!-- Main Content Wrapped in a Container -->
+    <div class="combine-orthologs-page">
+        <!-- Main Content Section -->
+        <main>
+            <!-- Form Section -->
+            <form id="combine-orthologs-form" autocomplete="off">
+                <!-- Input for Receptor List -->
+                <div class="form-group">
+                    <label for="receptorList">Receptor List (comma-separated):</label>
+                    <input 
+                        type="text" 
+                        id="receptorList" 
+                        name="receptorList" 
+                        class="form-control" 
+                        placeholder="e.g., ADRB2, DRD1, 5HT1A" 
+                        required
+                    >
+                    <!-- Autocomplete Container -->
+                    <div id="receptorList-autocomplete-list" class="co-autocomplete-items"></div>
+                </div>
+                
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary">Combine Alignments</button>
+            </form>
+
+            <!-- Result Display Section -->
+            <div id="result"></div>
+            
+            <!-- Container for Combined Alignment Visualization -->
+            <div id="msa-container-basic" style="margin-top:20px; max-height:500px; overflow:auto;"></div>
+        </main>
+    </div>
+
+    <!-- Include Header Script -->
+    <script src="scripts/header.js"></script>
+    <!-- Include Page-specific Script -->
+    <script src="scripts/combine_orthologs.js" defer></script>
+    <!-- Include the new basic MSA visualization script -->
+    <script src="scripts/msa_visualize_basic.js" defer></script>
+</body>
+</html>

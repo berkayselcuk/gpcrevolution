@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPCR Evolution Database</title>
+    <!-- Link to main CSS file -->
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/receptor_table.css">
+    <link href="https://unpkg.com/tabulator-tables@5.4.4/dist/css/tabulator.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main Content of the Receptor Table Page -->
+    <main>
+        <div class="container receptor-table-page">
+            <h1>Receptor Comparison Table Generator</h1>
+            <form id="mapping-form">
+                <!-- Reference Receptor Input -->
+                <div class="autocomplete-container">
+                    <label for="referenceReceptor">Reference Receptor</label>
+                    <input type="text" id="referenceReceptor" name="referenceReceptor" autocomplete="off" placeholder="e.g. 5HT1A">
+                    <div id="reference-autocomplete-list" class="residueMap-autocomplete-items"></div>
+                </div>
+
+                <!-- Target Receptors Input -->
+                <div class="autocomplete-container">
+                    <label for="targetReceptors">Target Receptor(s)</label>
+                    <input type="text" id="targetReceptors" name="targetReceptors" autocomplete="off" placeholder="e.g. 5HT1B, 5HT1C, 5HT1D">
+                    <div id="target-autocomplete-list" class="residueMap-autocomplete-items"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="residueNumbers">Residue Numbers (comma-separated):</label>
+                    <input type="text" id="residueNumbers" name="residueNumbers" class="form-control" placeholder="e.g. 10, 20, 30  -- Leave blank to include all residues.">
+                </div>
+
+                <!-- Checkbox for Conservation Data -->
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="includeConservation" name="includeConservation">
+                    <label class="form-check-label" for="includeConservation">Include Conservation Data</label>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Map Residues</button>
+            </form>
+
+            <div id="result"></div>
+        </div>
+    </main>
+    
+    <!-- Include the main JavaScript file -->
+    <script src="scripts/header.js"></script>
+    <!-- Include your residue_mapping.js script -->
+    <script src="scripts/receptor_table.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.4.4/dist/js/tabulator.min.js"></script>
+</body>
+</html>

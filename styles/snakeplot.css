@@ -1,0 +1,18 @@
+/* custom_snake.css: Minimal styling for the snake plot and tooltips */
+#snakeplot {
+  background: #fff; /* or #fafafa */
+}
+
+.snake-tooltip {
+  position: absolute;
+  padding: 5px 8px;
+  background: rgba(0,0,0,0.85);
+  color: #fff;
+  border-radius: 4px;
+  pointer-events: none;
+  font-size: 14px;
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 0.15s;
+  font-family: Helvetica;
+}

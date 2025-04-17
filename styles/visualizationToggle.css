@@ -1,0 +1,124 @@
+/* styles/visualizationToggle.css */
+
+/* Container for the visualization toggle buttons */
+#viz-toggle {
+    margin-bottom: 20px;
+    text-align: left; /* Align buttons to the left */
+}
+
+/* Base styling for the toggle buttons */
+#viz-toggle .btn {
+    margin: 0 5px 5px 0;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 4px;
+    transition: background-color 0.15s ease-in-out;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Primary button style matching receptor_comparison.css */
+#viz-toggle .btn-primary {
+    background-color: #424874;
+    color: #ffffff;
+}
+
+#viz-toggle .btn-primary:hover {
+    background-color: #292d49;
+}
+
+#viz-toggle .btn:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.snake-tooltip {
+    position: absolute;
+    pointer-events: none; /* Ensures tooltip doesn't block mouse events */
+    z-index: 1000;        /* Keeps it on top of other elements */
+    /* Additional styling for background, padding, etc. */
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+
+/* Container for the download button */
+#download-button-container {
+    margin-bottom: 20px;
+    text-align: left; /* Align button to the left */
+}
+
+/* Base styling for the download button */
+#download-button-container .btn {
+    margin: 0 5px 5px 0;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 4px;
+    transition: background-color 0.15s ease-in-out;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Primary button style for the download button */
+#download-button-container .btn-primary {
+    background-color: #424874;
+    color: #ffffff;
+}
+
+#download-button-container .btn-primary:hover {
+    background-color: #292d49;
+}
+
+#download-button-container .btn:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+
+/* Style for the update colors button (matching your .btn-primary style) */
+#updateColors {
+    margin: 0 5px 5px 0;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 4px;
+    transition: background-color 0.15s ease-in-out;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    background-color: #424874;
+    color: #ffffff;
+}
+
+#updateColors:hover {
+    background-color: #292d49;
+}
+
+/* Style for the color input fields */
+#snakeplot-container input[type="text"] {
+    margin: 5px 5px 5px 0;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150px;
+}

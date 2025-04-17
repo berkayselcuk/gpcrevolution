@@ -1,0 +1,84 @@
+/* Conservation Plot CSS */
+
+/* We wrap the chart in a scrollable container of fixed height
+   so only ~2 row chunks are visible, letting you scroll down. */
+  
+  /* Tooltip styling */
+  .tooltip {
+    position: absolute;
+    background: #eee;
+    padding: 5px 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    pointer-events: none; /* no mouse interaction */
+    opacity: 0;
+    transition: opacity 0.1s;
+  }
+  
+  /* Bars for conservation */
+  .bar {
+    fill: #424874;
+    opacity: 0.9;
+  }
+  .bar:hover {
+    fill: #FFCF9C;
+  }
+  
+  /* Region blocks at the bottom (two pastel colors alternating) */
+  .region-block {
+    opacity: 1.0;
+    stroke: none;
+    transition: stroke 0.1s;
+  }
+  .region-block:hover {
+    stroke: #000;
+    stroke-width: 1px;
+    cursor: pointer;
+  }
+  
+  /* Region label text inside each block */
+  .region-label {
+    pointer-events: none; /* text doesn't block hover on the rect */
+  }
+  
+  /* Axis styling */
+  .axis line,
+  .axis path {
+    stroke: #000;
+  }
+  
+
+  /* Modern scrollbar styling for WebKit-based browsers */
+#conservation-scroll-container::-webkit-scrollbar {
+  width: 8px;               /* width of the entire scrollbar */
+}
+#conservation-scroll-container::-webkit-scrollbar-track {
+  background: #f1f1f1;      /* color of the track */
+}
+#conservation-scroll-container::-webkit-scrollbar-thumb {
+  background-color: #888;   /* color of the draggable thumb */
+  border-radius: 4px;       /* roundness of the thumb */
+  border: 2px solid #f1f1f1; /* creates padding around thumb */
+}
+#conservation-scroll-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555;   /* hover color for the thumb */
+}
+
+/* Modern scrollbar styling for Firefox */
+#conservation-scroll-container {
+  width: 1050px;
+  height: 520px;
+  overflow-y: auto;   /* vertical scrollbar */
+  overflow-x: hidden; /* hide horizontal scrollbar */
+  margin-bottom: 20px;
+
+  /* Remove the border around the container */
+  border: none;       
+
+  /* Optional margin as before */
+  margin-bottom: 20px;
+
+  /* For Firefox: scrollbar width and color */
+  scrollbar-width: auto;               /* "auto" or "thin" */
+  scrollbar-color: #888 #f1f1f1;       /* thumb color, track color */
+}

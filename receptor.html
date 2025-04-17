@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Receptor Details - Loading...</title>
+  <!-- Link to Header CSS -->
+  <link rel="stylesheet" href="styles/header.css">
+  <!-- D3 Library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <!-- Link to the Conservation Plot CSS -->
+  <link rel="stylesheet" href="styles/conservationPlot.css">
+  <!-- Link to the visualization toggle CSS -->
+  <link rel="stylesheet" href="styles/visualizationToggle.css">
+  <!-- Link the separated MSA CSS -->
+  <link rel="stylesheet" href="styles/msa_visualize.css">
+  <link rel="stylesheet" href="styles/receptor.css">
+  <style>
+  </style>
+</head>
+
+<body>
+  <!-- Header Placeholder -->
+  <div id="header-placeholder"></div>
+
+  <!-- Banner Section -->
+  <div class="banner" id="banner">
+    Receptor Name: Loading...
+  </div>
+
+  <!-- Sidebar for navigation -->
+  <aside class="sidebar">
+    <ul>
+      <li><a href="#receptor-info">Receptor Information</a></li>
+      <li><a href="#residue-conservation">Residue Conservation</a></li>
+      <li><a href="#msa">Multiple Sequence Alignment</a></li>
+      <li><a href="#tree-of-orthologs">Tree of Orthologs</a></li>
+      <li><a href="#downloads">Downloads</a></li>
+      <li><a href="#external-resources">External Resources</a></li>
+    </ul>
+  </aside>
+
+  <main>
+    <section id="receptor-info" class="section receptor-info">
+      <h2>Receptor Information</h2>
+      <p><strong>Class:</strong> <span id="class">Loading...</span></p>
+      <p><strong>Number of Orthologs:</strong> <span id="num-orthologs">Loading...</span></p>
+      <p><strong>Lowest Common Ancestor:</strong> <span id="lca">Loading...</span></p>
+    </section>
+
+    <section id="residue-conservation" class="section residue-conservation">
+      <h2>Residue Conservation</h2>
+      <!-- Buttons for switching visualizations (aligned left) -->
+      <div id="viz-toggle">
+        <button id="snake-btn" class="btn btn-primary" onclick="showSnakePlot()">Snake Plot</button>
+        <button id="bar-btn" class="btn btn-primary" onclick="showBarPlot()">Bar Plot</button>
+      </div>
+      
+      <!-- Container for the snakeplot -->
+      <div id="snakeplot-container" style="display: block;">
+        <!-- The snakeplot SVG content will be injected here dynamically -->
+      </div>
+      <!-- Container for the conservationPlot (bar plot) -->
+      <div id="conservation-chart-container" style="display: none;"></div>
+      <div id="download-button-container" style="display: none;">
+        <label for="fillColor" style="font-weight: bold;">Circle Fill Color (HEX or RGB):</label>
+        <input type="text" id="fillColor" value="#B7B7EB" placeholder="#B7B7EB">
+        <label for="textColor" style="font-weight: bold;">Text Color (HEX or RGB):</label>
+        <input type="text" id="textColor" value="#000000" placeholder="#000000">
+        <button id="updateColors">Update Colors</button>
+        <br><br>
+        <button id="download-svg-btn" class="btn btn-primary" onclick="downloadSnakeplotSVG()">
+          Download SVG
+        </button>
+      </div>
+    </section>
+
+    <h2 id="msa">Multiple Sequence Alignment of Orthologs - Human Gaps Removed</h2>
+    <section class="msa-visualize">
+      <!-- Include the msa visualizer HTML fragment -->
+      <div id="msa-container">
+        <!-- This content comes from msa_visualize.html -->
+        <div class="table-container">
+          <table id="alignmentTable">
+            <thead id="tableHead"></thead>
+            <tbody id="tableBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tree of Orthologs Section -->
+    <section id="tree-of-orthologs" class="section tree-of-orthologs">
+      <h2>Tree of Orthologs</h2>
+      <div id="svgTreeContainer" style="max-height: 500px; width: 800px; overflow: auto;">
+        <!-- The SVG tree will be injected here dynamically -->
+      </div>
+    </section>
+
+    <section id="downloads" class="section download-links">
+      <h2>Downloads</h2>
+      <ul>
+        <li><a id="tree" href="#" download>Download Tree of Orthologs</a></li>
+        <li><a id="alignment" href="#" download>Download Alignment (FASTA)</a></li>
+        <li><a id="conservationFile" href="#" download>Download Conservation Table (TSV)</a></li>
+      </ul>
+    </section>
+
+    <section id="external-resources" class="section external-links">
+      <h2>External Resources</h2>
+      <ul>
+        <li><a id="gpcrdb-link" href="#" target="_blank">View on GPCRdb</a></li>
+        <li><a id="uniprot-link" href="#" target="_blank">View on UniProt</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Include the Header JavaScript File -->
+  <script src="scripts/header.js"></script>
+  <!-- Include the Conservation Plot JS -->
+  <script src="scripts/conservationPlot.js"></script>
+  <!-- Include the snakeplot.js (for base snakeplot functionality) -->
+  <script src="scripts/snakeplot.js"></script>
+  <!-- Include the new snakeplot_conservation.js -->
+  <script src="scripts/snakeplot_conservation.js"></script>
+  <!-- Finally, include our newly separated receptor.js -->
+  <script src="scripts/receptor.js"></script>
+  <!-- Include the separated MSA JS -->
+  <script src="scripts/msa_visualize.js"></script>
+  <!-- Include tree visualization script -->
+  <script src="scripts/svgTreeShow.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+/* styles/header.css */
+
+/* Basic styling for layout and buttons */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #424874;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+/* Keep the header placeholder pinned at the top */
+#header-placeholder {
+    position: sticky; 
+    top: 0;            /* Sticks to top of the viewport */
+    z-index: 9999;     /* Ensure it stays above other elements */
+    background-color: #fff; /* Give it a background if needed */
+  }
+  
+/* Keep the banner below the header placeholder */
+.banner {
+position: sticky;
+top: 60px;         /* Adjust to the height of the header-placeholder */
+z-index: 9998;
+background-color: #dcd5fc; /* Banner’s color */
+}
+
+#home-button {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* Dropdown menu styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.dropdown > a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #424874;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #292d49;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Search bar styling */
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    position: relative;
+}
+
+#search-box {
+    width: 250px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 20px 0 0 20px; /* Rounded corners on the left */
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+
+
+.search-button {
+    padding: 10px 15px;
+    border: 2px solid white;
+    font-size: 16px;
+    background-color: #424874;
+    color: white;
+    border-radius: 0 20px 20px 0; /* Rounded corners on the right */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #292d49; /* Darker color on hover */
+}
+
+.search-bar input::placeholder {
+    color: #888; /* Placeholder text color */
+    font-style: italic;
+}
+
+
+
+.autocomplete {
+    position: relative;
+    display: inline-block;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 2px solid white;
+    background-color: #ffffff;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1000;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.autocomplete-items div:hover {
+    background-color: #e9e9e9;
+}
+
+.autocomplete-active {
+    background-color: #A6B1E1 !important;
+    color: #ffffff;
+}
+
+
+
+/* Main content styling can be placed in a separate CSS file or within the main page's CSS */
+main {
+    padding: 20px;
+    background-color: #ffffff;
+}
+

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Tree - GPCR Evolution Database</title>
+    <!-- Link to Header CSS -->
+    <link rel="stylesheet" href="styles/header.css">
+    <!-- Inline Styles Specific to class_tree.html -->
+    <style>
+        /* Styles specific to class_tree.html */
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Responsive SVG container */
+        #svg-container {
+            width: 100%;             /* Make it responsive to screen width */
+            height: %100;           /* Allow height to adjust based on content */
+            max-width: 1000px; 
+            overflow: visible;       /* Prevent content from overflowing */
+            justify-content: center; /* Center SVG horizontally */
+            margin: 0 auto;
+            
+        }
+
+        /* Ensure SVG content fits and is centered */
+        #svg-content svg {
+            width: 100%;            /* Scale SVG to fit container width */
+            height: auto;           /* Maintain aspect ratio */
+            display: block;         /* Remove inline spacing */
+        }
+
+        /* Error message styling */
+        #error-message {
+            color: red;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main Content of the Class Tree Page -->
+    <main>
+        <h2 id="class-title">Class Tree</h2>
+        <div id="svg-container">
+            <!-- SVG will be dynamically loaded here -->
+            <div id="svg-content"></div>
+        </div>
+        <div id="error-message"></div>
+    </main>
+
+    <!-- Include the Header JavaScript File -->
+    <script src="scripts/header.js"></script>
+
+    <!-- Include Panzoom Library -->
+    <script src="https://cdn.jsdelivr.net/npm/@panzoom/panzoom@4/dist/panzoom.min.js"></script>
+
+    <!-- Class Tree Specific JavaScript -->
+    <script>
+        // Function to get URL parameters
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        // Function to load the appropriate SVG
+        async function loadSVG(classLetter) {
+            const svgContainer = document.getElementById('svg-container'); // Container for the SVG
+            const classTitle = document.getElementById('class-title');     // Title element
+            const errorMessage = document.getElementById('error-message'); // Error message element
+
+            // Handle cases where the URL doesn't have a class parameter
+            if (!classLetter) {
+                errorMessage.textContent = 'No class specified in the URL.';
+                return;
+            }
+
+            // Sanitize the class parameter to prevent security issues
+            const sanitizedClass = classLetter.replace(/[^a-zA-Z]/g, '').toUpperCase();
+
+            // Update the page title to reflect the class
+            classTitle.textContent = `Class ${sanitizedClass} Tree`;
+
+            // Construct the file path for the SVG file
+            const svgFile = `trees/class${sanitizedClass}_tree_linked.svg`;
+
+            try {
+                // Fetch the SVG content from the server
+                const response = await fetch(svgFile);
+                if (!response.ok) {
+                    throw new Error(`Failed to load SVG for Class ${sanitizedClass}.`);
+                }
+                const svgContent = await response.text(); // Get SVG content as text
+
+                // Embed the SVG directly into the container
+                svgContainer.innerHTML = `<div id="svg-content">${svgContent}</div>`; // Insert SVG into a div
+
+                // Select the <svg> element from the newly added content
+                const svgElement = svgContainer.querySelector('svg');
+                if (!svgElement) {
+                    throw new Error('No SVG element found in the loaded content.');
+                }
+
+                // Ensure the SVG has a "viewBox" attribute for proper scaling
+                if (!svgElement.hasAttribute('viewBox')) {
+                    const width = svgElement.getAttribute('width') || 800;  // Default width if missing
+                    const height = svgElement.getAttribute('height') || 600; // Default height if missing
+                    svgElement.setAttribute('viewBox', `0 0 ${width} ${height}`); // Add a viewBox
+                }
+
+                // Initialize Panzoom for zoom and pan functionality
+                const panzoom = Panzoom(svgElement, {
+                    maxScale: 10,   // Maximum zoom level
+                    minScale: 0.5,
+                    contain: "outside", // Allow panning beyond the edges
+                    bounds: true 
+                });
+
+                // Enable zooming with the mouse wheel
+                svgContainer.addEventListener('wheel', panzoom.zoomWithWheel);
+            } catch (error) {
+                // Handle errors and display a message if SVG loading fails
+                errorMessage.textContent = error.message;
+            }
+        }
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', function() {
+            const classLetter = getQueryParam('class');
+            loadSVG(classLetter);
+        });
+    </script>
+
+</body>
+</html>

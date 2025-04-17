@@ -1,0 +1,2487 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 1066.726 1082.95">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 2.6px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15 {
+        stroke-linecap: round;
+        stroke-miterlimit: 5.5;
+      }
+
+      .cls-1, .cls-3, .cls-4, .cls-5, .cls-6, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15 {
+        stroke: #000;
+      }
+
+      .cls-16 {
+        letter-spacing: -.074em;
+      }
+
+      .cls-2 {
+        stroke: #aaa;
+        stroke-dasharray: 2.8 5.5;
+        stroke-dashoffset: 5.5px;
+        stroke-width: .2px;
+      }
+
+      .cls-17 {
+        letter-spacing: -.055em;
+      }
+
+      .cls-3 {
+        stroke-width: 2px;
+      }
+
+      .cls-18 {
+        letter-spacing: -.055em;
+      }
+
+      .cls-4 {
+        stroke-width: 2.8px;
+      }
+
+      .cls-19 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        stroke-width: 2.5px;
+      }
+
+      .cls-20, .cls-21, .cls-22 {
+        isolation: isolate;
+      }
+
+      .cls-6 {
+        stroke-width: 2.4px;
+      }
+
+      .cls-7 {
+        stroke: #505050;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-8 {
+        stroke-width: .3px;
+      }
+
+      .cls-23 {
+        letter-spacing: -.018em;
+      }
+
+      .cls-21 {
+        fill: #505050;
+        font-size: 12px;
+      }
+
+      .cls-21, .cls-22 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-24 {
+        letter-spacing: -.037em;
+      }
+
+      .cls-25 {
+        letter-spacing: -.037em;
+      }
+
+      .cls-9 {
+        stroke-width: 2.3px;
+      }
+
+      .cls-22 {
+        font-size: 6.1px;
+      }
+
+      .cls-10 {
+        stroke-width: 2.9px;
+      }
+
+      .cls-11 {
+        stroke-width: 3.1px;
+      }
+
+      .cls-12 {
+        stroke-width: 2.2px;
+      }
+
+      .cls-26 {
+        letter-spacing: -.074em;
+      }
+
+      .cls-13 {
+        stroke-width: 3px;
+      }
+
+      .cls-27 {
+        letter-spacing: -.055em;
+      }
+
+      .cls-14 {
+        stroke-width: 2.7px;
+      }
+
+      .cls-15 {
+        stroke-width: 2.1px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer_1">
+    <g id="mainHolder">
+      <g id="treeHolder">
+        <g>
+          <path class="cls-2" d="M214.9,398.179l2.6.9"/>
+          <path class="cls-8" d="M217.5,399.179l1.1.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=P" target="_blank"><text class="cls-22" transform="translate(199.4 394.579) rotate(20)"><tspan class="cls-16" x="0" y="0">P</tspan><tspan x="3.616" y="0">AR4</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M213.1,406.779l2.6.9"/>
+          <path class="cls-8" d="M215.7,407.679h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=P" target="_blank"><text class="cls-22" transform="translate(197.5 403.379) rotate(18.8)"><tspan class="cls-16" x="0" y="0">P</tspan><tspan x="3.616" y="0">AR3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M232.1,421.779l2.6.8"/>
+          <path class="cls-8" d="M234.7,422.679l1,.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=P" target="_blank"><text class="cls-22" transform="translate(216.4 418.779) rotate(17.6)"><tspan class="cls-16" x="0" y="0">P</tspan><tspan x="3.616" y="0">AR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M250.2,435.579l2.7.8"/>
+          <path class="cls-8" d="M252.9,436.379h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=P" target="_blank"><text class="cls-22" transform="translate(234.5 432.879) rotate(16.4)"><tspan class="cls-16" x="0" y="0">P</tspan><tspan x="3.616" y="0">AR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M271.3,449.279l2.7.7"/>
+          <path class="cls-8" d="M274,450.079l1.6.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=P2" target="_blank"><text class="cls-22" transform="translate(252.4 446.079) rotate(15.2)"><tspan x="0" y="0">P2</tspan><tspan class="cls-25" x="7.461" y="0">R</tspan><tspan class="cls-19" x="11.64" y="0">Y8</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M61.2,404.379l2.7.7"/>
+          <path class="cls-8" d="M63.9,405.079l1.2.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=F" target="_blank"><text class="cls-22" transform="translate(42.1 401.479) rotate(14)"><tspan x="0" y="0">F</tspan><tspan class="cls-27" x="3.726" y="0">F</tspan><tspan x="7.116" y="0">AR3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M57.9,415.579l2.7.6"/>
+          <path class="cls-8" d="M60.6,416.279l1.8.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR42" target="_blank"><text class="cls-22" transform="translate(38 412.979) rotate(12.8)"><tspan x="0" y="0">GPR42</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M56.6,427.279l2.7.6"/>
+          <path class="cls-8" d="M59.3,427.879l1.3.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=F" target="_blank"><text class="cls-22" transform="translate(37.3 425.179) rotate(11.6)"><tspan x="0" y="0">F</tspan><tspan class="cls-27" x="3.726" y="0">F</tspan><tspan x="7.116" y="0">AR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M144.3,455.179l2.7.5"/>
+          <path class="cls-8" d="M147,455.679h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=PSYR" target="_blank"><text class="cls-22" transform="translate(127.6 454.079) rotate(10.4)"><tspan x="0" y="0">PSYR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M142.6,464.879l2.7.4"/>
+          <path class="cls-8" d="M145.4,465.279h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=OGR1" target="_blank"><text class="cls-22" transform="translate(125.3 463.879) rotate(9.2)"><tspan x="0" y="0">OGR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M156.2,476.579l2.7.4"/>
+          <path class="cls-8" d="M158.9,476.979h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR4" target="_blank"><text class="cls-22" transform="translate(139.5 476.079) rotate(8)"><tspan x="0" y="0">GPR4</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M213.4,492.879l2.8.3"/>
+          <path class="cls-8" d="M216.1,493.179l3,.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP132" target="_blank"><text class="cls-22" transform="translate(194.3 492.479) rotate(6.8)"><tspan x="0" y="0">GP132</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M89.1,488.979l2.8.3"/>
+          <path class="cls-8" d="M91.9,489.279l3,.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=HCAR2" target="_blank"><text class="cls-22" transform="translate(68 488.779) rotate(5.6)"><tspan x="0" y="0">HCAR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M89.5,499.879l2.8.2"/>
+          <path class="cls-8" d="M92.2,500.079h1.7"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=HCAR3" target="_blank"><text class="cls-22" transform="translate(68.4 500.079) rotate(4.4)"><tspan x="0" y="0">HCAR3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M90.2,510.779l2.8.2"/>
+          <path class="cls-8" d="M93,510.879h1.8"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=HCAR1" target="_blank"><text class="cls-22" transform="translate(69.1 511.379) rotate(3.2)"><tspan x="0" y="0">HCAR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M126.7,522.779h2.8"/>
+          <path class="cls-8" d="M129.5,522.879h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=OXER1" target="_blank"><text class="cls-22" transform="translate(106 523.879) rotate(2)"><tspan x="0" y="0">OXER1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M125.1,532.679h2.8"/>
+          <path class="cls-8" d="M127.9,532.779h1.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR31" target="_blank"><text class="cls-22" transform="translate(105.1 534.279) rotate(.8)"><tspan x="0" y="0">GPR31</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M307,541.279h2.8"/>
+          <path class="cls-8" d="M309.8,541.279h1.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR20" target="_blank"><text class="cls-22" transform="translate(287 543.279) rotate(-.4)"><tspan x="0" y="0">GPR20</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M210.3,550.279h2.8"/>
+          <path class="cls-8" d="M213.1,550.179h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=L" target="_blank"><text class="cls-22" transform="translate(190.8 552.679) rotate(-1.6)"><tspan x="0" y="0">L</tspan><tspan class="cls-16" x="3.726" y="0">P</tspan><tspan x="7.342" y="0">AR4</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M210.6,558.479h2.8"/>
+          <path class="cls-8" d="M213.4,558.279h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=L" target="_blank"><text class="cls-22" transform="translate(191.2 561.279) rotate(-2.9)"><tspan x="0" y="0">L</tspan><tspan class="cls-16" x="3.726" y="0">P</tspan><tspan x="7.342" y="0">AR6</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M278.5,561.879l2.8-.2"/>
+          <path class="cls-8" d="M281.3,561.679h1.1"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=L" target="_blank"><text class="cls-22" transform="translate(259.2 565.079) rotate(-4.1)"><tspan x="0" y="0">L</tspan><tspan class="cls-16" x="3.726" y="0">P</tspan><tspan x="7.342" y="0">AR5</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M212.7,574.779l2.8-.3"/>
+          <path class="cls-8" d="M215.5,574.479l2.7-.2"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR35" target="_blank"><text class="cls-22" transform="translate(193 578.379) rotate(-5.3)"><tspan x="0" y="0">GPR35</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M215.6,582.679l2.8-.3"/>
+          <path class="cls-8" d="M218.4,582.379h.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR55" target="_blank"><text class="cls-22" transform="translate(195.9 586.779) rotate(-6.5)"><tspan x="0" y="0">GPR55</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M200.6,592.979l2.7-.4"/>
+          <path class="cls-8" d="M203.3,592.579l1.2-.2"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP174" target="_blank"><text class="cls-22" transform="translate(182 597.279) rotate(-7.7)"><tspan x="0" y="0">GP174</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M202.4,601.279l2.7-.4"/>
+          <path class="cls-8" d="M205.2,600.779h.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=P2Y10" target="_blank"><text class="cls-22" transform="translate(184.6 605.879) rotate(-8.9)"><tspan x="0" y="0">P2Y10</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M246.1,602.079l2.7-.5"/>
+          <path class="cls-8" d="M248.8,601.679h.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=OXGR1" target="_blank"><text class="cls-22" transform="translate(225.4 607.679) rotate(-10.1)"><tspan x="0" y="0">OXGR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M247.4,609.579l2.7-.5"/>
+          <path class="cls-8" d="M250.1,609.079h.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=SUCR1" target="_blank"><text class="cls-22" transform="translate(227.4 615.379) rotate(-11.3)"><tspan x="0" y="0">SUCR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M246.9,617.479l2.7-.6"/>
+          <path class="cls-8" d="M249.6,616.879h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=P2" target="_blank"><text class="cls-22" transform="translate(228.7 623.379) rotate(-12.5)"><tspan x="0" y="0">P2</tspan><tspan class="cls-25" x="7.461" y="0">R</tspan><tspan class="cls-19" x="11.64" y="0">Y1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M247.2,625.279l2.7-.7"/>
+          <path class="cls-8" d="M249.9,624.579l1.5-.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=P2Y" target="_blank"><text class="cls-22" transform="translate(230.2 631.279) rotate(-13.7)"><tspan x="0" y="0">P2Y</tspan><tspan class="cls-27" x="11.53" y="0">1</tspan><tspan x="14.586" y="0">1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M246.9,633.179l2.7-.7"/>
+          <path class="cls-8" d="M249.6,632.479l1-.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=P2" target="_blank"><text class="cls-22" transform="translate(228.9 639.879) rotate(-14.9)"><tspan x="0" y="0">P2</tspan><tspan class="cls-25" x="7.461" y="0">R</tspan><tspan class="cls-19" x="11.64" y="0">Y4</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M249.5,640.479l2.7-.8"/>
+          <path class="cls-8" d="M252.2,639.779h.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=P2" target="_blank"><text class="cls-22" transform="translate(231.6 647.579) rotate(-16.1)"><tspan x="0" y="0">P2</tspan><tspan class="cls-25" x="7.461" y="0">R</tspan><tspan class="cls-19" x="11.64" y="0">Y2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M289.6,636.079l2.6-.8"/>
+          <path class="cls-8" d="M292.3,635.279l.6-.2"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=P2" target="_blank"><text class="cls-22" transform="translate(271.9 643.479) rotate(-17.3)"><tspan x="0" y="0">P2</tspan><tspan class="cls-25" x="7.461" y="0">R</tspan><tspan class="cls-19" x="11.64" y="0">Y6</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M277.4,647.379l2.6-.9"/>
+          <path class="cls-8" d="M280,646.479l4.4-1.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=C" target="_blank"><text class="cls-22" transform="translate(259.8 655.179) rotate(-18.5)"><tspan x="0" y="0">C</tspan><tspan class="cls-26" x="4.405" y="0">L</tspan><tspan x="7.679" y="0">TR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M283.6,652.779l2.6-.9"/>
+          <path class="cls-8" d="M286.2,651.879l.6-.2"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=C" target="_blank"><text class="cls-22" transform="translate(266.1 660.979) rotate(-19.7)"><tspan x="0" y="0">C</tspan><tspan class="cls-26" x="4.405" y="0">L</tspan><tspan x="7.679" y="0">TR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M350.7,634.779l2.6-1"/>
+          <path class="cls-8" d="M353.3,633.779h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR18" target="_blank"><text class="cls-22" transform="translate(332.6 643.579) rotate(-20.9)"><tspan x="0" y="0">GPR18</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M352.3,640.179l2.6-1"/>
+          <path class="cls-8" d="M354.9,639.179l.4-.2"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP183" target="_blank"><text class="cls-22" transform="translate(335.4 649.079) rotate(-22.1)"><tspan x="0" y="0">GP183</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M179.6,720.679l2.5-1.1"/>
+          <path class="cls-8" d="M182.2,719.579l1.2-.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=P2Y13" target="_blank"><text class="cls-22" transform="translate(163.5 729.679) rotate(-23.3)"><tspan x="0" y="0">P2Y13</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M184.2,729.179l2.5-1.2"/>
+          <path class="cls-8" d="M186.7,728.079l.5-.2"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=P2Y12" target="_blank"><text class="cls-22" transform="translate(168.3 738.479) rotate(-24.5)"><tspan x="0" y="0">P2Y12</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M192,736.179l2.5-1.2"/>
+          <path class="cls-8" d="M194.5,734.979l.6-.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR87" target="_blank"><text class="cls-22" transform="translate(174.8 746.479) rotate(-25.7)"><tspan x="0" y="0">GPR87</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M196.2,744.679l2.5-1.3"/>
+          <path class="cls-8" d="M198.7,743.479l.6-.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=P2Y14" target="_blank"><text class="cls-22" transform="translate(180.7 754.679) rotate(-26.9)"><tspan x="0" y="0">P2Y14</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M280.4,710.579l2.4-1.3"/>
+          <path class="cls-8" d="M282.8,709.279h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP171" target="_blank"><text class="cls-22" transform="translate(264.5 721.179) rotate(-28.1)"><tspan x="0" y="0">GP171</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M339.2,686.279l2.4-1.4"/>
+          <path class="cls-8" d="M341.6,684.979h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR34" target="_blank"><text class="cls-22" transform="translate(322.7 697.679) rotate(-29.3)"><tspan x="0" y="0">GPR34</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M360.2,681.279l2.4-1.4"/>
+          <path class="cls-8" d="M362.6,679.879l.5-.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR82" target="_blank"><text class="cls-22" transform="translate(343.9 692.979) rotate(-30.5)"><tspan x="0" y="0">GPR82</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M385.8,672.379l2.4-1.5"/>
+          <path class="cls-8" d="M388.1,670.979h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP141" target="_blank"><text class="cls-22" transform="translate(370.6 683.979) rotate(-31.7)"><tspan x="0" y="0">GP141</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M395.4,672.479l2.3-1.5"/>
+          <path class="cls-8" d="M397.7,670.979l.5-.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=P" target="_blank"><text class="cls-22" transform="translate(379.7 684.879) rotate(-32.9)"><tspan x="0" y="0">P</tspan><tspan class="cls-16" x="4.069" y="0">T</tspan><tspan x="7.342" y="0">AFR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M410.3,668.579l2.3-1.6"/>
+          <path class="cls-8" d="M412.6,667.079l.9-.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR17" target="_blank"><text class="cls-22" transform="translate(394.8 681.379) rotate(-34.1)"><tspan x="0" y="0">GPR17</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M314.7,742.379l2.3-1.6"/>
+          <path class="cls-8" d="M316.9,740.779h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CCR9" target="_blank"><text class="cls-22" transform="translate(302.2 753.479) rotate(-35.3)"><tspan x="0" y="0">CCR9</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M318.2,748.979l2.2-1.7"/>
+          <path class="cls-8" d="M320.4,747.279l.9-.7"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CXCR6" target="_blank"><text class="cls-22" transform="translate(302.6 762.779) rotate(-36.5)"><tspan x="0" y="0">CXCR6</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M327.5,751.079l2.2-1.7"/>
+          <path class="cls-8" d="M329.7,749.379h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CCR7" target="_blank"><text class="cls-22" transform="translate(315.5 762.679) rotate(-37.7)"><tspan x="0" y="0">CCR7</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M332,756.779l2.2-1.7"/>
+          <path class="cls-8" d="M334.2,755.079h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CCR10" target="_blank"><text class="cls-22" transform="translate(317.6 770.778) rotate(-38.9)"><tspan x="0" y="0">CCR10</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M356.2,745.879l2.1-1.8"/>
+          <path class="cls-8" d="M358.3,744.079h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CCR6" target="_blank"><text class="cls-22" transform="translate(344.7 757.979) rotate(-40.1)"><tspan x="0" y="0">CCR6</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M371.5,741.379l2.1-1.8"/>
+          <path class="cls-8" d="M373.6,739.579l.8-.7"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=ACKR4" target="_blank"><text class="cls-22" transform="translate(356.9 756.679) rotate(-41.3)"><tspan x="0" y="0">ACKR4</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M329.3,788.879l2-1.9"/>
+          <path class="cls-8" d="M331.3,786.979h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CXCR5" target="_blank"><text class="cls-22" transform="translate(315.3 804.179) rotate(-42.5)"><tspan x="0" y="0">CXCR5</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M334.6,794.579l2-1.9"/>
+          <path class="cls-8" d="M336.6,792.679h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CXCR3" target="_blank"><text class="cls-22" transform="translate(320.9 810.179) rotate(-43.7)"><tspan x="0" y="0">CXCR3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M370.5,769.679l2-2"/>
+          <path class="cls-8" d="M372.4,767.779h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CXCR4" target="_blank"><text class="cls-22" transform="translate(357.1 785.579) rotate(-44.9)"><tspan x="0" y="0">CXCR4</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M378,771.779l1.9-2"/>
+          <path class="cls-8" d="M379.9,769.779l1.2-1.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CXCR1" target="_blank"><text class="cls-22" transform="translate(365 787.979) rotate(-46.2)"><tspan x="0" y="0">CXCR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M384.1,775.179l1.9-2"/>
+          <path class="cls-8" d="M386,773.079h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CXCR2" target="_blank"><text class="cls-22" transform="translate(371.4 791.579) rotate(-47.4)"><tspan x="0" y="0">CXCR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M325.7,851.479l1.8-2.1"/>
+          <path class="cls-8" d="M327.5,849.479h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CCR1" target="_blank"><text class="cls-22" transform="translate(316 865.178) rotate(-48.6)"><tspan x="0" y="0">CCR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M331.3,858.379l1.8-2.1"/>
+          <path class="cls-8" d="M333.1,856.279l1.1-1.2"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CCR3" target="_blank"><text class="cls-22" transform="translate(321.9 872.279) rotate(-49.8)"><tspan x="0" y="0">CCR3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M347.8,851.979l1.7-2.2"/>
+          <path class="cls-8" d="M349.6,849.779l.3-.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CCRL2" target="_blank"><text class="cls-22" transform="translate(336.5 868.879) rotate(-51)"><tspan x="0" y="0">CCRL2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M361.3,848.379l1.7-2.2"/>
+          <path class="cls-8" d="M363,846.179h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CCR2" target="_blank"><text class="cls-22" transform="translate(352.6 862.678) rotate(-52.2)"><tspan x="0" y="0">CCR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M367.5,853.779l1.7-2.2"/>
+          <path class="cls-8" d="M369.2,851.579l.4-.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CCR5" target="_blank"><text class="cls-22" transform="translate(359.1 868.178) rotate(-53.4)"><tspan x="0" y="0">CCR5</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M407.5,811.779l1.6-2.3"/>
+          <path class="cls-8" d="M409.1,809.579h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CCR4" target="_blank"><text class="cls-22" transform="translate(399.4 826.379) rotate(-54.6)"><tspan x="0" y="0">CCR4</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M415.2,812.979l1.6-2.3"/>
+          <path class="cls-8" d="M416.8,810.679l.3-.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CX3C1" target="_blank"><text class="cls-22" transform="translate(405.7 830.279) rotate(-55.8)"><tspan x="0" y="0">CX3C1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M421.1,816.779l1.5-2.3"/>
+          <path class="cls-8" d="M422.6,814.479l.3-.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CCR8" target="_blank"><text class="cls-22" transform="translate(413.5 831.679) rotate(-57)"><tspan x="0" y="0">CCR8</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M434.4,808.479l1.5-2.4"/>
+          <path class="cls-8" d="M435.8,806.179h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=XCR1" target="_blank"><text class="cls-22" transform="translate(427.3 823.278) rotate(-58.2)"><tspan x="0" y="0">XCR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M454.8,787.079l1.4-2.4"/>
+          <path class="cls-8" d="M456.2,784.679l.3-.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=ACKR2" target="_blank"><text class="cls-22" transform="translate(445.6 806.078) rotate(-59.4)"><tspan x="0" y="0">ACKR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M440.7,824.379l1.4-2.4"/>
+          <path class="cls-8" d="M442,821.979h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR15" target="_blank"><text class="cls-22" transform="translate(432.5 842.779) rotate(-60.6)"><tspan x="0" y="0">GPR15</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M446.7,827.779l1.3-2.4"/>
+          <path class="cls-8" d="M448,825.379h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR25" target="_blank"><text class="cls-22" transform="translate(438.8 846.279) rotate(-61.8)"><tspan x="0" y="0">GPR25</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M479.5,778.479l1.3-2.5"/>
+          <path class="cls-8" d="M480.8,776.079h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=APJ" target="_blank"><text class="cls-22" transform="translate(475.8 789.878) rotate(-63)"><tspan x="0" y="0">APJ</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M496.4,756.579l1.2-2.5"/>
+          <path class="cls-8" d="M497.6,754.079h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=AGTR2" target="_blank"><text class="cls-22" transform="translate(489 775.979) rotate(-64.2)"><tspan x="0" y="0">AGTR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M500.8,759.179l1.2-2.5"/>
+          <path class="cls-8" d="M501.9,756.679l.2-.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=AGTR1" target="_blank"><text class="cls-22" transform="translate(493.8 778.779) rotate(-65.4)"><tspan x="0" y="0">AGTR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M466.6,850.979l1.1-2.5"/>
+          <path class="cls-8" d="M467.7,848.379l.2-.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=BKRB2" target="_blank"><text class="cls-22" transform="translate(459.9 870.979) rotate(-66.6)"><tspan x="0" y="0">BKRB2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M473.2,853.779l1-2.6"/>
+          <path class="cls-8" d="M474.2,851.179l.2-.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=BKRB1" target="_blank"><text class="cls-22" transform="translate(466.9 873.879) rotate(-67.8)"><tspan x="0" y="0">BKRB1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M496.3,813.479l1-2.6"/>
+          <path class="cls-8" d="M497.3,810.879l.2-.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP182" target="_blank"><text class="cls-22" transform="translate(491.2 831.879) rotate(-69)"><tspan x="0" y="0">GP182</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M502,815.679l.9-2.6"/>
+          <path class="cls-8" d="M503,813.079l.2-.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=ACKR3" target="_blank"><text class="cls-22" transform="translate(496.6 836.079) rotate(-70.2)"><tspan x="0" y="0">ACKR3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M518.2,787.079l.9-2.6"/>
+          <path class="cls-8" d="M519.1,784.379l.4-1.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP146" target="_blank"><text class="cls-22" transform="translate(513.9 805.679) rotate(-71.4)"><tspan x="0" y="0">GP146</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M523.6,787.979l.8-2.6"/>
+          <path class="cls-8" d="M524.5,785.379l.2-.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPER1" target="_blank"><text class="cls-22" transform="translate(519.2 808.279) rotate(-72.6)"><tspan x="0" y="0">GPER1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M481.8,951.879l.8-2.7"/>
+          <path class="cls-8" d="M482.5,949.179v-.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=FPR3" target="_blank"><text class="cls-22" transform="translate(479.2 967.379) rotate(-73.8)"><tspan x="0" y="0">FPR3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M490.6,953.879l.7-2.7"/>
+          <path class="cls-8" d="M491.3,951.179h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=FPR2" target="_blank"><text class="cls-22" transform="translate(488.3 969.379) rotate(-75)"><tspan x="0" y="0">FPR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M502.8,941.979l.7-2.7"/>
+          <path class="cls-8" d="M503.4,939.279l.2-1"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=FPR1" target="_blank"><text class="cls-22" transform="translate(500.8 957.579) rotate(-76.2)"><tspan x="0" y="0">FPR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M486.3,1055.879l.6-2.7"/>
+          <path class="cls-8" d="M486.9,1053.179l.4-1.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=G32P1" target="_blank"><text class="cls-22" transform="translate(483.9 1074.878) rotate(-77.4)"><tspan x="0" y="0">G32P1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M497.5,1056.679l.5-2.7"/>
+          <path class="cls-8" d="M498,1053.879h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR32" target="_blank"><text class="cls-22" transform="translate(495.3 1076.579) rotate(-78.6)"><tspan x="0" y="0">GPR32</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M551.7,817.079l.5-2.7"/>
+          <path class="cls-8" d="M552.2,814.379v-.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=PD2R2" target="_blank"><text class="cls-22" transform="translate(550 836.779) rotate(-79.8)"><tspan x="0" y="0">PD2R2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M541.1,922.379l.4-2.7"/>
+          <path class="cls-8" d="M541.5,919.579v-.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=C5AR1" target="_blank"><text class="cls-22" transform="translate(539.8 942.379) rotate(-81)"><tspan x="0" y="0">C5AR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M549,924.679l.4-2.7"/>
+          <path class="cls-8" d="M549.4,921.979l.2-1.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=C5AR2" target="_blank"><text class="cls-22" transform="translate(548.1 944.778) rotate(-82.2)"><tspan x="0" y="0">C5AR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M566.5,844.079l.3-2.8"/>
+          <path class="cls-8" d="M566.8,841.379v-1.1"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=C3AR" target="_blank"><text class="cls-22" transform="translate(566.4 860.878) rotate(-83.4)"><tspan x="0" y="0">C3AR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M578.2,788.879l.3-2.8"/>
+          <path class="cls-8" d="M578.4,786.179v-.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR33" target="_blank"><text class="cls-22" transform="translate(578.1 808.979) rotate(-84.6)"><tspan x="0" y="0">GPR33</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M582.2,806.279l.2-2.8"/>
+          <path class="cls-8" d="M582.4,803.479v-.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CML1" target="_blank"><text class="cls-22" transform="translate(582.8 822.978) rotate(-85.8)"><tspan x="0" y="0">CML1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M587.8,806.679v-2.8"/>
+          <path class="cls-8" d="M587.9,803.979v-.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR1" target="_blank"><text class="cls-22" transform="translate(588.8 823.379) rotate(-87)"><tspan x="0" y="0">GPR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M585.8,1057.479v-2.8"/>
+          <path class="cls-8" d="M585.8,1054.679v-3.1"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=MRGX4" target="_blank"><text class="cls-22" transform="translate(586.9 1079.179) rotate(-88.2)"><tspan x="0" y="0">MRGX4</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M596.6,1060.879v-2.8"/>
+          <path class="cls-8" d="M596.6,1058.079v-6.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=MRGX3" target="_blank"><text class="cls-22" transform="translate(598.2 1082.579) rotate(-89.5)"><tspan x="0" y="0">MRGX3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M607.5,1052.879v-2.8"/>
+          <path class="cls-8" d="M607.4,1050.179v-2"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=MRGX1" target="_blank"><text class="cls-22" transform="translate(605.599 1052.979) rotate(89.3)"><tspan x="0" y="0">MRGX1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M617,1014.179v-2.8"/>
+          <path class="cls-8" d="M616.9,1011.479v-2.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=MRGX2" target="_blank"><text class="cls-22" transform="translate(615.199 1014.279) rotate(88.1)"><tspan x="0" y="0">MRGX2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M629.4,1059.379v-2.8"/>
+          <path class="cls-8" d="M629.3,1056.679v-2.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=MRGRG" target="_blank"><text class="cls-22" transform="translate(627.599 1059.479) rotate(86.9)"><tspan x="0" y="0">MRGRG</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M640.2,1056.279l-.2-2.8"/>
+          <path class="cls-8" d="M640,1053.479h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=MRGRE" target="_blank"><text class="cls-22" transform="translate(638.3 1056.379) rotate(85.7)"><tspan x="0" y="0">MRGRE</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M645,992.179l-.3-2.8"/>
+          <path class="cls-8" d="M644.7,989.379l-.2-2.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=MAS1" target="_blank"><text class="cls-22" transform="translate(643.1 992.379) rotate(84.5)"><tspan x="0" y="0">MAS1</tspan><tspan class="cls-23" x="16.948" y="0">L</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M649.4,947.979l-.3-2.8"/>
+          <path class="cls-8" d="M649.1,945.279l-.3-2.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=MRGRD" target="_blank"><text class="cls-22" transform="translate(647.6 948.279) rotate(83.3)"><tspan x="0" y="0">MRGRD</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M655.9,932.079l-.4-2.7"/>
+          <path class="cls-8" d="M655.6,929.279h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=MRGRF" target="_blank"><text class="cls-22" transform="translate(654.1 932.279) rotate(82.1)"><tspan x="0" y="0">MRGRF</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M659.1,898.979l-.4-2.7"/>
+          <path class="cls-8" d="M658.7,896.279l-.2-1.2"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=MAS" target="_blank"><text class="cls-22" transform="translate(657.3 899.279) rotate(80.9)"><tspan x="0" y="0">MAS</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M658.7,853.679l-.5-2.7"/>
+          <path class="cls-8" d="M658.2,850.979h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP152" target="_blank"><text class="cls-22" transform="translate(656.9 853.979) rotate(79.7)"><tspan x="0" y="0">GP152</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M676.3,906.979l-.6-2.7"/>
+          <path class="cls-8" d="M675.8,904.279v-.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=L" target="_blank"><text class="cls-22" transform="translate(674.5 907.379) rotate(78.5)"><tspan class="cls-26" x="0" y="0">L</tspan><tspan x="3.273" y="0">T4R1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M684.1,905.579l-.6-2.7"/>
+          <path class="cls-8" d="M683.5,902.879l-.2-.8"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=L" target="_blank"><text class="cls-22" transform="translate(682.3 905.979) rotate(77.3)"><tspan class="cls-26" x="0" y="0">L</tspan><tspan x="3.273" y="0">T4R2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M684.3,873.579l-.7-2.7"/>
+          <path class="cls-8" d="M683.6,870.879v-.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=OPRK" target="_blank"><text class="cls-22" transform="translate(682.5 873.979) rotate(76.1)"><tspan x="0" y="0">OPRK</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M691.6,872.679l-.7-2.7"/>
+          <path class="cls-8" d="M690.8,869.979l-.4-1.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=OPRX" target="_blank"><text class="cls-22" transform="translate(689.8 873.179) rotate(74.9)"><tspan x="0" y="0">OPRX</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M700.1,875.879l-.8-2.7"/>
+          <path class="cls-8" d="M699.3,873.179h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=OPRD" target="_blank"><text class="cls-22" transform="translate(698.3 876.379) rotate(73.7)"><tspan x="0" y="0">OPRD</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M713.5,893.979l-.8-2.6"/>
+          <path class="cls-8" d="M712.7,891.379l-6.4-20.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=OPRM" target="_blank"><text class="cls-22" transform="translate(711.8 894.579) rotate(72.5)"><tspan x="0" y="0">OPRM</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M680,770.579l-.9-2.6"/>
+          <path class="cls-8" d="M679.1,767.879l-.2-.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=NPBW2" target="_blank"><text class="cls-22" transform="translate(678.2 771.079) rotate(71.3)"><tspan x="0" y="0">NPBW2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M684.6,768.279l-.9-2.6"/>
+          <path class="cls-8" d="M683.7,765.679h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=NPBW1" target="_blank"><text class="cls-22" transform="translate(682.9 768.879) rotate(70.1)"><tspan x="0" y="0">NPBW1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M712.9,827.379l-1-2.6"/>
+          <path class="cls-8" d="M711.9,824.779h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=SSR3" target="_blank"><text class="cls-22" transform="translate(711.199 828.079) rotate(68.9)"><tspan x="0" y="0">SSR3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M719.5,826.379l-1.1-2.6"/>
+          <path class="cls-8" d="M718.5,823.879l-.6-1.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=SSR5" target="_blank"><text class="cls-22" transform="translate(717.8 827.079) rotate(67.7)"><tspan x="0" y="0">SSR5</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M716.4,802.779l-1.1-2.5"/>
+          <path class="cls-8" d="M715.2,800.279h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=SSR2" target="_blank"><text class="cls-22" transform="translate(714.7 803.479) rotate(66.5)"><tspan x="0" y="0">SSR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M735.7,830.479l-1.2-2.5"/>
+          <path class="cls-8" d="M734.6,827.979h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=SSR1" target="_blank"><text class="cls-22" transform="translate(734.1 831.279) rotate(65.3)"><tspan x="0" y="0">SSR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M742.3,828.579l-1.2-2.5"/>
+          <path class="cls-8" d="M741.1,826.079l-.5-1"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=SSR4" target="_blank"><text class="cls-22" transform="translate(740.6 829.379) rotate(64.1)"><tspan x="0" y="0">SSR4</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M737.9,805.179l-1.3-2.5"/>
+          <path class="cls-8" d="M736.7,802.779h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=MCHR1" target="_blank"><text class="cls-22" transform="translate(736.3 806.079) rotate(62.9)"><tspan x="0" y="0">MCHR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M743.8,802.779l-1.3-2.4"/>
+          <path class="cls-8" d="M742.5,800.379l-.3-.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=MCHR2" target="_blank"><text class="cls-22" transform="translate(742.2 803.679) rotate(61.7)"><tspan x="0" y="0">MCHR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M720.6,749.079l-1.4-2.4"/>
+          <path class="cls-8" d="M719.2,746.679l-.2-.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP151" target="_blank"><text class="cls-22" transform="translate(718.999 749.979) rotate(60.5)"><tspan x="0" y="0">GP151</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M725.2,746.879l-1.4-2.4"/>
+          <path class="cls-8" d="M723.8,744.479l-.4-.8"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=ACKR1" target="_blank"><text class="cls-22" transform="translate(723.6 747.879) rotate(59.3)"><tspan x="0" y="0">ACKR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M788.6,839.079l-1.5-2.4"/>
+          <path class="cls-8" d="M787.1,836.679h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=RL3R1" target="_blank"><text class="cls-22" transform="translate(787 839.979) rotate(58.1)"><tspan x="0" y="0">RL3R1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M795.6,836.279l-1.5-2.3"/>
+          <path class="cls-8" d="M794.1,833.979l-.9-1.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=RL3R2" target="_blank"><text class="cls-22" transform="translate(794.1 837.279) rotate(56.9)"><tspan x="0" y="0">RL3R2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M669.8,638.779l-1.6-2.3"/>
+          <path class="cls-8" d="M668.2,636.479l-.8-1.2"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=UR2R" target="_blank"><text class="cls-22" transform="translate(668.3 639.879) rotate(55.7)"><tspan x="0" y="0">UR2R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M769.7,774.279l-1.6-2.3"/>
+          <path class="cls-8" d="M768.1,772.079l-.7-.9"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GALR2" target="_blank"><text class="cls-22" transform="translate(768.2 775.379) rotate(54.5)"><tspan x="0" y="0">GALR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M773.9,769.779l-1.7-2.2"/>
+          <path class="cls-8" d="M772.2,767.579h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GALR3" target="_blank"><text class="cls-22" transform="translate(772.4 770.879) rotate(53.3)"><tspan x="0" y="0">GALR3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M702.9,668.879l-1.7-2.2"/>
+          <path class="cls-8" d="M701.2,666.679l-.3-.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GALR1" target="_blank"><text class="cls-22" transform="translate(701.4 669.979) rotate(52.1)"><tspan x="0" y="0">GALR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M693.5,651.879l-1.8-2.2"/>
+          <path class="cls-8" d="M691.8,649.779h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=KISSR" target="_blank"><text class="cls-22" transform="translate(692.099 653.079) rotate(50.9)"><tspan x="0" y="0">KISSR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M841.7,821.679l-1.8-2.1"/>
+          <path class="cls-8" d="M840,819.579h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=EDNR" target="_blank"><text class="cls-22" transform="translate(840.4 822.879) rotate(49.7)"><tspan x="0" y="0">EDNR</tspan><tspan class="cls-25" x="17.284" y="0">A</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M847.6,816.579l-1.8-2.1"/>
+          <path class="cls-8" d="M845.8,814.479h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=EDNRB" target="_blank"><text class="cls-22" transform="translate(846.3 817.779) rotate(48.5)"><tspan x="0" y="0">EDNRB</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M800.4,753.979l-1.9-2"/>
+          <path class="cls-8" d="M798.5,751.979h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR37" target="_blank"><text class="cls-22" transform="translate(799 755.179) rotate(47.3)"><tspan x="0" y="0">GPR37</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M804.8,749.779l-1.9-2"/>
+          <path class="cls-8" d="M802.9,747.779h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=G37L1" target="_blank"><text class="cls-22" transform="translate(803.499 751.079) rotate(46)"><tspan x="0" y="0">G37L1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M817.3,753.579l-2-2"/>
+          <path class="cls-8" d="M815.4,751.579l-.3-.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GRPR" target="_blank"><text class="cls-22" transform="translate(816 754.879) rotate(44.8)"><tspan x="0" y="0">GRPR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M821.5,748.679l-2-1.9"/>
+          <path class="cls-8" d="M819.5,746.779h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=BRS3" target="_blank"><text class="cls-22" transform="translate(820.2 749.979) rotate(43.6)"><tspan x="0" y="0">BRS3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M809.4,728.979l-2-1.9"/>
+          <path class="cls-8" d="M807.3,727.079l-.6-.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=NMBR" target="_blank"><text class="cls-22" transform="translate(808.1 730.279) rotate(42.4)"><tspan x="0" y="0">NMBR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M854.1,760.279l-2.1-1.8"/>
+          <path class="cls-8" d="M852,758.479l-.3-.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=NTR1" target="_blank"><text class="cls-22" transform="translate(852.9 761.679) rotate(41.2)"><tspan x="0" y="0">NTR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M859.2,755.379l-2.1-1.8"/>
+          <path class="cls-8" d="M857,753.579l-.8-.7"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=NTR2" target="_blank"><text class="cls-22" transform="translate(858 756.779) rotate(40)"><tspan x="0" y="0">NTR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M818.1,713.279l-2.2-1.7"/>
+          <path class="cls-8" d="M816,711.479l-.7-.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR39" target="_blank"><text class="cls-22" transform="translate(817 714.679) rotate(38.8)"><tspan x="0" y="0">GPR39</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M875.9,750.379l-2.2-1.7"/>
+          <path class="cls-8" d="M873.7,748.679l-.8-.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=MTLR" target="_blank"><text class="cls-22" transform="translate(874.8 751.879) rotate(37.6)"><tspan x="0" y="0">MTLR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M879.5,744.079l-2.2-1.6"/>
+          <path class="cls-8" d="M877.2,742.379h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GHSR" target="_blank"><text class="cls-22" transform="translate(878.4 745.479) rotate(36.4)"><tspan x="0" y="0">GHSR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M847.8,712.779l-2.3-1.6"/>
+          <path class="cls-8" d="M845.6,711.179l-1.4-1"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=NMUR2" target="_blank"><text class="cls-22" transform="translate(846.8 714.279) rotate(35.2)"><tspan x="0" y="0">NMUR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M850.4,706.879l-2.3-1.6"/>
+          <path class="cls-8" d="M848.1,705.379l-.4-.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=NMUR1" target="_blank"><text class="cls-22" transform="translate(849.3 708.379) rotate(34)"><tspan x="0" y="0">NMUR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M718.3,614.279l-2.3-1.5"/>
+          <path class="cls-8" d="M716,612.779h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=TRFR" target="_blank"><text class="cls-22" transform="translate(717.3 615.779) rotate(32.8)"><tspan x="0" y="0">TRFR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M924.6,737.779l-2.4-1.5"/>
+          <path class="cls-8" d="M922.2,736.379l-1-.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP142" target="_blank"><text class="cls-22" transform="translate(923.6 739.379) rotate(31.6)"><tspan x="0" y="0">GP142</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M927.7,730.379l-2.4-1.4"/>
+          <path class="cls-8" d="M925.3,728.979h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP139" target="_blank"><text class="cls-22" transform="translate(926.8 731.979) rotate(30.4)"><tspan x="0" y="0">GP139</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M653.6,568.079l-2.4-1.4"/>
+          <path class="cls-8" d="M651.1,566.679l-.4-.2"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR75" target="_blank"><text class="cls-22" transform="translate(652.7 569.579) rotate(29.2)"><tspan x="0" y="0">GPR75</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M920.3,708.479l-2.4-1.3"/>
+          <path class="cls-8" d="M917.9,707.179h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=NPY1R" target="_blank"><text class="cls-22" transform="translate(919.5 710.079) rotate(28)"><tspan x="0" y="0">NPY1R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M927.7,703.779l-2.5-1.3"/>
+          <path class="cls-8" d="M925.3,702.479l-3.9-2"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=NPY6R" target="_blank"><text class="cls-22" transform="translate(926.9 705.379) rotate(26.8)"><tspan x="0" y="0">NPY6R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M906.6,685.079l-2.5-1.2"/>
+          <path class="cls-8" d="M904.1,683.879h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=NPY4R" target="_blank"><text class="cls-22" transform="translate(905.8 686.779) rotate(25.6)"><tspan x="0" y="0">NPY4R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M909.6,678.679l-2.5-1.1"/>
+          <path class="cls-8" d="M907,677.479h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=NPY42" target="_blank"><text class="cls-22" transform="translate(908.8 680.379) rotate(24.4)"><tspan x="0" y="0">NPY42</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M826.7,635.479l-2.5-1.1"/>
+          <path class="cls-8" d="M824.2,634.379h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=NPY5R" target="_blank"><text class="cls-22" transform="translate(826 637.179) rotate(23.2)"><tspan x="0" y="0">NPY5R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M770,606.979l-2.6-1"/>
+          <path class="cls-8" d="M767.4,605.979h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=NPY2R" target="_blank"><text class="cls-22" transform="translate(769.3 608.679) rotate(22)"><tspan x="0" y="0">NPY2R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M756.7,597.879l-2.6-1"/>
+          <path class="cls-8" d="M754.1,596.879l-.4-.2"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=PRLHR" target="_blank"><text class="cls-22" transform="translate(756.1 599.579) rotate(20.8)"><tspan x="0" y="0">PRLHR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M959.8,666.479l-2.6-.9"/>
+          <path class="cls-8" d="M957.2,665.479h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=NK1R" target="_blank"><text class="cls-22" transform="translate(959.2 668.179) rotate(19.6)"><tspan x="0" y="0">NK1R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M962.4,658.879l-2.6-.9"/>
+          <path class="cls-8" d="M959.7,657.979h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=NK3R" target="_blank"><text class="cls-22" transform="translate(961.8 660.579) rotate(18.4)"><tspan x="0" y="0">NK3R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M945.7,645.379l-2.6-.8"/>
+          <path class="cls-8" d="M943,644.579l-1.8-.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=NK2R" target="_blank"><text class="cls-22" transform="translate(945.2 647.079) rotate(17.2)"><tspan x="0" y="0">NK2R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M764.7,585.679l-2.7-.8"/>
+          <path class="cls-8" d="M762,584.879l-.9-.2"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR83" target="_blank"><text class="cls-22" transform="translate(764.2 587.479) rotate(16)"><tspan x="0" y="0">GPR83</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M719.6,570.079l-2.7-.7"/>
+          <path class="cls-8" d="M716.9,569.379h-.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=PKR1" target="_blank"><text class="cls-22" transform="translate(719.1 571.879) rotate(14.8)"><tspan x="0" y="0">PKR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M720.3,567.579l-2.7-.7"/>
+          <path class="cls-8" d="M717.6,566.979h-.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=PKR2" target="_blank"><text class="cls-22" transform="translate(719.8 569.379) rotate(13.6)"><tspan x="0" y="0">PKR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M871.1,598.079l-2.7-.6"/>
+          <path class="cls-8" d="M868.4,597.479l-.8-.2"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CCKAR" target="_blank"><text class="cls-22" transform="translate(870.7 599.879) rotate(12.4)"><tspan x="0" y="0">CCKAR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M871.9,592.379l-2.7-.5"/>
+          <path class="cls-8" d="M869.2,591.779h-.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GASR" target="_blank"><text class="cls-22" transform="translate(871.6 594.179) rotate(11.2)"><tspan x="0" y="0">GASR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M674.7,551.779l-2.7-.5"/>
+          <path class="cls-8" d="M672,551.379h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=QRFPR" target="_blank"><text class="cls-22" transform="translate(674.4 553.579) rotate(10)"><tspan x="0" y="0">QRFPR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M832.2,574.479l-2.7-.4"/>
+          <path class="cls-8" d="M829.5,574.079l-1.3-.2"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=NPFF1" target="_blank"><text class="cls-22" transform="translate(831.9 576.379) rotate(8.8)"><tspan x="0" y="0">NPFF1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M833.2,569.679l-2.7-.4"/>
+          <path class="cls-8" d="M830.5,569.379l-1.6-.2"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=NPFF2" target="_blank"><text class="cls-22" transform="translate(833 571.579) rotate(7.6)"><tspan x="0" y="0">NPFF2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M793.3,560.379l-2.8-.3"/>
+          <path class="cls-8" d="M790.6,560.079h-.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=OX1R" target="_blank"><text class="cls-22" transform="translate(793.1 562.179) rotate(6.4)"><tspan x="0" y="0">OX1R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M793.7,556.279l-2.8-.2"/>
+          <path class="cls-8" d="M790.9,556.079h-.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=OX2R" target="_blank"><text class="cls-22" transform="translate(793.5 558.179) rotate(5.2)"><tspan x="0" y="0">OX2R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M887.7,558.779l-2.8-.2"/>
+          <path class="cls-8" d="M885,558.579h-.9"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=V1AR" target="_blank"><text class="cls-22" transform="translate(887.6 560.579) rotate(4)"><tspan x="0" y="0">V1AR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M888.1,552.779h-2.8"/>
+          <path class="cls-8" d="M885.4,552.579h-.9"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=V1BR" target="_blank"><text class="cls-22" transform="translate(888 554.579) rotate(2.7)"><tspan x="0" y="0">V1BR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M871,546.279h-2.8"/>
+          <path class="cls-8" d="M868.3,546.179h-1.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=OXYR" target="_blank"><text class="cls-22" transform="translate(871 548.079) rotate(1.5)"><tspan x="0" y="0">OXYR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M825.5,540.279h-2.8"/>
+          <path class="cls-8" d="M822.7,540.279h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=V2R" target="_blank"><text class="cls-22" transform="translate(825.5 542.179) rotate(.3)"><tspan x="0" y="0">V2R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M800.1,535.979h-2.8"/>
+          <path class="cls-8" d="M797.4,536.079h-1.1"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=NPSR1" target="_blank"><text class="cls-22" transform="translate(800.2 537.879) rotate(-.9)"><tspan x="0" y="0">NPSR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M759.3,533.279h-2.8"/>
+          <path class="cls-8" d="M756.5,533.379h-1"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP150" target="_blank"><text class="cls-22" transform="translate(759.4 535.179) rotate(-2.1)"><tspan x="0" y="0">GP150</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M908.9,521.479l-2.8.2"/>
+          <path class="cls-8" d="M906.1,521.579h-1.9"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GNRR2" target="_blank"><text class="cls-22" transform="translate(909 523.279) rotate(-3.3)"><tspan x="0" y="0">GNRR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M907.8,515.079l-2.8.2"/>
+          <path class="cls-8" d="M905,515.279h-1.2"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GNRHR" target="_blank"><text class="cls-22" transform="translate(907.9 516.879) rotate(-4.5)"><tspan x="0" y="0">GNRHR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M676.4,531.579l-2.8.3"/>
+          <path class="cls-8" d="M673.6,531.879h-1.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR19" target="_blank"><text class="cls-22" transform="translate(676.5 533.379) rotate(-5.7)"><tspan x="0" y="0">GPR19</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M637.5,534.679l-2.8.3"/>
+          <path class="cls-8" d="M634.8,534.979h-.2"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=F" target="_blank"><text class="cls-22" transform="translate(637.7 536.479) rotate(-6.9)"><tspan x="0" y="0">F</tspan><tspan class="cls-27" x="3.726" y="0">F</tspan><tspan x="7.116" y="0">AR4</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M617.3,536.779l-2.7.4"/>
+          <path class="cls-8" d="M614.6,537.179h-.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP176" target="_blank"><text class="cls-22" transform="translate(617.6 538.579) rotate(-8.1)"><tspan x="0" y="0">GP176</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M932.6,484.879l-2.7.4"/>
+          <path class="cls-8" d="M929.8,485.379h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=ACM3" target="_blank"><text class="cls-22" transform="translate(932.9 486.679) rotate(-9.3)"><tspan x="0" y="0">ACM3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M931.3,477.979l-2.7.5"/>
+          <path class="cls-8" d="M928.6,478.479h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=ACM1" target="_blank"><text class="cls-22" transform="translate(931.6 479.779) rotate(-10.5)"><tspan x="0" y="0">ACM1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M924.9,472.079l-2.7.6"/>
+          <path class="cls-8" d="M922.2,472.679h-.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=ACM5" target="_blank"><text class="cls-22" transform="translate(925.3 473.879) rotate(-11.7)"><tspan x="0" y="0">ACM5</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M945.7,460.279l-2.7.6"/>
+          <path class="cls-8" d="M943,460.879h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=ACM4" target="_blank"><text class="cls-22" transform="translate(946.1 462.079) rotate(-12.9)"><tspan x="0" y="0">ACM4</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M944,453.079l-2.7.7"/>
+          <path class="cls-8" d="M941.3,453.779h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=ACM2" target="_blank"><text class="cls-22" transform="translate(944.4 454.879) rotate(-14.1)"><tspan x="0" y="0">ACM2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M1049.6,416.479l-2.7.7"/>
+          <path class="cls-8" d="M1046.9,417.179h-.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=HRH4" target="_blank"><text class="cls-22" transform="translate(1050.1 418.279) rotate(-15.3)"><tspan x="0" y="0">HRH4</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M1046.4,407.279l-2.7.8"/>
+          <path class="cls-8" d="M1043.7,408.079h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=HRH3" target="_blank"><text class="cls-22" transform="translate(1046.9 409.079) rotate(-16.5)"><tspan x="0" y="0">HRH3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M834.4,464.679l-2.6.8"/>
+          <path class="cls-8" d="M831.8,465.579l-1,.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=HRH1" target="_blank"><text class="cls-22" transform="translate(835 466.479) rotate(-17.7)"><tspan x="0" y="0">HRH1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M863.3,449.379l-2.6.9"/>
+          <path class="cls-8" d="M860.7,450.279h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=5HT1F" target="_blank"><text class="cls-22" transform="translate(863.9 451.079) rotate(-18.9)"><tspan x="0" y="0">5HT1F</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M861.4,443.879l-2.6,1"/>
+          <path class="cls-8" d="M858.8,444.879h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=5HT1E" target="_blank"><text class="cls-22" transform="translate(862 445.579) rotate(-20.1)"><tspan x="0" y="0">5HT1E</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M863.3,436.879l-2.6,1"/>
+          <path class="cls-8" d="M860.7,437.979l-1,.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=5HT1D" target="_blank"><text class="cls-22" transform="translate(864 438.579) rotate(-21.3)"><tspan x="0" y="0">5HT1D</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M860.1,431.879l-2.6,1.1"/>
+          <path class="cls-8" d="M857.6,432.879h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=5HT1B" target="_blank"><text class="cls-22" transform="translate(860.8 433.579) rotate(-22.5)"><tspan x="0" y="0">5HT1B</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M764.3,467.579l-2.5,1.1"/>
+          <path class="cls-8" d="M761.7,468.679l-.5.2"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=5HT1" target="_blank"><text class="cls-22" transform="translate(765 469.179) rotate(-23.7)"><tspan x="0" y="0">5HT1</tspan><tspan class="cls-24" x="14.917" y="0">A</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M748.9,470.579l-2.5,1.2"/>
+          <path class="cls-8" d="M746.4,471.679l-1,.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=5HT5" target="_blank"><text class="cls-22" transform="translate(749.7 472.179) rotate(-24.9)"><tspan x="0" y="0">5HT5</tspan><tspan class="cls-24" x="14.917" y="0">A</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M845.2,419.579l-2.5,1.2"/>
+          <path class="cls-8" d="M842.7,420.779h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=DRD2" target="_blank"><text class="cls-22" transform="translate(846 421.179) rotate(-26.1)"><tspan x="0" y="0">DRD2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M843.6,413.979l-2.5,1.3"/>
+          <path class="cls-8" d="M841.2,415.279l-1,.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=DRD3" target="_blank"><text class="cls-22" transform="translate(844.5 415.579) rotate(-27.3)"><tspan x="0" y="0">DRD3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M777.1,443.579l-2.4,1.3"/>
+          <path class="cls-8" d="M774.7,444.979l-1.1.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=DRD4" target="_blank"><text class="cls-22" transform="translate(778 445.179) rotate(-28.5)"><tspan x="0" y="0">DRD4</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M796.4,427.779l-2.4,1.4"/>
+          <path class="cls-8" d="M794,429.179h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=5HT2" target="_blank"><text class="cls-22" transform="translate(797.3 429.379) rotate(-29.7)"><tspan x="0" y="0">5HT2</tspan><tspan class="cls-24" x="14.917" y="0">A</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M794.1,423.679l-2.4,1.4"/>
+          <path class="cls-8" d="M791.7,425.079h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=5HT2C" target="_blank"><text class="cls-22" transform="translate(795 425.279) rotate(-30.9)"><tspan x="0" y="0">5HT2C</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M763,437.579l-2.3,1.5"/>
+          <path class="cls-8" d="M760.6,439.079l-.4.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=5HT2B" target="_blank"><text class="cls-22" transform="translate(764 439.179) rotate(-32.1)"><tspan x="0" y="0">5HT2B</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M808.4,402.979l-2.3,1.5"/>
+          <path class="cls-8" d="M806.1,404.479h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=ADA2B" target="_blank"><text class="cls-22" transform="translate(809.4 404.479) rotate(-33.3)"><tspan x="0" y="0">ADA2B</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M805.9,398.379l-2.3,1.6"/>
+          <path class="cls-8" d="M803.6,399.979l-.4.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=ADA2" target="_blank"><text class="cls-22" transform="translate(806.9 399.879) rotate(-34.5)"><tspan x="0" y="0">ADA2</tspan><tspan class="cls-24" x="16.608" y="0">A</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M795.4,399.479l-2.3,1.6"/>
+          <path class="cls-8" d="M793.2,401.179l-.4.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=ADA2C" target="_blank"><text class="cls-22" transform="translate(796.5 400.979) rotate(-35.7)"><tspan x="0" y="0">ADA2C</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M833.5,364.579l-2.2,1.7"/>
+          <path class="cls-8" d="M831.3,366.279h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=ADA1B" target="_blank"><text class="cls-22" transform="translate(834.6 366.079) rotate(-36.9)"><tspan x="0" y="0">ADA1B</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M829.7,359.879l-2.2,1.7"/>
+          <path class="cls-8" d="M827.6,361.579h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=ADA1D" target="_blank"><text class="cls-22" transform="translate(830.9 361.279) rotate(-38.1)"><tspan x="0" y="0">ADA1D</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M816.6,362.779l-2.1,1.8"/>
+          <path class="cls-8" d="M814.4,364.479h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=ADA1" target="_blank"><text class="cls-22" transform="translate(817.7 364.179) rotate(-39.3)"><tspan x="0" y="0">ADA1</tspan><tspan class="cls-24" x="16.608" y="0">A</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M719.5,438.079l-2.1,1.8"/>
+          <path class="cls-8" d="M717.4,439.879h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=5HT7R" target="_blank"><text class="cls-22" transform="translate(720.7 439.478) rotate(-40.5)"><tspan x="0" y="0">5HT7R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M948.4,229.479l-2.1,1.8"/>
+          <path class="cls-8" d="M946.3,231.279l-2.1,1.9"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=T" target="_blank"><text class="cls-22" transform="translate(949.6 230.779) rotate(-41.8)"><tspan class="cls-26" x="0" y="0">T</tspan><tspan x="3.273" y="0">AAR8</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M941.3,222.679l-2,1.9"/>
+          <path class="cls-8" d="M939.3,224.579l-1.6,1.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=T" target="_blank"><text class="cls-22" transform="translate(942.6 224.079) rotate(-43)"><tspan class="cls-26" x="0" y="0">T</tspan><tspan x="3.273" y="0">AAR6</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M920.1,229.679l-2,1.9"/>
+          <path class="cls-8" d="M918.1,231.679l-4,3.9"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=T" target="_blank"><text class="cls-22" transform="translate(921.4 230.979) rotate(-44.2)"><tspan class="cls-26" x="0" y="0">T</tspan><tspan x="3.273" y="0">AAR9</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M855.6,281.779l-1.9,2"/>
+          <path class="cls-8" d="M853.6,283.779l-.4.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=T" target="_blank"><text class="cls-22" transform="translate(856.9 283.079) rotate(-45.4)"><tspan class="cls-26" x="0" y="0">T</tspan><tspan x="3.273" y="0">AAR5</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M875.8,249.479l-1.9,2"/>
+          <path class="cls-8" d="M873.9,251.479l-1.5,1.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=T" target="_blank"><text class="cls-22" transform="translate(877.1 250.679) rotate(-46.6)"><tspan class="cls-26" x="0" y="0">T</tspan><tspan x="3.273" y="0">AAR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M877.5,235.079l-1.9,2.1"/>
+          <path class="cls-8" d="M875.6,237.179l-9.4,10.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=T" target="_blank"><text class="cls-22" transform="translate(878.9 236.279) rotate(-47.8)"><tspan class="cls-26" x="0" y="0">T</tspan><tspan x="3.273" y="0">AAR3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M804.3,306.079l-1.8,2.1"/>
+          <path class="cls-8" d="M802.5,308.179l-.8.9"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=T" target="_blank"><text class="cls-22" transform="translate(805.7 307.278) rotate(-49)"><tspan class="cls-26" x="0" y="0">T</tspan><tspan x="3.273" y="0">AAR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M708.3,411.079l-1.8,2.1"/>
+          <path class="cls-8" d="M706.5,413.179l-.4.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=5HT4R" target="_blank"><text class="cls-22" transform="translate(709.7 412.179) rotate(-50.2)"><tspan x="0" y="0">5HT4R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M688.9,429.779l-1.7,2.2"/>
+          <path class="cls-8" d="M687.1,431.979h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=DRD1" target="_blank"><text class="cls-22" transform="translate(690.3 430.979) rotate(-51.4)"><tspan x="0" y="0">DRD1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M687.4,426.879l-1.7,2.2"/>
+          <path class="cls-8" d="M685.7,429.079l-.8,1.1"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=DRD5" target="_blank"><text class="cls-22" transform="translate(688.8 427.979) rotate(-52.6)"><tspan x="0" y="0">DRD5</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M759.6,323.279l-1.6,2.2"/>
+          <path class="cls-8" d="M758,325.479l-.3.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=ADRB1" target="_blank"><text class="cls-22" transform="translate(761.1 324.378) rotate(-53.8)"><tspan x="0" y="0">ADRB1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M754.8,320.379l-1.6,2.3"/>
+          <path class="cls-8" d="M753.2,322.679h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=ADRB2" target="_blank"><text class="cls-22" transform="translate(756.3 321.479) rotate(-55)"><tspan x="0" y="0">ADRB2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M742.1,329.179l-1.5,2.3"/>
+          <path class="cls-8" d="M740.6,331.479l-1.2,1.7"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=ADRB3" target="_blank"><text class="cls-22" transform="translate(743.7 330.179) rotate(-56.2)"><tspan x="0" y="0">ADRB3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M674.7,424.779l-1.5,2.3"/>
+          <path class="cls-8" d="M673.2,427.079h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=HRH2" target="_blank"><text class="cls-22" transform="translate(676.2 425.779) rotate(-57.4)"><tspan x="0" y="0">HRH2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M672.5,422.879l-1.4,2.4"/>
+          <path class="cls-8" d="M671.1,425.179l-.3.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=5HT6R" target="_blank"><text class="cls-22" transform="translate(674.1 423.778) rotate(-58.6)"><tspan x="0" y="0">5HT6R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M795.3,206.279l-1.4,2.4"/>
+          <path class="cls-8" d="M793.9,208.679l-.7,1.1"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=S1PR2" target="_blank"><text class="cls-22" transform="translate(796.9 207.179) rotate(-59.8)"><tspan x="0" y="0">S1PR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M787.7,203.379l-1.3,2.4"/>
+          <path class="cls-8" d="M786.4,205.779h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=S1PR5" target="_blank"><text class="cls-22" transform="translate(789.3 204.179) rotate(-61)"><tspan x="0" y="0">S1PR5</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M773.8,212.479l-1.3,2.5"/>
+          <path class="cls-8" d="M772.5,214.879h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=S1PR1" target="_blank"><text class="cls-22" transform="translate(775.4 213.278) rotate(-62.2)"><tspan x="0" y="0">S1PR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M763.7,215.279l-1.2,2.5"/>
+          <path class="cls-8" d="M762.5,217.779l-.3.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=S1PR3" target="_blank"><text class="cls-22" transform="translate(765.3 216.079) rotate(-63.4)"><tspan x="0" y="0">S1PR3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M744.9,237.179l-1.2,2.5"/>
+          <path class="cls-8" d="M743.7,239.679l-.2.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=S1PR4" target="_blank"><text class="cls-22" transform="translate(746.5 237.979) rotate(-64.6)"><tspan x="0" y="0">S1PR4</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M753.7,200.479l-1.1,2.5"/>
+          <path class="cls-8" d="M752.6,202.979l-.4,1"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=L" target="_blank"><text class="cls-22" transform="translate(755.4 201.179) rotate(-65.8)"><tspan x="0" y="0">L</tspan><tspan class="cls-16" x="3.726" y="0">P</tspan><tspan x="7.342" y="0">AR3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M746.1,198.279l-1.1,2.6"/>
+          <path class="cls-8" d="M745.1,200.879h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=L" target="_blank"><text class="cls-22" transform="translate(747.8 199.079) rotate(-67)"><tspan x="0" y="0">L</tspan><tspan class="cls-16" x="3.726" y="0">P</tspan><tspan x="7.342" y="0">AR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M733.5,209.079l-1,2.6"/>
+          <path class="cls-8" d="M732.5,211.579h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=L" target="_blank"><text class="cls-22" transform="translate(735.2 209.679) rotate(-68.2)"><tspan x="0" y="0">L</tspan><tspan class="cls-16" x="3.726" y="0">P</tspan><tspan x="7.342" y="0">AR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M744.3,158.979l-1,2.6"/>
+          <path class="cls-8" d="M743.4,161.579l-.4,1.1"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=MC3R" target="_blank"><text class="cls-22" transform="translate(746 159.578) rotate(-69.4)"><tspan x="0" y="0">MC3R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M735.9,157.179l-.9,2.6"/>
+          <path class="cls-8" d="M735,159.879h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=MC4R" target="_blank"><text class="cls-22" transform="translate(737.6 157.778) rotate(-70.6)"><tspan x="0" y="0">MC4R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M726.3,159.279l-.9,2.6"/>
+          <path class="cls-8" d="M725.4,161.979l-.2.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=MC5R" target="_blank"><text class="cls-22" transform="translate(728 159.878) rotate(-71.8)"><tspan x="0" y="0">MC5R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M713.1,173.879l-.8,2.7"/>
+          <path class="cls-8" d="M712.3,176.579l-.8,2.7"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=MSHR" target="_blank"><text class="cls-22" transform="translate(714.8 174.379) rotate(-73)"><tspan x="0" y="0">MSHR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M698.5,196.079l-.8,2.7"/>
+          <path class="cls-8" d="M697.7,198.679h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=ACTHR" target="_blank"><text class="cls-22" transform="translate(700.2 196.578) rotate(-74.2)"><tspan x="0" y="0">ACTHR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M710.1,121.679l-.7,2.7"/>
+          <path class="cls-8" d="M709.4,124.379h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR6" target="_blank"><text class="cls-22" transform="translate(711.8 122.179) rotate(-75.4)"><tspan x="0" y="0">GPR6</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M701.3,119.479l-.6,2.7"/>
+          <path class="cls-8" d="M700.7,122.179h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR12" target="_blank"><text class="cls-22" transform="translate(703.1 119.978) rotate(-76.6)"><tspan x="0" y="0">GPR12</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M687.4,140.879l-.6,2.7"/>
+          <path class="cls-8" d="M686.9,143.579h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR3" target="_blank"><text class="cls-22" transform="translate(689.2 141.279) rotate(-77.8)"><tspan x="0" y="0">GPR3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M676.1,154.479l-.5,2.7"/>
+          <path class="cls-8" d="M675.6,157.179v.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CNR2" target="_blank"><text class="cls-22" transform="translate(677.9 154.778) rotate(-79)"><tspan x="0" y="0">CNR2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M667.9,153.579l-.5,2.7"/>
+          <path class="cls-8" d="M667.4,156.279h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=CNR1" target="_blank"><text class="cls-22" transform="translate(669.7 153.879) rotate(-80.2)"><tspan x="0" y="0">CNR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M620.5,413.279l-.4,2.7"/>
+          <path class="cls-8" d="M620.1,416.079v.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP" target="_blank"><text class="cls-22" transform="translate(622.3 413.579) rotate(-81.4)"><tspan x="0" y="0">GP</tspan><tspan class="cls-17" x="8.813" y="0">1</tspan><tspan x="11.869" y="0">19</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M614.7,437.179l-.4,2.8"/>
+          <path class="cls-8" d="M614.4,439.979h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPBAR" target="_blank"><text class="cls-22" transform="translate(616.6 437.478) rotate(-82.6)"><tspan x="0" y="0">GPBAR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M635.4,225.679l-.3,2.8"/>
+          <path class="cls-8" d="M635.1,228.479v.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=AA2BR" target="_blank"><text class="cls-22" transform="translate(637.2 225.879) rotate(-83.8)"><tspan x="0" y="0">AA2BR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M628.7,225.779l-.2,2.8"/>
+          <path class="cls-8" d="M628.5,228.479h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=AA2AR" target="_blank"><text class="cls-22" transform="translate(630.6 225.879) rotate(-85.1)"><tspan x="0" y="0">AA2AR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M624.3,192.779l-.2,2.8"/>
+          <path class="cls-8" d="M624.1,195.479h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=AA1R" target="_blank"><text class="cls-22" transform="translate(626.1 192.878) rotate(-86.3)"><tspan x="0" y="0">AA1R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M617.4,183.579v2.8"/>
+          <path class="cls-8" d="M617.3,186.279l-.4,8.8"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=AA3R" target="_blank"><text class="cls-22" transform="translate(619.2 183.679) rotate(-87.5)"><tspan x="0" y="0">AA3R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M612.4,78.679v2.8"/>
+          <path class="cls-8" d="M612.3,81.479v.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=PF2R" target="_blank"><text class="cls-22" transform="translate(614.2 78.779) rotate(-88.7)"><tspan x="0" y="0">PF2R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M602.7,78.579v2.8"/>
+          <path class="cls-8" d="M602.7,81.379v.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=PE2R1" target="_blank"><text class="cls-22" transform="translate(604.6 78.578) rotate(-89.9)"><tspan x="0" y="0">PE2R1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M593.7,114.279v2.8"/>
+          <path class="cls-8" d="M593.8,117.079v.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=T" target="_blank"><text class="cls-22" transform="translate(591.6 98.879) rotate(88.9)"><tspan class="cls-26" x="0" y="0">T</tspan><tspan x="3.273" y="0">A2R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M587,170.779v2.8"/>
+          <path class="cls-8" d="M587.1,173.579v.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=PE2R3" target="_blank"><text class="cls-22" transform="translate(584.4 151.579) rotate(87.7)"><tspan x="0" y="0">PE2R3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M576.4,123.779l.2,2.8"/>
+          <path class="cls-8" d="M576.6,126.479v.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=PD2R" target="_blank"><text class="cls-22" transform="translate(573.6 107.579) rotate(86.5)"><tspan x="0" y="0">PD2R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M567.7,124.379l.2,2.8"/>
+          <path class="cls-8" d="M567.9,127.179v.6"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=PE2R2" target="_blank"><text class="cls-22" transform="translate(564.299 105.279) rotate(85.3)"><tspan x="0" y="0">PE2R2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M562.3,156.579l.3,2.8"/>
+          <path class="cls-8" d="M562.5,159.379h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=PI2R" target="_blank"><text class="cls-22" transform="translate(558.999 143.279) rotate(84.1)"><tspan x="0" y="0">PI2R</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M560.8,210.579l.3,2.8"/>
+          <path class="cls-8" d="M561.2,213.279v.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=PE2R4" target="_blank"><text class="cls-22" transform="translate(556.6 191.579) rotate(82.9)"><tspan x="0" y="0">PE2R4</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M577.6,373.879l.4,2.7"/>
+          <path class="cls-8" d="M578,376.579v.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP153" target="_blank"><text class="cls-22" transform="translate(573 355.279) rotate(81.7)"><tspan x="0" y="0">GP153</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M574.2,374.879l.5,2.7"/>
+          <path class="cls-8" d="M574.7,377.679h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP162" target="_blank"><text class="cls-22" transform="translate(569.3 356.479) rotate(80.5)"><tspan x="0" y="0">GP162</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M571.9,381.479l.5,2.7"/>
+          <path class="cls-8" d="M572.4,384.279h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP149" target="_blank"><text class="cls-22" transform="translate(566.6 363.179) rotate(79.3)"><tspan x="0" y="0">GP149</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M491.6,16.679l.6,2.7"/>
+          <path class="cls-8" d="M492.2,19.379v.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=LGR6" target="_blank"><text class="cls-22" transform="translate(486.499 1.079) rotate(78.1)"><tspan x="0" y="0">LGR6</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M480.6,18.779l.6,2.7"/>
+          <path class="cls-8" d="M481.3,21.479l.2.7"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=LGR5" target="_blank"><text class="cls-22" transform="translate(475.199 3.279) rotate(76.9)"><tspan x="0" y="0">LGR5</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M477.9,53.479l.7,2.7"/>
+          <path class="cls-8" d="M478.6,56.179v.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=LGR4" target="_blank"><text class="cls-22" transform="translate(472.1 38.179) rotate(75.7)"><tspan x="0" y="0">LGR4</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M515.5,228.279l.7,2.7"/>
+          <path class="cls-8" d="M516.2,230.879l.2.8"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=TSHR" target="_blank"><text class="cls-22" transform="translate(509.3 212.779) rotate(74.5)"><tspan x="0" y="0">TSHR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M508.7,229.379l.8,2.7"/>
+          <path class="cls-8" d="M509.5,232.079l.5,1.5"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=FSHR" target="_blank"><text class="cls-22" transform="translate(502.2 213.979) rotate(73.3)"><tspan x="0" y="0">FSHR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M507.1,246.379l.9,2.6"/>
+          <path class="cls-8" d="M508,249.079h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=LSHR" target="_blank"><text class="cls-22" transform="translate(500.2 231.179) rotate(72.1)"><tspan x="0" y="0">LSHR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M463.8,141.179l.9,2.6"/>
+          <path class="cls-8" d="M464.7,143.779l.3.9"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=RXFP2" target="_blank"><text class="cls-22" transform="translate(455.6 123.179) rotate(70.9)"><tspan x="0" y="0">RXFP2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M455.8,144.979l1,2.6"/>
+          <path class="cls-8" d="M456.8,147.579h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=RXFP1" target="_blank"><text class="cls-22" transform="translate(447.3 127.179) rotate(69.7)"><tspan x="0" y="0">RXFP1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M437.6,122.779l1,2.6"/>
+          <path class="cls-8" d="M438.6,125.379h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=OPSG2" target="_blank"><text class="cls-22" transform="translate(428.2 103.879) rotate(68.5)"><tspan x="0" y="0">OPSG2</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M428.9,126.379l1.1,2.6"/>
+          <path class="cls-8" d="M429.9,128.879h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=OPSG" target="_blank"><text class="cls-22" transform="translate(420.4 110.779) rotate(67.3)"><tspan x="0" y="0">OPSG</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M420.3,130.079l1.1,2.5"/>
+          <path class="cls-8" d="M421.4,132.579h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=OPSG3" target="_blank"><text class="cls-22" transform="translate(410.1 111.579) rotate(66.1)"><tspan x="0" y="0">OPSG3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M410.7,131.679l1.2,2.5"/>
+          <path class="cls-8" d="M411.8,134.179l1.1,2.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=OPSR" target="_blank"><text class="cls-22" transform="translate(401.699 116.779) rotate(64.9)"><tspan x="0" y="0">OPSR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M439.2,210.679l1.2,2.5"/>
+          <path class="cls-8" d="M440.4,213.179h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=OPSB" target="_blank"><text class="cls-22" transform="translate(429.9 195.979) rotate(63.7)"><tspan x="0" y="0">OPSB</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M432.3,214.179l1.3,2.5"/>
+          <path class="cls-8" d="M433.6,216.679h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=OPSD" target="_blank"><text class="cls-22" transform="translate(422.699 199.679) rotate(62.5)"><tspan x="0" y="0">OPSD</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M494.9,344.279l1.3,2.4"/>
+          <path class="cls-8" d="M496.2,346.779h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=OPN3" target="_blank"><text class="cls-22" transform="translate(485.299 330.579) rotate(61.3)"><tspan x="0" y="0">OPN3</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M490.6,346.079l1.4,2.4"/>
+          <path class="cls-8" d="M492,348.579l.8,1.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=RGR" target="_blank"><text class="cls-22" transform="translate(482.2 335.279) rotate(60.1)"><tspan x="0" y="0">RGR</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M487.4,349.879l1.4,2.4"/>
+          <path class="cls-8" d="M488.8,352.279h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=OPSX" target="_blank"><text class="cls-22" transform="translate(477.1 336.279) rotate(58.9)"><tspan x="0" y="0">OPSX</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M494.4,369.679l1.5,2.3"/>
+          <path class="cls-8" d="M495.9,371.979h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=OPN5" target="_blank"><text class="cls-22" transform="translate(484 356.579) rotate(57.7)"><tspan x="0" y="0">OPN5</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M524.9,423.279l1.5,2.3"/>
+          <path class="cls-8" d="M526.4,425.579l.3.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=OPN4" target="_blank"><text class="cls-22" transform="translate(514.2 410.379) rotate(56.5)"><tspan x="0" y="0">OPN4</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M465.8,343.079l1.6,2.3"/>
+          <path class="cls-8" d="M467.3,345.379l1,1.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=MTR1" target="_blank"><text class="cls-22" transform="translate(452.299 326.879) rotate(55.3)"><tspan x="0" y="0">MTR1</tspan><tspan class="cls-24" x="16.605" y="0">A</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M461.7,345.979l1.6,2.2"/>
+          <path class="cls-8" d="M463.3,348.279l1,1.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=MTR1B" target="_blank"><text class="cls-22" transform="translate(447.9 330.079) rotate(54.1)"><tspan x="0" y="0">MTR1B</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M468.8,363.679l1.7,2.2"/>
+          <path class="cls-8" d="M470.5,365.879l.3.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=MTR1" target="_blank"><text class="cls-22" transform="translate(455.1 348.579) rotate(52.9)"><tspan x="0" y="0">MTR1</tspan><tspan class="cls-23" x="16.605" y="0">L</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M516.5,431.379l1.7,2.2"/>
+          <path class="cls-8" d="M518.2,433.579h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=F" target="_blank"><text class="cls-22" transform="translate(503.1 417.379) rotate(51.6)"><tspan x="0" y="0">F</tspan><tspan class="cls-27" x="3.726" y="0">F</tspan><tspan x="7.116" y="0">AR1</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M514.3,433.179l1.8,2.1"/>
+          <path class="cls-8" d="M516,435.379h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR88" target="_blank"><text class="cls-22" transform="translate(500.1 418.979) rotate(50.4)"><tspan x="0" y="0">GPR88</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M544.4,472.679l1.8,2.1"/>
+          <path class="cls-8" d="M546.3,474.779l1.2,1.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR84" target="_blank"><text class="cls-22" transform="translate(529.999 458.679) rotate(49.2)"><tspan x="0" y="0">GPR84</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M382,294.779l1.9,2.1"/>
+          <path class="cls-8" d="M383.9,296.779l.4.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR45" target="_blank"><text class="cls-22" transform="translate(367.3 281.079) rotate(48)"><tspan x="0" y="0">GPR45</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M377.4,299.879l1.9,2"/>
+          <path class="cls-8" d="M379.3,301.879h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR63" target="_blank"><text class="cls-22" transform="translate(362.3 286.479) rotate(46.8)"><tspan x="0" y="0">GPR63</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M537.1,473.079l1.9,2"/>
+          <path class="cls-8" d="M539.1,475.079l.9.9"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP135" target="_blank"><text class="cls-22" transform="translate(522.6 460.779) rotate(45.6)"><tspan x="0" y="0">GP135</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M375.1,316.879l2,1.9"/>
+          <path class="cls-8" d="M377,318.779l1.3,1.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR21" target="_blank"><text class="cls-22" transform="translate(359.499 304.179) rotate(44.4)"><tspan x="0" y="0">GPR21</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M371.8,322.879l2,1.9"/>
+          <path class="cls-8" d="M373.8,324.779h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR52" target="_blank"><text class="cls-22" transform="translate(355.899 310.579) rotate(43.2)"><tspan x="0" y="0">GPR52</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M505.5,452.379l2.1,1.9"/>
+          <path class="cls-8" d="M507.6,454.279h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP101" target="_blank"><text class="cls-22" transform="translate(490.2 440.979) rotate(42)"><tspan x="0" y="0">GP101</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M503.4,454.179l2.1,1.8"/>
+          <path class="cls-8" d="M505.5,455.979l.3.3"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP161" target="_blank"><text class="cls-22" transform="translate(487.8 443.079) rotate(40.8)"><tspan x="0" y="0">GP161</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M458.4,420.379l2.1,1.8"/>
+          <path class="cls-8" d="M460.5,422.179h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR61" target="_blank"><text class="cls-22" transform="translate(441.8 408.979) rotate(39.6)"><tspan x="0" y="0">GPR61</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M452.4,420.579l2.2,1.7"/>
+          <path class="cls-8" d="M454.5,422.279l3.5,2.8"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR62" target="_blank"><text class="cls-22" transform="translate(435.5 409.579) rotate(38.4)"><tspan x="0" y="0">GPR62</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M375.9,367.579l2.2,1.7"/>
+          <path class="cls-8" d="M378.1,369.279l1,.7"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR78" target="_blank"><text class="cls-22" transform="translate(358.9 356.979) rotate(37.2)"><tspan x="0" y="0">GPR78</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M373.4,373.079l2.2,1.6"/>
+          <path class="cls-8" d="M375.6,374.679h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR26" target="_blank"><text class="cls-22" transform="translate(356.1 362.779) rotate(36)"><tspan x="0" y="0">GPR26</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M533,491.279l2.3,1.6"/>
+          <path class="cls-8" d="M535.2,492.879h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR22" target="_blank"><text class="cls-22" transform="translate(515.5 481.379) rotate(34.8)"><tspan x="0" y="0">GPR22</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M318.4,350.779l2.3,1.5"/>
+          <path class="cls-8" d="M320.7,352.279h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP173" target="_blank"><text class="cls-22" transform="translate(301.5 341.779) rotate(33.6)"><tspan x="0" y="0">GP173</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M314.5,356.679l2.3,1.5"/>
+          <path class="cls-8" d="M316.8,358.179h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR27" target="_blank"><text class="cls-22" transform="translate(296.6 347.579) rotate(32.4)"><tspan x="0" y="0">GPR27</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M318.9,367.679l2.4,1.4"/>
+          <path class="cls-8" d="M321.2,369.179h0"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GPR85" target="_blank"><text class="cls-22" transform="translate(300.8 358.879) rotate(31.2)"><tspan x="0" y="0">GPR85</tspan></text>
+          </a></g>
+        </g>
+        <g>
+          <path class="cls-2" d="M544.8,506.179l2.4,1.4"/>
+          <path class="cls-8" d="M547.2,507.579l.8.4"/>
+          <g class="cls-20">
+            <a href="../receptor.html?gene=GP160" target="_blank"><text class="cls-22" transform="translate(527.4 498.279) rotate(30)"><tspan x="0" y="0">GP160</tspan></text>
+          </a></g>
+        </g>
+        <path class="cls-8" d="M318.7,355.279l8,5.2M320.7,352.279c-1.3,2-2.6,3.9-3.9,5.9"/>
+        <path class="cls-11" d="M323.9,364.779l225.2,141.3M326.7,360.379c-1.9,2.9-3.7,5.8-5.5,8.7"/>
+        <path class="cls-12" d="M548.5,506.979l45.7,27.5M549.1,506.079c-.4.6-.8,1.3-1.2,1.9"/>
+        <path class="cls-11" d="M459.3,423.679l72.6,58.8M460.5,422.179c-.8,1-1.6,2-2.4,3"/>
+        <path class="cls-11" d="M506.7,455.279l27.6,24.3M507.6,454.279c-.6.7-1.2,1.3-1.8,2"/>
+        <path class="cls-1" d="M533,480.979l33.4,28.2M534.3,479.579c-.8.9-1.6,1.9-2.4,2.9"/>
+        <path class="cls-10" d="M377.4,372.379l159.4,118.4M379.1,369.979c-1.2,1.6-2.3,3.1-3.5,4.7"/>
+        <path class="cls-8" d="M536,491.779l28.2,20.2M536.7,490.779c-.5.7-1,1.4-1.5,2.1"/>
+        <path class="cls-8" d="M565.2,510.579l14,10.9M566.4,509.179c-.8.9-1.5,1.9-2.2,2.9"/>
+        <path class="cls-11" d="M376.1,322.479l200.3,192.3M378.4,320.079c-1.5,1.6-3,3.1-4.5,4.7"/>
+        <path class="cls-9" d="M517.1,434.479l32.3,39.9M518.2,433.579c-.7.6-1.5,1.2-2.2,1.8"/>
+        <path class="cls-8" d="M548.4,475.279l8.2,9.8M549.4,474.379c-.7.5-1.3,1.1-2,1.7"/>
+        <path class="cls-4" d="M466.3,348.179l10,14.1M468.3,346.779c-1.3.9-2.7,1.9-4,2.8"/>
+        <path class="cls-11" d="M473.5,364.279l86.5,118M476.3,362.279c-1.9,1.3-3.7,2.7-5.5,4"/>
+        <path class="cls-6" d="M558.3,483.579l9.7,12.4M560,482.279c-1.2.9-2.4,1.8-3.5,2.7"/>
+        <path class="cls-5" d="M490.8,351.079l10.5,17.7M492.8,349.979c-1.3.8-2.6,1.5-3.9,2.3"/>
+        <path class="cls-4" d="M498.6,370.379l21.6,35.3M501.3,368.779c-1.8,1.1-3.6,2.1-5.3,3.2"/>
+        <path class="cls-13" d="M437,214.879l10.7,21.1M440.4,213.179c-2.3,1.1-4.5,2.3-6.8,3.5"/>
+        <path class="cls-11" d="M434.3,127.079h0M438.6,125.379c-2.9,1.1-5.8,2.3-8.6,3.5"/>
+        <path class="cls-11" d="M427.8,129.779h0M434.3,127.079c-4.3,1.8-8.6,3.6-12.9,5.5"/>
+        <path class="cls-10" d="M420.3,133.079l42.7,95.5M427.8,129.879c-5,2.1-10,4.3-14.9,6.7"/>
+        <path class="cls-13" d="M455.3,232.179l51.9,108.9M463,228.679c-5.2,2.3-10.3,4.7-15.3,7.3"/>
+        <path class="cls-13" d="M501.7,343.879l28.8,56.2M507.2,341.079c-3.7,1.8-7.4,3.7-11,5.6"/>
+        <path class="cls-1" d="M525.3,402.779l10,17.9M530.5,399.979c-3.5,1.8-6.9,3.7-10.3,5.8"/>
+        <path class="cls-11" d="M530.9,423.179l36.9,60.4M535.3,420.679c-2.9,1.6-5.8,3.4-8.6,5.3"/>
+        <path class="cls-10" d="M572.3,127.379l2.2,30.9M576.6,127.079c-2.9.2-5.8.4-8.6.6"/>
+        <path class="cls-11" d="M568.5,158.779l4.7,53.8M574.5,158.279c-4,.3-8,.6-12,1"/>
+        <path class="cls-11" d="M567.2,213.079l5.6,52.9M573.2,212.579c-4,.3-8,.8-12,1.3"/>
+        <path class="cls-4" d="M607.5,81.979l-.5,35.7M612.3,82.079c-3.2,0-6.4-.1-9.6-.1"/>
+        <path class="cls-11" d="M600.4,117.579l.2,56.2M607,117.679h-13.3"/>
+        <path class="cls-11" d="M593.9,173.879l1.9,90.7M600.6,173.779c-4.5,0-8.9.1-13.4.3"/>
+        <path class="cls-11" d="M584.3,265.079l10.1,159.3M595.8,264.579c-7.7.2-15.4.6-23,1.5"/>
+        <path class="cls-12" d="M576.4,377.379l.9,6M578.1,377.079c-1.1.2-2.3.3-3.4.5"/>
+        <path class="cls-8" d="M574.9,383.779l7.2,42M577.3,383.379c-1.6.3-3.3.5-4.9.8"/>
+        <path class="cls-5" d="M588.2,424.879l2.3,19.7M594.4,424.379c-4.1.3-8.2.7-12.3,1.4"/>
+        <path class="cls-11" d="M460.9,146.079l67.2,187.7M465,144.679c-2.8,1-5.5,1.9-8.2,3"/>
+        <path class="cls-14" d="M513.2,232.579l4,13.7M516.4,231.679c-2.2.6-4.3,1.2-6.4,1.9"/>
+        <path class="cls-11" d="M512.5,247.679l2,6.4M517.1,246.279c-3.1.9-6.1,1.8-9.2,2.8"/>
+        <path class="cls-4" d="M486.9,20.979l7.1,32M492.3,19.779c-3.6.8-7.3,1.6-10.9,2.4"/>
+        <path class="cls-11" d="M486.3,54.679l46.3,194.5M493.9,52.979c-5.1,1.1-10.2,2.3-15.2,3.6"/>
+        <path class="cls-13" d="M523.5,251.479l21,77.2M532.6,249.179c-6.1,1.4-12.1,3.1-18.1,4.9"/>
+        <path class="cls-11" d="M536.2,331.079l36.9,117.3M544.5,328.679c-5.5,1.5-11,3.2-16.4,5.1"/>
+        <path class="cls-8" d="M581.7,446.079l6.3,29.5M590.5,444.679c-5.9.7-11.7,1.9-17.4,3.7"/>
+        <path class="cls-8" d="M577.6,478.679l3.8,9.5M588,475.579c-7.2,1.5-14,4.3-20.2,8.1"/>
+        <path class="cls-8" d="M574.4,491.579l5.7,10M581.4,488.279c-4.8,1.9-9.3,4.5-13.4,7.7"/>
+        <path class="cls-11" d="M381.8,299.579l160.2,174.5M384.3,297.279c-1.7,1.5-3.4,3.1-5,4.6"/>
+        <path class="cls-6" d="M541,474.979l31,32.7M542,474.079c-.7.6-1.4,1.3-2,1.9"/>
+        <path class="cls-8" d="M575.9,504.379l4.9,6.5M580.1,501.579c-3,1.7-5.7,3.7-8.2,6.1"/>
+        <path class="cls-8" d="M578.5,512.779l4.3,4.9M580.7,510.879c-1.6,1.2-3,2.4-4.3,3.8"/>
+        <path class="cls-8" d="M580.9,519.479l4.2,4M582.8,517.679c-1.3,1.2-2.5,2.4-3.6,3.8"/>
+        <path class="cls-11" d="M620.5,195.279l-3.5,62.9M624.1,195.479c-2.4-.2-4.8-.3-7.2-.4"/>
+        <path class="cls-10" d="M631.8,228.779l-2.9,30.2M635,229.179c-2.2-.2-4.3-.4-6.5-.6"/>
+        <path class="cls-11" d="M622.9,258.479l-14.9,196.1M628.8,259.079c-3.9-.4-7.8-.7-11.8-.9"/>
+        <path class="cls-1" d="M705,123.279l-5.8,23.2M709.4,124.379c-2.9-.8-5.8-1.5-8.7-2.2"/>
+        <path class="cls-11" d="M693.1,144.979l-51.3,220.9M699.3,146.479c-4.1-1-8.3-2-12.4-2.9"/>
+        <path class="cls-1" d="M789.8,207.779l-7.2,12.7M793.3,209.779c-2.3-1.3-4.6-2.7-7-4"/>
+        <path class="cls-3" d="M777.6,217.579l-3.7,6.8M782.6,220.479c-3.3-1.9-6.7-3.7-10.1-5.5"/>
+        <path class="cls-10" d="M768.1,221.279l-13,24.7M773.9,224.379c-3.9-2.1-7.7-4.1-11.7-6.1"/>
+        <path class="cls-11" d="M749.3,243.079l-30.8,61.7M755.1,245.979c-3.8-2-7.7-4-11.6-5.8"/>
+        <path class="cls-9" d="M748.6,202.379l-5.9,13.5M752.1,203.979c-2.3-1.1-4.7-2.1-7.1-3.1"/>
+        <path class="cls-11" d="M737.6,213.679l-35,83.7M742.7,215.879c-3.4-1.5-6.8-2.9-10.2-4.3"/>
+        <path class="cls-11" d="M710.6,300.979l-27.7,60.5M718.5,304.779c-5.2-2.6-10.5-5-15.9-7.3"/>
+        <path class="cls-3" d="M739,161.279l-1.9,5.3M742.9,162.679c-2.6-1-5.3-1.9-7.9-2.9"/>
+        <path class="cls-10" d="M731.2,164.479l-6.6,19M737,166.579c-3.9-1.4-7.8-2.8-11.8-4.1"/>
+        <path class="cls-4" d="M718,181.279l-7,21.5M724.6,183.479c-4.4-1.5-8.7-2.9-13.1-4.3"/>
+        <path class="cls-11" d="M704.4,200.679l-46,151.4M711,202.779c-4.4-1.4-8.9-2.8-13.3-4"/>
+        <path class="cls-1" d="M670.8,356.379l-6.2,16.4M682.9,361.379c-8-3.6-16.2-6.8-24.5-9.3"/>
+        <path class="cls-4" d="M653.3,368.879l-4.4,14.4M664.6,372.779c-7.4-2.8-15.1-5.1-22.8-6.9"/>
+        <path class="cls-11" d="M671.5,156.979l-40.6,221.9M675.5,157.779c-2.7-.5-5.3-1-8-1.5"/>
+        <path class="cls-11" d="M640,380.779l-9.2,38M649,383.279c-5.9-1.8-12-3.3-18.1-4.4"/>
+        <path class="cls-11" d="M625.4,417.579l-4.6,23.4M630.8,418.779c-3.6-.9-7.1-1.6-10.8-2.1"/>
+        <path class="cls-13" d="M617.6,440.479l-2.4,15M620.8,440.979c-2.1-.4-4.3-.8-6.4-1"/>
+        <path class="cls-10" d="M611.6,454.979l-1.9,15.8M615.2,455.479c-2.4-.4-4.8-.7-7.1-.9"/>
+        <path class="cls-15" d="M755.4,324.279l-9.6,13.4M757.7,325.879c-1.5-1.1-3-2.2-4.5-3.2"/>
+        <path class="cls-11" d="M742.7,335.379l-68.8,99.2M745.9,337.679c-2.1-1.5-4.3-3-6.4-4.4"/>
+        <path class="cls-8" d="M672,426.379l-3.1,5M673.2,427.079c-.8-.5-1.6-1-2.4-1.5"/>
+        <path class="cls-8" d="M671.4,432.979l-3.7,5.6M673.9,434.679c-1.6-1.1-3.3-2.2-5-3.3"/>
+        <path class="cls-11" d="M941,229.579l-17.5,16M944.2,233.179c-2.1-2.4-4.3-4.8-6.5-7.1"/>
+        <path class="cls-11" d="M918.8,240.479l-56.5,53.1M923.5,245.579c-3.1-3.4-6.2-6.7-9.4-10"/>
+        <path class="cls-11" d="M857.8,288.879l-23.2,22.7M862.4,293.679c-3-3.2-6.1-6.3-9.2-9.4"/>
+        <path class="cls-11" d="M869.3,250.279l-46.4,50M872.3,253.079c-2-1.9-4-3.8-6.1-5.6"/>
+        <path class="cls-14" d="M828.8,305.879l-14.4,14.8M834.6,311.579c-3.8-3.9-7.7-7.6-11.6-11.3"/>
+        <path class="cls-11" d="M808.1,314.779l-95.9,104.2M814.4,320.679c-4.1-4-8.3-7.9-12.6-11.6"/>
+        <path class="cls-13" d="M709.2,416.179l-21.3,24.2M712.2,418.879c-2-1.8-4-3.6-6-5.3"/>
+        <path class="cls-11" d="M686,431.079l-3.7,4.7M687.1,431.979c-.7-.6-1.5-1.2-2.3-1.8"/>
+        <path class="cls-6" d="M685.2,438.079l-6.9,8.3M688,440.479c-1.8-1.6-3.7-3.2-5.7-4.7"/>
+        <path class="cls-15" d="M673.1,442.279l-8.9,12M678.3,446.379c-3.4-2.8-6.9-5.4-10.6-7.8"/>
+        <path class="cls-1" d="M929.2,481.979l-5.5,1M929.8,485.379c-.4-2.3-.8-4.6-1.2-6.9"/>
+        <path class="cls-11" d="M922.7,477.879l-29.5,5.6M923.7,482.879c-.6-3.4-1.2-6.8-1.9-10.1"/>
+        <path class="cls-11" d="M942.1,457.279l-51.8,12.4M943,460.879c-.5-2.4-1.1-4.8-1.7-7.1"/>
+        <path class="cls-11" d="M891.9,476.579l-27.9,6M893.2,483.479c-.9-4.6-1.9-9.2-2.9-13.7"/>
+        <path class="cls-11" d="M1045.1,412.679l-185.4,52.8M1046.4,417.379c-.9-3.1-1.7-6.2-2.7-9.3"/>
+        <path class="cls-11" d="M862,473.979l-27.1,6.8M864,482.579c-1.2-5.7-2.7-11.4-4.3-17.1"/>
+        <path class="cls-11" d="M833,473.279l-87.6,24.9M834.9,480.779c-1.2-5-2.7-10-4.2-14.9"/>
+        <path class="cls-11" d="M858.7,435.579l-46.5,18.7M859.7,438.279c-.7-1.8-1.4-3.6-2.2-5.4"/>
+        <path class="cls-11" d="M859.7,447.579l-44.2,15.7M860.7,450.279c-.6-1.8-1.3-3.6-1.9-5.4"/>
+        <path class="cls-11" d="M813.9,458.779l-49.2,18.6M815.6,463.179c-1.1-3-2.2-6-3.4-8.9"/>
+        <path class="cls-13" d="M763.1,473.079l-14.6,6M764.7,477.379c-1.1-2.9-2.2-5.7-3.5-8.5"/>
+        <path class="cls-10" d="M747,475.579l-8.3,3.6M748.4,479.079c-.9-2.3-1.9-4.6-3-6.9"/>
+        <path class="cls-8" d="M742.3,488.579l-12.4,4.4M745.4,498.179c-1.8-6.4-4.1-12.8-6.8-18.9"/>
+        <path class="cls-12" d="M804.7,402.379l-7.6,5.1M806.1,404.479c-.9-1.4-1.9-2.9-2.9-4.3"/>
+        <path class="cls-11" d="M794.9,404.479l-69.6,48.5M797,407.479c-1.4-2.1-2.8-4.1-4.2-6.1"/>
+        <path class="cls-13" d="M792.8,427.179l-29.5,17.3M794,429.179c-.8-1.3-1.6-2.7-2.3-4"/>
+        <path class="cls-11" d="M761.8,441.879l-9.4,5.7M763.3,444.379c-1-1.7-2-3.4-3.1-5"/>
+        <path class="cls-11" d="M841.4,418.279l-65,32.7M842.7,420.779c-.8-1.7-1.7-3.4-2.5-5"/>
+        <path class="cls-11" d="M775.1,448.279l-17.2,9M776.5,450.979c-.9-1.8-1.9-3.7-2.9-5.5"/>
+        <path class="cls-6" d="M755.2,452.379l-22.3,12.6M757.8,457.279c-1.7-3.3-3.5-6.5-5.5-9.7"/>
+        <path class="cls-6" d="M729.2,458.779l-12.2,7.6M732.9,464.979c-2.3-4.1-4.9-8.2-7.6-12.1"/>
+        <path class="cls-12" d="M724.2,479.379l-16.8,8.2M730,492.979c-3.3-9.3-7.6-18.2-12.9-26.5"/>
+        <path class="cls-10" d="M829.4,363.879l-9.6,7.4M831.2,366.279c-1.2-1.6-2.4-3.2-3.7-4.8"/>
+        <path class="cls-11" d="M817.1,367.879l-96.1,76.3M819.8,371.379c-1.8-2.3-3.6-4.6-5.4-6.8"/>
+        <path class="cls-12" d="M719.2,442.079l-26.8,22.1M721,444.179c-1.2-1.5-2.3-2.9-3.6-4.3"/>
+        <path class="cls-6" d="M700.6,475.379l-10.3,6.6M707.4,487.579c-4.1-8.4-9.1-16.2-15-23.4"/>
+        <path class="cls-11" d="M678.5,466.979l-26.8,25.1M690.2,482.079c-6.9-10.8-15.7-20.2-26-27.8"/>
+        <path class="cls-13" d="M632.6,477.679l-20.8,41.1M651.8,492.079c-11.1-11.8-25.9-19.4-42-21.3"/>
+        <path class="cls-4" d="M597.7,516.679l2.4,13.8M611.8,518.779c-9-4.5-19.8-2.6-26.7,4.7"/>
+        <path class="cls-10" d="M596.8,531.879l4.9,7.1M600.1,530.579c-2.4.4-4.6,1.9-5.9,4"/>
+        <path class="cls-10" d="M702.8,872.179l-4.2-14M699.3,873.179c2.3-.7,4.7-1.4,7-2.1"/>
+        <path class="cls-15" d="M687,869.479l-1.9-7.5M683.5,870.379c2.3-.6,4.6-1.2,6.9-1.8"/>
+        <path class="cls-11" d="M691.8,860.179l-28.1-100M685.1,861.979c4.5-1.2,9-2.4,13.5-3.8"/>
+        <path class="cls-11" d="M681.3,766.479l-3.7-10.7M678.9,767.379c1.6-.5,3.2-1.1,4.8-1.7"/>
+        <path class="cls-13" d="M670.7,758.079l-7.8-24.8M663.7,760.179c4.6-1.3,9.2-2.8,13.8-4.3"/>
+        <path class="cls-11" d="M714.9,823.579l-7.9-19.9M711.9,824.779c2-.8,4-1.6,6-2.4"/>
+        <path class="cls-11" d="M711.1,801.979l-14-33.7M707,803.679c2.8-1.1,5.5-2.3,8.3-3.4"/>
+        <path class="cls-11" d="M737.6,826.579l-29.8-63M734.6,827.979c2-.9,4-1.9,6-2.9"/>
+        <path class="cls-11" d="M702.5,765.979l-18.1-40.8M697.1,768.279c3.6-1.5,7.2-3.1,10.7-4.8"/>
+        <path class="cls-11" d="M673.7,729.479l-12.1-32.1M662.8,733.279c7.3-2.3,14.5-5,21.5-8.1"/>
+        <path class="cls-11" d="M739.4,801.279l-59-112.3M736.7,802.779c1.8-.9,3.7-1.9,5.5-2.9"/>
+        <path class="cls-13" d="M671.1,693.479l-10.7-23.7M661.6,697.479c6.4-2.4,12.7-5.3,18.8-8.5"/>
+        <path class="cls-11" d="M790.2,834.679l-92.6-145.3M787.1,836.579c2.1-1.3,4.2-2.6,6.2-4"/>
+        <path class="cls-8" d="M721.2,745.079l-30-51.8M719,746.279c1.5-.8,2.9-1.7,4.3-2.5"/>
+        <path class="cls-8" d="M694.3,691.379l-18.2-29.9M691.1,693.279c2.2-1.3,4.3-2.6,6.4-3.9"/>
+        <path class="cls-6" d="M668.4,665.879l-6.7-12.7M660.4,669.779c5.4-2.4,10.7-5.2,15.7-8.3"/>
+        <path class="cls-1" d="M522.1,783.979l13.8-42.6M519.5,783.179c1.7.6,3.4,1.1,5.1,1.7"/>
+        <path class="cls-11" d="M500.3,811.579l27.2-73.1M497.4,810.479c1.9.7,3.8,1.4,5.7,2.1"/>
+        <path class="cls-8" d="M531.7,739.979l10.6-30.3M527.5,738.479c2.8,1,5.6,2,8.4,2.9"/>
+        <path class="cls-11" d="M499.9,755.179l8.1-17.2M497.6,754.079c1.5.7,3,1.4,4.5,2.1"/>
+        <path class="cls-11" d="M445,823.679l28.3-51.5M442,821.979c2,1.1,4,2.2,6,3.3"/>
+        <path class="cls-14" d="M477.1,774.079l21.6-40.8M473.4,772.079c2.4,1.3,4.9,2.7,7.4,3.9"/>
+        <path class="cls-8" d="M503.3,735.679l4.5-9M498.7,733.379c3.1,1.6,6.2,3.2,9.3,4.6"/>
+        <path class="cls-11" d="M471.2,849.279l49.1-116.8M467.9,847.879c2.2.9,4.3,1.8,6.5,2.7"/>
+        <path class="cls-8" d="M514,729.679l5.8-12.6M507.8,726.779c4.1,2.1,8.3,4,12.5,5.7"/>
+        <path class="cls-4" d="M366.3,848.679l2-2.6M363.1,846.179c2.1,1.7,4.3,3.3,6.5,4.9"/>
+        <path class="cls-10" d="M330.8,852.279l9.5-10.9M327.5,849.379c2.2,1.9,4.4,3.8,6.6,5.7"/>
+        <path class="cls-14" d="M345.1,845.379l9-10.7M340.3,841.279c3.2,2.7,6.4,5.4,9.6,8.1"/>
+        <path class="cls-11" d="M361.1,840.379l33.4-41.9M354.1,834.679c4.7,3.9,9.4,7.7,14.2,11.4"/>
+        <path class="cls-1" d="M401.7,804.179l6.2-8.2M394.5,798.579c4.8,3.8,9.6,7.5,14.6,11"/>
+        <path class="cls-8" d="M420,812.079l3.4-5.2M417.1,810.179c1.9,1.3,3.8,2.6,5.7,3.8"/>
+        <path class="cls-10" d="M415.6,801.579l4.3-6M407.9,795.979c5.1,3.8,10.2,7.5,15.5,11"/>
+        <path class="cls-11" d="M427.8,800.979l16.3-24.5M419.8,795.579c5.2,3.7,10.5,7.2,16,10.6"/>
+        <path class="cls-11" d="M450.2,780.379l10.9-17.4M444,776.479c4.1,2.7,8.2,5.3,12.4,7.8"/>
+        <path class="cls-13" d="M383.5,770.779l3.4-3.6M381.1,768.479c1.6,1.5,3.2,3.1,4.9,4.6"/>
+        <path class="cls-11" d="M334,789.879l31.4-29.4M331.3,786.979c1.7,1.9,3.5,3.8,5.3,5.6"/>
+        <path class="cls-6" d="M368.9,764.079l7.5-7.3M365.3,760.379c2.3,2.5,4.7,4.9,7.1,7.3"/>
+        <path class="cls-14" d="M381.6,762.079l17.8-18.1M376.4,756.879c3.4,3.5,6.9,7,10.5,10.4"/>
+        <path class="cls-14" d="M331.9,752.179l11-8.7M329.7,749.379c1.5,1.9,3,3.8,4.5,5.7"/>
+        <path class="cls-4" d="M319.1,743.679l15.5-11.2M317,740.679c1.4,2,2.8,4,4.3,5.9"/>
+        <path class="cls-6" d="M338.7,738.079l9.3-7M334.6,732.479c2.7,3.7,5.5,7.4,8.4,11"/>
+        <path class="cls-4" d="M353.1,737.579l12.1-9.7M348,730.979c3.4,4.4,6.8,8.8,10.4,13"/>
+        <path class="cls-11" d="M369.7,733.479l11.2-9.4M365.2,727.979c3,3.7,6,7.4,9.2,11"/>
+        <path class="cls-5" d="M389.9,734.279l17.3-15.9M380.9,724.079c5.8,6.9,12,13.6,18.4,20"/>
+        <path class="cls-11" d="M432.7,742.479l43.7-52.7M407.2,718.379c15.9,17.2,34,32.3,53.9,44.7"/>
+        <path class="cls-6" d="M497.2,704.879l8.2-13M476.4,689.779c13.2,11,27.8,20.1,43.4,27.3"/>
+        <path class="cls-6" d="M523.3,701.779l4.5-9.4M505.4,691.879c11.6,7.3,23.9,13.2,36.9,17.7"/>
+        <path class="cls-9" d="M197.1,738.979l13.8-6.8M195.1,734.679c1.4,2.8,2.8,5.7,4.2,8.5"/>
+        <path class="cls-10" d="M185.3,723.479l17.9-7.9M183.3,719.079c1.3,2.9,2.6,5.8,3.9,8.7"/>
+        <path class="cls-11" d="M206.9,723.879l67.4-31.6M203.1,715.579c2.5,5.6,5.1,11.1,7.8,16.6"/>
+        <path class="cls-11" d="M278.5,700.879l56.5-28.3M274.3,692.279c2.7,5.7,5.5,11.4,8.5,17"/>
+        <path class="cls-10" d="M338.3,678.779l18.9-10M335,672.479c2.1,4.2,4.3,8.3,6.6,12.4"/>
+        <path class="cls-13" d="M360.1,674.179l22.6-12.6M357.1,668.779c1.9,3.6,3.9,7.2,6,10.8"/>
+        <path class="cls-10" d="M385.4,666.279l7.4-4.4M382.7,661.579c1.8,3.2,3.6,6.3,5.5,9.4"/>
+        <path class="cls-1" d="M395.4,666.279l12.8-7.9M392.8,661.879c1.7,3,3.6,5.9,5.4,8.8"/>
+        <path class="cls-6" d="M410.8,662.479l11.9-7.7M408.2,658.379c1.7,2.7,3.4,5.4,5.2,8.1"/>
+        <path class="cls-4" d="M250.5,620.479l38.7-9M249.7,616.879c.5,2.5,1.1,4.9,1.7,7.4"/>
+        <path class="cls-13" d="M250,605.279l36.4-6.9M249.3,601.579c.4,2.5.9,4.9,1.4,7.4"/>
+        <path class="cls-9" d="M287.7,604.979l21.1-4.4M286.4,598.379c.8,4.4,1.8,8.8,2.8,13.2"/>
+        <path class="cls-11" d="M251.6,635.879l38.3-10.6M250.6,632.279c.7,2.5,1.3,4.9,2,7.3"/>
+        <path class="cls-13" d="M291.3,630.179l23.3-6.8M290,625.279c.9,3.3,1.9,6.5,2.9,9.8"/>
+        <path class="cls-11" d="M311.5,611.979l51.5-13M308.9,600.479c1.6,7.7,3.5,15.3,5.7,22.8"/>
+        <path class="cls-11" d="M285.6,648.379l83.5-28.9M284.4,645.079c.7,2.2,1.5,4.4,2.3,6.6"/>
+        <path class="cls-1" d="M365.8,609.279l13.1-3.9M363,599.079c1.7,6.9,3.8,13.7,6.1,20.4"/>
+        <path class="cls-8" d="M354.3,636.379l31.1-12.2M353.3,633.779c.7,1.7,1.3,3.5,2,5.2"/>
+        <path class="cls-8" d="M381.9,614.879l10.1-3.5M378.9,605.379c1.9,6.3,4,12.6,6.5,18.7"/>
+        <path class="cls-11" d="M205.1,596.579l125.6-18.2M204.5,592.379c.4,2.8.8,5.6,1.2,8.3"/>
+        <path class="cls-11" d="M213.2,554.279l68.6-2.7M213.1,550.179c0,2.7.2,5.4.3,8.2"/>
+        <path class="cls-10" d="M282.1,556.579l29.3-1.6M281.8,551.579c.1,3.4.3,6.7.6,10.1"/>
+        <path class="cls-11" d="M218.6,578.279l93.9-9.6M218.2,574.279c.2,2.7.5,5.4.8,8"/>
+        <path class="cls-9" d="M311.9,561.779l16.8-1.3M311.4,554.979c.3,4.6.6,9.1,1.1,13.7"/>
+        <path class="cls-13" d="M329.5,569.479l35.1-3.9M328.7,560.479c.5,6,1.1,11.9,2,17.8"/>
+        <path class="cls-4" d="M217.1,403.579l22.4,7.9M218.6,399.579c-1,2.7-1.9,5.4-2.8,8.1"/>
+        <path class="cls-5" d="M237.6,417.179l19.4,6.5M239.5,411.479c-1.3,3.8-2.6,7.6-3.8,11.5"/>
+        <path class="cls-10" d="M254.9,429.979l24.5,7.7M256.9,423.679c-1.4,4.2-2.7,8.5-4,12.7"/>
+        <path class="cls-13" d="M277.4,444.079l33.1,9.7M279.3,437.679c-1.3,4.2-2.6,8.5-3.7,12.8"/>
+        <path class="cls-1" d="M63.8,410.979h.6M65.1,405.379c-.9,3.8-1.8,7.5-2.7,11.3"/>
+        <path class="cls-11" d="M62.4,419.579l243,53.8M64.4,411.179c-1.3,5.6-2.6,11.3-3.8,17"/>
+        <path class="cls-14" d="M307.8,463.579l21.6,5.5M310.5,453.779c-1.9,6.5-3.6,13-5,19.7"/>
+        <path class="cls-5" d="M146.2,460.479l15,2.6M147,455.679c-.6,3.2-1.1,6.4-1.6,9.6"/>
+        <path class="cls-11" d="M160,469.979l61.1,9.5M161.1,463.079c-.8,4.6-1.5,9.3-2.2,13.9"/>
+        <path class="cls-11" d="M220,486.579l103.1,14.2M221.1,479.579c-.7,4.7-1.4,9.3-1.9,14"/>
+        <path class="cls-12" d="M325.8,484.779l16.6,3.3M329.4,469.079c-2.7,10.4-4.8,21-6.2,31.6"/>
+        <path class="cls-11" d="M94.4,494.879h1.6M94.9,489.579c-.3,3.5-.7,7.1-.9,10.6"/>
+        <path class="cls-11" d="M95.3,502.979l50.2,3.6M96,495.079c-.5,5.3-.8,10.6-1.1,15.9"/>
+        <path class="cls-9" d="M129.3,527.779l15.2.4M129.5,522.879c-.1,3.3-.2,6.6-.2,9.9"/>
+        <path class="cls-11" d="M144.9,517.379l166.8,7.9M145.5,506.579c-.5,7.2-.9,14.4-1,21.6"/>
+        <path class="cls-12" d="M311.5,533.279l26.1.5M311.8,525.279c-.3,5.3-.4,10.7-.3,16"/>
+        <path class="cls-8" d="M339,510.779l25.5,2.7M342.5,488.079c-3,15.1-4.6,30.3-4.9,45.7"/>
+        <path class="cls-8" d="M363.1,539.579h16.8M364.5,513.579c-1.9,17.3-1.8,34.7.1,52"/>
+        <path class="cls-12" d="M383,575.879l8.5-1.4M379.9,539.479c0,24.5,4.2,48.7,12.1,71.9"/>
+        <path class="cls-11" d="M403,616.179l40-15.5M391.5,574.479c4.8,28.6,15.5,55.9,31.2,80.3"/>
+        <path class="cls-1" d="M476.7,654.579l10.5-9.7M443,600.679c15.6,40.2,46,73,84.9,91.7"/>
+        <path class="cls-13" d="M585.2,803.179l1.6-26.4M582.4,802.979c1.8.1,3.7.2,5.5.3"/>
+        <path class="cls-9" d="M487,949.979l4.2-15M482.7,948.679c2.9.8,5.7,1.6,8.6,2.4"/>
+        <path class="cls-11" d="M497.4,936.679l23.7-90.3M491.2,934.979c4.2,1.2,8.3,2.3,12.5,3.3"/>
+        <path class="cls-11" d="M492.6,1052.679l43-202.9M487.3,1051.579c3.6.8,7.2,1.6,10.8,2.3"/>
+        <path class="cls-13" d="M528.4,848.179l8.9-37.5M521.1,846.379c4.8,1.3,9.7,2.4,14.6,3.5"/>
+        <path class="cls-15" d="M544.7,812.379l3.5-16.6M537.2,810.679c5,1.2,10,2.2,15.1,3.1"/>
+        <path class="cls-11" d="M545.6,919.779l11.9-80.8M541.6,919.179c2.7.4,5.3.8,8,1.2"/>
+        <path class="cls-11" d="M562.2,839.679l5.3-40.7M557.5,839.079c3.1.5,6.3.9,9.5,1.2"/>
+        <path class="cls-8" d="M557.8,797.579l2.4-14.4M548.2,795.779c6.4,1.3,12.9,2.4,19.3,3.3"/>
+        <path class="cls-8" d="M569.4,784.579l1.2-9.3M560.3,783.179c6,1,12.1,1.8,18.2,2.4"/>
+        <path class="cls-14" d="M578.7,776.179l1.7-17.7M570.6,775.179c5.4.7,10.8,1.2,16.3,1.6"/>
+        <path class="cls-10" d="M634.5,1053.779l-3.7-58.3M629.1,1054.079c3.6-.2,7.2-.4,10.8-.7"/>
+        <path class="cls-10" d="M591.3,1051.679v-3.6M585.9,1051.579c3.6.1,7.2.2,10.8.2"/>
+        <path class="cls-11" d="M599.4,1048.179l.2-38.9M591.4,1048.079c5.3.1,10.7.1,16,0"/>
+        <path class="cls-11" d="M608.2,1009.179l-.2-12.8M599.6,1009.279c5.8,0,11.5,0,17.3-.2"/>
+        <path class="cls-1" d="M619.4,996.179l-.3-7.3M608,996.479c7.6-.1,15.2-.4,22.8-.9"/>
+        <path class="cls-4" d="M631.8,988.179l-2.9-43.5M619.1,988.879c8.5-.3,16.9-.9,25.3-1.7"/>
+        <path class="cls-12" d="M638.9,943.879l-1.2-12.6M628.9,944.679c6.7-.4,13.3-1.1,19.9-1.8"/>
+        <path class="cls-4" d="M646.6,930.379l-3.8-33.1M637.7,931.279c6-.5,11.9-1.2,17.8-2.1"/>
+        <path class="cls-11" d="M650.7,896.279l-5.9-43.2M642.8,897.179c5.2-.6,10.4-1.3,15.6-2.1"/>
+        <path class="cls-13" d="M651.5,852.079l-15.2-95.3M644.7,852.979c4.5-.6,9-1.3,13.4-2.1"/>
+        <path class="cls-1" d="M608.4,759.379l-1.2-38.7M580.4,758.379c18.6,1.8,37.4,1.2,55.9-1.7"/>
+        <path class="cls-11" d="M679.5,902.879l-39.8-186.2M675.7,903.679c2.6-.5,5.1-1.1,7.6-1.6"/>
+        <path class="cls-1" d="M623.5,719.479l-3.1-25.7M607.2,720.679c10.9-.3,21.8-1.7,32.4-3.9"/>
+        <path class="cls-13" d="M547.9,685.379l9.2-25.2M487.2,644.879c34,36.7,83.6,54.9,133.2,48.9"/>
+        <path class="cls-10" d="M610.2,667.779l-.8-12.4M557.1,660.179c34.3,12.6,72.3,10,104.6-7"/>
+        <path class="cls-10" d="M639.7,649.179l-6.1-17.6M609.4,655.379c20.8-1.4,40.8-8.3,58-20.1"/>
+        <path class="cls-11" d="M769.8,769.379l-73.1-100.1M767.4,771.079c1.6-1.2,3.2-2.3,4.8-3.5"/>
+        <path class="cls-10" d="M698.8,667.779l-11.2-14.8M696.8,669.279c1.4-1,2.7-2,4.1-3.1"/>
+        <path class="cls-13" d="M689.7,651.379l-27.6-35.2M687.6,652.979c1.4-1.1,2.8-2.1,4.1-3.2"/>
+        <path class="cls-10" d="M648.5,625.079l-9.1-16.7M633.7,631.679c10.3-3.6,19.9-8.8,28.4-15.5"/>
+        <path class="cls-11" d="M800.7,749.879l-24.9-26.3M798.5,751.979c1.5-1.4,3-2.8,4.4-4.2"/>
+        <path class="cls-11" d="M842.9,817.079l-75-86.4M840,819.579c2-1.7,3.9-3.4,5.8-5.1"/>
+        <path class="cls-4" d="M771.9,727.179l-41.1-45.5M767.9,730.679c2.7-2.3,5.3-4.7,7.9-7.1"/>
+        <path class="cls-13" d="M817.3,748.979l-16.6-16.2M815.1,751.279c1.5-1.5,3-3,4.4-4.5"/>
+        <path class="cls-11" d="M803.7,729.679l-62.1-58.6M800.7,732.879c2-2.1,4-4.2,6-6.4"/>
+        <path class="cls-11" d="M736.3,676.479l-79.4-81.1M730.8,681.679c3.7-3.4,7.4-6.9,10.8-10.6"/>
+        <path class="cls-14" d="M648.6,602.479l-6.9-9.3M639.4,608.379c6.4-3.5,12.3-7.8,17.5-12.9"/>
+        <path class="cls-11" d="M923.3,732.379l-228.1-137.1M921.3,735.779c1.4-2.2,2.7-4.5,4.1-6.8"/>
+        <path class="cls-11" d="M845.9,707.679l-79-54.5M844.1,710.179c1.2-1.7,2.4-3.4,3.5-5.1"/>
+        <path class="cls-11" d="M875.1,745.279l-94.4-71.2M872.9,748.079c1.5-1.9,2.9-3.8,4.3-5.7"/>
+        <path class="cls-13" d="M853.9,755.479l-44.1-37.9M851.7,758.179c1.5-1.7,3-3.5,4.5-5.3"/>
+        <path class="cls-14" d="M812.6,714.379l-38.4-31.9M809.8,717.679c1.9-2.2,3.7-4.4,5.5-6.6"/>
+        <path class="cls-1" d="M777.5,678.279l-18.4-14.6M774.2,682.379c2.3-2.7,4.5-5.5,6.6-8.3"/>
+        <path class="cls-13" d="M763.1,658.479l-52.1-38.5M759.1,663.679c2.7-3.4,5.3-7,7.8-10.6"/>
+        <path class="cls-14" d="M713.6,616.379l-22.1-15.3M711,619.979c1.7-2.3,3.4-4.7,5-7.2"/>
+        <path class="cls-4" d="M693.4,598.179l-35.2-22.7M691.5,601.079c1.3-1.9,2.6-3.9,3.8-5.8"/>
+        <path class="cls-14" d="M650.8,585.079l-8.1-7.6M641.7,593.179c6.5-4.8,12.1-10.8,16.5-17.6"/>
+        <path class="cls-14" d="M647.1,572.279l-9.6-7M642.7,577.579c3.1-3.3,5.9-7.1,8.1-11.1"/>
+        <path class="cls-11" d="M790.3,557.979l-120.1-12.1M790.1,559.979c.1-1.3.3-2.6.4-4"/>
+        <path class="cls-11" d="M828.5,571.479l-158.6-22.8M828.2,573.879c.2-1.6.5-3.2.7-4.8"/>
+        <path class="cls-12" d="M670.1,547.379l-8.6-1M669.9,548.779c.1-1,.3-1.9.4-2.9"/>
+        <path class="cls-10" d="M716.8,568.079h-.6M716.5,569.279c.2-.8.4-1.6.6-2.4"/>
+        <path class="cls-8" d="M905.6,680.679h0M904.1,683.879c1-2.1,2-4.2,3-6.4"/>
+        <path class="cls-13" d="M919.6,703.879l-20.3-10.5M917.9,707.179c1.2-2.2,2.3-4.4,3.5-6.7"/>
+        <path class="cls-11" d="M902.5,687.079l-83.6-41.1M899.3,693.279c2.2-4.2,4.2-8.4,6.2-12.6"/>
+        <path class="cls-11" d="M821.6,640.179l-57.6-26.5M818.9,645.879c1.9-3.8,3.6-7.7,5.3-11.5"/>
+        <path class="cls-14" d="M765.8,609.879l-14.8-6.4M764,613.679c1.2-2.6,2.3-5.1,3.3-7.8"/>
+        <path class="cls-4" d="M752.4,600.079l-20.5-8.3M751,603.479c1-2.2,1.9-4.5,2.7-6.7"/>
+        <path class="cls-10" d="M958.5,661.779l-20.7-7.1M957.2,665.479c.9-2.5,1.7-5,2.6-7.5"/>
+        <path class="cls-11" d="M939.6,649.379l-180.2-58.9M937.8,654.679c1.2-3.5,2.4-7.1,3.5-10.6"/>
+        <path class="cls-14" d="M760.3,587.579l-24.2-7.4M759.4,590.479c.6-1.9,1.2-3.9,1.8-5.8"/>
+        <path class="cls-10" d="M734.1,585.979l-21-7.5M731.9,591.779c1.5-3.8,2.9-7.7,4.1-11.6"/>
+        <path class="cls-4" d="M714.8,573.279l-33.2-10.1M713,578.579c1.2-3.5,2.3-7,3.2-10.6"/>
+        <path class="cls-11" d="M868.2,594.479l-184.7-38.5M867.6,597.279c.4-1.9.8-3.7,1.2-5.6"/>
+        <path class="cls-9" d="M682.6,559.679l-11.8-3M681.6,563.179c.7-2.4,1.3-4.8,1.8-7.2"/>
+        <path class="cls-12" d="M671.4,553.979l-10.8-2.3M670.7,556.579c.4-1.7.8-3.5,1.1-5.3"/>
+        <path class="cls-5" d="M661.1,548.979l-15.6-2.6M660.6,551.679c.4-1.8.7-3.6.9-5.4"/>
+        <path class="cls-10" d="M642.6,556.279l-14.7-6.2M637.5,565.279c4.1-5.6,6.8-12.1,8-18.9"/>
+        <path class="cls-13" d="M884.3,555.579l-17.7-1M884.1,558.479c.1-2,.3-4,.3-5.9"/>
+        <path class="cls-11" d="M866.8,550.279l-44.2-1.9M866.5,554.479c.2-2.8.3-5.6.4-8.3"/>
+        <path class="cls-11" d="M822.7,544.379l-26.4-.6M822.5,548.379c.1-2.7.2-5.4.2-8.1"/>
+        <path class="cls-13" d="M796.3,539.879l-40.7-.2M796.2,543.679v-7.7"/>
+        <path class="cls-13" d="M755.6,536.579l-16.1.3M755.6,539.679v-6.3"/>
+        <path class="cls-13" d="M904,518.579l-164.9,11.1M904.2,521.679c-.1-2.1-.3-4.2-.4-6.3"/>
+        <path class="cls-11" d="M739.3,533.279l-66.9,2.8M739.4,536.779c0-2.4-.1-4.8-.3-7.1"/>
+        <path class="cls-4" d="M672.4,533.979l-37.7,2.7M672.5,536.079c0-1.4-.2-2.7-.3-4.1"/>
+        <path class="cls-5" d="M634.6,535.879l-4.7.4M634.7,536.679c0-.5,0-1.1-.2-1.6"/>
+        <path class="cls-10" d="M629.8,543.279l-15.7-2.4M627.9,550.079c1.8-4.3,2.6-9.1,2.1-13.8"/>
+        <path class="cls-10" d="M614.3,539.079h-12.6M614.1,540.879c.2-1.2.2-2.5,0-3.7"/>
+        <path class="cls-8" d="M601.6,538.979h0M601.6,538.979h0"/>
+      </g>
+    </g>
+    <g id="wrapperHolder">
+      <g>
+        <g class="cls-20">
+          <a href="../receptor.html?gene=T" target="_blank"><text class="cls-21" transform="translate(0 48.579)"><tspan class="cls-18" x="0" y="0">T</tspan><tspan x="6.668" y="0">ree scale: 1</tspan></text>
+        </a></g>
+        <path class="cls-7" d="M82,44.979h133.4"/>
+        <path class="cls-7" d="M82,41.979v6M215.4,41.979v6M148.7,44.979v2"/>
+      </g>
+    </g>
+  </g>
+</svg>

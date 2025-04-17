@@ -1,0 +1,242 @@
+/* styles/combine_orthologs.css */
+
+/* ============================
+   General Styles
+   ============================ */
+
+/* Apply a global box-sizing rule within the combine orthologs page */
+.combine-orthologs-page * {
+    box-sizing: border-box;
+}
+
+.combine-orthologs-page {
+    margin: 20px auto;
+    font-family: inherit;
+    max-width: 1000px; /* Ensures the content doesn't exceed 1000px */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ============================
+   Page Title Styles
+   ============================ */
+
+/* Styling for the page title outside the main container */
+.combine-orthologs-page-title {
+    text-align: center;
+    margin: 40px 20px 20px 20px; /* Top margin increased for spacing */
+    color: #333333;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* ============================
+   Form Styles
+   ============================ */
+
+/* Style the form within the combine orthologs page */
+.combine-orthologs-page #combine-orthologs-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Grouping input sections */
+.combine-orthologs-page .form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* Input labels */
+.combine-orthologs-page .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Text input fields */
+.combine-orthologs-page .form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.combine-orthologs-page .form-group input[type="text"]:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* ============================
+   Autocomplete Styles
+   ============================ */
+
+/* Container for autocomplete items */
+.combine-orthologs-page .co-autocomplete-items {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #ffffff;
+    border-top: none;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 0;
+    border-radius: 0 0 4px 4px;
+}
+
+/* Style each autocomplete item */
+.combine-orthologs-page .co-autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ced4da;
+}
+
+.combine-orthologs-page .co-autocomplete-items div:hover {
+    background-color: #e9ecef;
+}
+
+/* Active autocomplete item */
+.combine-orthologs-page .co-autocomplete-active {
+    background-color: #007BFF !important;
+    color: #fff;
+}
+
+/* ============================
+   Button Styles
+   ============================ */
+
+/* Base button style */
+.combine-orthologs-page .btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 4px;
+    transition: background-color 0.15s ease-in-out;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Primary button */
+.combine-orthologs-page .btn-primary {
+    background-color: #424874;
+    color: #ffffff;
+}
+
+.combine-orthologs-page .btn-primary:hover {
+    background-color: #292d49;
+}
+
+/* Specific button classes for additional styling and functionality */
+
+/* Copy Button */
+.combine-orthologs-page .copy-btn {
+    /* Inherits styles from .btn and .btn-primary */
+    /* Adds spacing between adjacent copy buttons */
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Download Button */
+.combine-orthologs-page .download-btn {
+    /* Inherits styles from .btn and .btn-primary */
+    margin-top: 20px; /* Adds space above the download button */
+    display: block; /* Ensures the button spans the full width */
+    text-align: center;
+}
+
+/* Disabled button state */
+.combine-orthologs-page .btn:disabled {
+    background-color: #6c757d; /* Gray color when disabled */
+    cursor: not-allowed;
+}
+
+/* ============================
+   Result Styles
+   ============================ */
+
+/* Result display area */
+.combine-orthologs-page #result {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* ============================
+   Findings Container Styles
+   ============================ */
+
+.combine-orthologs-page .findings-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+/* Category Section Styling */
+.combine-orthologs-page .findings-container .category-section {
+    margin-bottom: 20px; /* Reduced from 30px to 20px */
+}
+
+.combine-orthologs-page .findings-container .category-section h3 {
+    margin-bottom: 10px; /* Reduced from 15px to 10px */
+    color: #333333;
+    font-size: 1.5em;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+}
+
+/* Button Group Styling */
+.combine-orthologs-page .findings-container .btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* ============================
+   Responsive Design
+   ============================ */
+
+@media (max-width: 600px) {
+    .combine-orthologs-page {
+        padding: 15px;
+    }
+
+    /* Adjust button size */
+    .combine-orthologs-page .btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    /* Adjust headings */
+    .combine-orthologs-page .findings-container .category-section h3 {
+        font-size: 1.2em;
+    }
+
+    /* Adjust button group gap */
+    .combine-orthologs-page .findings-container .btn-group {
+        gap: 5px;
+    }
+
+    /* Ensure download button spans full width on small screens */
+    .combine-orthologs-page .download-btn {
+        width: 100%;
+    }
+}
+
+/* Header Styling within combine-orthologs-page */
+.combine-orthologs-page h1 {
+    display: none; /* Hide the h1 inside the container as it's moved outside */
+}

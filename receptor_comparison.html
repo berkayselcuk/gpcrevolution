@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GPCR Evolution Database - Receptor Comparison</title>
+    <!-- Link to general CSS file -->
+    <link rel="stylesheet" href="styles/header.css">
+    <!-- Link to page-specific CSS file -->
+    <link rel="stylesheet" href="styles/receptor_comparison.css">
+    <!-- DataTables CSS -->
+    <link href="https://unpkg.com/tabulator-tables@5.4.4/dist/css/tabulator.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@5.4.4/dist/js/tabulator.min.js"></script>
+    <link rel="stylesheet" href="styles/snakeplot.css">
+</head>
+<body>
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main Content of the Receptor Comparison Page -->
+    <main>
+        <div class="container receptor-comparison-page">
+            <h1>Receptor Comparison Tool</h1>
+            <form id="receptor-form">
+                <!-- Receptor 1 Input -->
+                <div class="receptor-autocomplete-container">
+                    <label for="receptor1">Receptor 1 Name:</label>
+                    <input type="text" id="receptor1" name="receptor1" autocomplete="off" placeholder="e.g. 5HT1A" required>
+                    <div id="receptor1-rec-autocomplete-list" class="rec-autocomplete-items"></div>
+                </div>
+
+                <!-- Receptor 2 Input -->
+                <div class="receptor-autocomplete-container">
+                    <label for="receptor2">Receptor 2 Name:</label>
+                    <input type="text" id="receptor2" name="receptor2" autocomplete="off" placeholder="e.g. 5HT1B" required>
+                    <div id="receptor2-rec-autocomplete-list" class="rec-autocomplete-items"></div>
+                </div>
+
+                <!-- Threshold Input -->
+                <div class="form-group">
+                    <label for="threshold">Conservation Threshold: <span id="thresholdDisplay">90</span>%</label>
+                    <input type="range" id="threshold" name="threshold" min="0" max="100" value="90">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Compare Receptors</button>
+            </form>
+
+            <div id="result"></div>
+
+            <!-- New Category Colors customization section -->
+            <div id="color-customization" style="margin-top:20px; display: none;">
+                <h3>Customize Category Colors</h3>
+                <div>
+                    <label for="color-common" style="font-weight: bold;" >Common Residues:</label>
+                    <input type="text" id="color-common" value="#E6E6FA" placeholder="#E6E6FA">
+                    <br>
+                    <label for="color-specific-both" style="font-weight: bold;">Specifically Conserved for Both:</label>
+                    <input type="text" id="color-specific-both" value="#A85638" placeholder="#A85638">
+                    <br>
+                    <label for="color-specific1" style="font-weight: bold;">Specifically Conserved for Receptor 1:</label>
+                    <input type="text" id="color-specific1" value="#FFF9C2" placeholder="#FFF9C2">
+                    <br>
+                    <label for="color-specific2" style="font-weight: bold;">Specifically Conserved for Receptor 2:</label>
+                    <input type="text" id="color-specific2" value="#8F9871" placeholder="#8F9871">
+                </div>
+                <button id="updateCategoryColors" class="btn btn-primary" type="button">Update Snake Plot Colors</button>
+            </div>
+
+        </div>
+    </main>
+    <!-- Include the general JavaScript file -->
+    <script src="scripts/header.js"></script>
+    <!-- Include the receptor comparison JavaScript file -->
+    <script src="scripts/receptor_comparison.js" defer></script>
+    <script src="scripts/snakeplot.js"></script>
+</body>
+</html>

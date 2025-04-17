@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPCR Evolution Database</title>
+    <!-- Link to main CSS file -->
+    <link rel="stylesheet" href="styles/header.css">
+</head>
+<body>
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main Content of the Home Page -->
+    <main>
+		<div id="search-container">
+			<div class="search-section">
+				<h3>Manual Receptor Search</h3>
+				<label for="class-select">Select Class:</label>
+				<select id="class-select" onchange="loadSubfamilies()">
+					<option value="">--Select Class--</option>
+					<!-- Class options will be populated dynamically -->
+				</select>
+
+				<div id="subfamily-container" style="display: none;">
+					<label for="subfamily-select">Select Subfamily:</label>
+					<select id="subfamily-select" onchange="loadReceptors()">
+						<option value="">--Select Subfamily--</option>
+						<!-- Subfamily options will be populated dynamically -->
+					</select>
+				</div>
+
+				<div id="receptor-container" style="display: none;">
+					<label for="receptor-select">Select Receptor:</label>
+					<div id="receptor-links">
+						<!-- Receptor links will be generated dynamically -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+    </main>
+
+    <!-- Include the main JavaScript file -->
+    <script src="scripts/header.js"></script>
+</body>
+</html>
+	<script>
+		let receptorData = {};
+
+		// Fetch JSON data and populate the class dropdown
+		fetch('receptors.json')
+			.then(response => {
+				if (!response.ok) {
+					throw new Error(`HTTP error! Status: ${response.status}`);
+				}
+				return response.json();
+			})
+			.then(data => {
+				// Organize receptors by class and subfamily
+				data.forEach(receptor => {
+					const receptorClass = receptor.class;
+					const subfamily = receptor.subfamily;
+
+					if (!receptorData[receptorClass]) {
+						receptorData[receptorClass] = {};
+					}
+					if (!receptorData[receptorClass][subfamily]) {
+						receptorData[receptorClass][subfamily] = [];
+					}
+					receptorData[receptorClass][subfamily].push(receptor.geneName);
+				});
+
+				// Verify organized receptor data
+				console.log("Organized receptor data:", receptorData);
+
+				// Populate class dropdown
+				const classSelect = document.getElementById("class-select");
+				Object.keys(receptorData).forEach(receptorClass => {
+					const option = document.createElement("option");
+					option.value = receptorClass;
+					option.textContent = receptorClass;
+					classSelect.appendChild(option);
+				});
+				console.log("Classes loaded into dropdown:", Object.keys(receptorData));
+			})
+			.catch(error => {
+				console.error('Error loading receptor data:', error);
+			});
+
+		// Load subfamilies based on selected class
+		function loadSubfamilies() {
+			const classSelectValue = document.getElementById("class-select").value;
+			const subfamilyContainer = document.getElementById("subfamily-container");
+			const subfamilySelect = document.getElementById("subfamily-select");
+
+			// Display the subfamily container and clear previous options
+			subfamilyContainer.style.display = "block";
+			subfamilySelect.innerHTML = '<option value="">--Select Subfamily--</option>';
+
+			// Loop over subfamilies for the selected class and create option elements
+			Object.keys(receptorData[classSelectValue]).forEach(subfamily => {
+				const option = document.createElement("option");
+				option.value = subfamily;
+				option.textContent = subfamily;
+				subfamilySelect.appendChild(option);
+			});
+			console.log("Loaded subfamilies for", classSelectValue, ":", Object.keys(receptorData[classSelectValue]));
+
+			// Hide receptor container as subfamily selection changed
+			document.getElementById("receptor-container").style.display = "none";
+		}
+
+		// Load receptors based on selected subfamily
+		function loadReceptors() {
+			const classSelectValue = document.getElementById("class-select").value;
+			const subfamilySelectValue = document.getElementById("subfamily-select").value;
+			const receptorContainer = document.getElementById("receptor-container");
+			const receptorLinks = document.getElementById("receptor-links");
+
+			// Clear previous links and populate receptors for selected subfamily
+			receptorContainer.style.display = "block";
+			receptorLinks.innerHTML = ''; // Clear previous options
+
+			receptorData[classSelectValue][subfamilySelectValue].forEach(receptor => {
+				const link = document.createElement("a");
+				link.href = `receptor.html?gene=${encodeURIComponent(receptor)}`;
+				link.textContent = receptor;
+				link.style.display = "block";
+				receptorLinks.appendChild(link);
+			});
+			console.log("Loaded receptors for subfamily:", subfamilySelectValue, ":", receptorData[classSelectValue][subfamilySelectValue]);
+		}
+	</script>
+		<script>
+		// Load receptor names from JSON file for autocomplete
+		async function loadReceptorNames() {
+			try {
+				const response = await fetch('receptors.json');
+				const receptors = await response.json();
+				const receptorNames = receptors.map(receptor => receptor.geneName);
+
+				autocomplete(document.getElementById("search-box"), receptorNames);
+			} catch (error) {
+				console.error('Error loading receptor names:', error);
+			}
+		}
+
+		// Initialize receptor names on page load
+		document.addEventListener("DOMContentLoaded", loadReceptorNames);
+
+		// Autocomplete and search functionality
+		function autocomplete(input, array) {
+			let currentFocus;
+			input.addEventListener("input", function(e) {
+				let a, b, i, val = this.value;
+				closeAllLists();
+				if (!val) return false;
+				currentFocus = -1;
+				a = document.createElement("div");
+				a.setAttribute("id", this.id + "autocomplete-list");
+				a.setAttribute("class", "autocomplete-items");
+				this.parentNode.appendChild(a);
+				for (i = 0; i < array.length; i++) {
+					if (array[i].substr(0, val.length).toUpperCase() === val.toUpperCase()) {
+						b = document.createElement("div");
+						b.innerHTML = "<strong>" + array[i].substr(0, val.length) + "</strong>";
+						b.innerHTML += array[i].substr(val.length);
+						b.innerHTML += "<input type='hidden' value='" + array[i] + "'>";
+						b.addEventListener("click", function(e) {
+							input.value = this.getElementsByTagName("input")[0].value;
+							closeAllLists();
+							searchReceptor();
+						});
+						a.appendChild(b);
+					}
+				}
+			});
+
+			input.addEventListener("keydown", function(e) {
+				let x = document.getElementById(this.id + "autocomplete-list");
+				if (x) x = x.getElementsByTagName("div");
+				if (e.keyCode === 40) {
+					currentFocus++;
+					addActive(x);
+				} else if (e.keyCode === 38) {
+					currentFocus--;
+					addActive(x);
+				} else if (e.keyCode === 13) {
+					e.preventDefault();
+					if (currentFocus > -1) {
+						if (x) x[currentFocus].click();
+					}
+				}
+			});
+
+			function addActive(x) {
+				if (!x) return false;
+				removeActive(x);
+				if (currentFocus >= x.length) currentFocus = 0;
+				if (currentFocus < 0) currentFocus = x.length - 1;
+				x[currentFocus].classList.add("autocomplete-active");
+			}
+
+			function removeActive(x) {
+				for (let i = 0; i < x.length; i++) {
+					x[i].classList.remove("autocomplete-active");
+				}
+			}
+
+			function closeAllLists(elmnt) {
+				let x = document.getElementsByClassName("autocomplete-items");
+				for (let i = 0; i < x.length; i++) {
+					if (elmnt !== x[i] && elmnt !== input) {
+						x[i].parentNode.removeChild(x[i]);
+					}
+				}
+			}
+
+			document.addEventListener("click", function(e) {
+				closeAllLists(e.target);
+			});
+		}
+
+		// Redirect to receptor detail page
+		function searchReceptor() {
+			const searchQuery = document.getElementById("search-box").value.trim();
+			if (!searchQuery) {
+				alert("Please enter a receptor name.");
+				return;
+			}
+			window.location.href = `receptor.html?gene=${encodeURIComponent(searchQuery)}`;
+		}
+
+		// Function to get query parameters
+		function getQueryParam(param) {
+			const urlParams = new URLSearchParams(window.location.search);
+			return urlParams.get(param);
+		}
+
+		// Load receptor data for display
+		fetch('receptors.json')
+			.then(response => response.json())
+			.then(data => {
+				const geneName = getQueryParam('gene');
+				const receptor = data.find(r => r.geneName.toLowerCase() === geneName.toLowerCase());
+				if (receptor) {
+					document.getElementById('gene-name').textContent = receptor.geneName;
+					document.title = `Receptor Details - ${receptor.geneName}`;
+					document.getElementById('class').textContent = receptor.class;
+					document.getElementById('subfamily').textContent = receptor.subfamily;
+					document.getElementById('num-orthologs').textContent = receptor.numOrthologs;
+					document.getElementById('lca').textContent = receptor.lca;
+					document.getElementById('conservation-plot').src = receptor.plotPath;
+					document.getElementById('tree-download').href = receptor.treeDownload;
+					document.getElementById('alignment-download').href = receptor.alignmentDownload;
+					document.getElementById('gpcrdb-link').href = `https://gpcrdb.org/protein/${receptor.gpcrdbId}/`;
+				} else {
+					displayError(`Receptor "${geneName}" not found.`);
+				}
+			});
+
+		function displayError(message) {
+			document.body.innerHTML = `<main><h1>Error</h1><p>${message}</p></main>`;
+		}
+	</script>
+
+</body>
+</html>

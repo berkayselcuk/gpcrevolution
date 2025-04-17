@@ -1,0 +1,290 @@
+/* styles/receptor_table.css */
+
+/* ============================
+   General Styles
+   ============================ */
+
+/* Apply a global box-sizing rule within the receptor table page */
+.receptor-table-page * {
+    box-sizing: border-box;
+}
+
+.receptor-table-page #reference-autocomplete-list,
+.receptor-table-page #target-autocomplete-list {
+    border: none !important;          /* Removes the border */
+    box-shadow: none !important;      /* Removes any box shadow */
+    background-color: #ffffff !important; /* Ensures background remains white */
+}
+
+/* Body styling removed to prevent conflicts */
+/* If necessary, apply styles to the receptor-table-page container instead */
+.receptor-table-page {
+    margin: 20px;
+    font-family: inherit; /* Inherit from the body to maintain consistency */
+}
+
+/* ============================
+   Form Styles
+   ============================ */
+
+/* Style the form within the receptor table page */
+.receptor-table-page #mapping-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    margin: 0 auto 20px; /* Centers horizontally and adds bottom margin */
+    max-width: 1000px;
+}
+
+/* Style form labels */
+.receptor-table-page #mapping-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Autocomplete Container */
+.receptor-table-page .autocomplete-container {
+    position: relative; /* Important for positioning the autocomplete dropdown */
+    margin-bottom: 15px;
+}
+
+/* Style form inputs */
+.receptor-table-page #mapping-form input[type="text"] {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+/* Style the submit button */
+.receptor-table-page #mapping-form .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Primary button style */
+.receptor-table-page #mapping-form .btn-primary {
+    background-color: #424874;
+    color: #ffffff;
+}
+
+.receptor-table-page #mapping-form .btn-primary:hover {
+    background-color: #292d49;
+}
+
+/* ============================
+   Autocomplete Styles
+   ============================ */
+
+/* Container for autocomplete items */
+.receptor-table-page .residueMap-autocomplete-items {
+    position: absolute;
+    border: 1px solid #ced4da;
+    border-top: none;
+    z-index: 99;
+    /* Position the autocomplete items below the input */
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+/* Style each autocomplete item */
+.receptor-table-page .residueMap-autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ced4da;
+}
+
+/* Hover effect for autocomplete items */
+.receptor-table-page .residueMap-autocomplete-items div:hover {
+    background-color: #e9ecef;
+}
+
+/* Active autocomplete item */
+.receptor-table-page .autocomplete-active {
+    background-color: #596574 !important;
+    color: #ffffff;
+}
+
+/* ============================
+   Alert Styles
+   ============================ */
+
+/* Base alert style */
+.receptor-table-page .alert {
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    position: relative;
+    font-size: 16px;
+}
+
+
+/* Danger alert */
+.receptor-table-page .alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Warning alert */
+.receptor-table-page .alert-warning {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+}
+
+/* Info alert */
+.receptor-table-page .alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border: 1px solid #bee5eb;
+}
+
+/* ============================
+   Table Styles
+   ============================ */
+
+/* Base table style */
+.receptor-table-page .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    max-width: 800px; /* Ensures the table doesn't exceed 800px */
+    margin: 0 auto;   /* Centers the table */
+}
+
+/* Table borders */
+.receptor-table-page .table-bordered th,
+.receptor-table-page .table-bordered td {
+    border: 1px solid #000000;
+}
+
+/* Table header styling */
+.receptor-table-page .table th {
+    background-color: #ffffff;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Table cell styling */
+.receptor-table-page .table td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Striped rows */
+.receptor-table-page .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+/* ============================
+   Button Styles
+   ============================ */
+
+/* Base button style */
+.receptor-table-page .btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 4px;
+    transition: background-color 0.15s ease-in-out;
+    text-decoration: none;
+    /* Remove the margin: auto; line */
+}
+
+/* Primary button */
+.receptor-table-page .btn-primary {
+    background-color: #424874;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.receptor-table-page .btn-primary:hover {
+    background-color: #292d49;
+}
+
+/* Adds space below the download button */
+.receptor-table-page .custom-button-spacing {
+    margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+/* Margin top utility */
+.receptor-table-page .mt-3 {
+    margin-top: 1rem;
+}
+
+/* Center content within the #result div */
+.receptor-table-page #result {
+    text-align: center;
+}
+/* ============================
+   Responsive Design
+   ============================ */
+
+@media (max-width: 600px) {
+    /* Make form inputs full width on small screens */
+    .receptor-table-page #mapping-form input[type="text"] {
+        width: 100%;
+    }
+
+    /* Adjust table font size */
+    .receptor-table-page .table th,
+    .receptor-table-page .table td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    /* Adjust button size */
+    .receptor-table-page .btn {
+        padding: 6px 12px;
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+}
+
+/* Header Styling within receptor-table-page */
+.receptor-table-page h1 {
+    text-align: center;          /* Centers the header text */
+    margin-bottom: 20px;         /* Adds space below the header */
+    color: #333333;              /* Sets a dark gray color for the text */
+    font-size: 2em;              /* Increases the font size */
+    font-weight: bold;           /* Makes the header bold */
+}
+
+/* Custom styles for the checkbox and label */
+.receptor-table-page .form-check {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.receptor-table-page .form-check-input {
+    margin-right: 10px; /* Adjust spacing between checkbox and label */
+    transform: scale(1.5); /* Optional: Increase checkbox size */
+}
+
+.receptor-table-page .form-check-label {
+    margin-bottom: 0; /* Remove bottom margin */
+    font-weight: 500; /* Optional: Adjust label font weight */
+}
+
+#results-table {
+    width: 60%;
+    margin: 0 auto; /* centers the table */
+}
