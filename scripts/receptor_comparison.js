@@ -1,7 +1,7 @@
 // scripts/receptor_comparison.js
 
 // Constants
-const ALIGNMENT_DIR = "../alignments"; // Adjust the path as necessary
+const ALIGNMENT_DIR = "alignments"; // Adjust the path as necessary
 const receptorsJsonPath = "receptors.json"; // Path to the JSON file
 
 // DOM Elements
