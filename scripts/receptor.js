@@ -61,8 +61,8 @@ function showBarPlot() {
      document.getElementById('lca').textContent = receptor.lca;
  
      // Downloads
-     document.getElementById('tree').href = receptor.treeDownload;
-     document.getElementById('alignment').href = receptor.alignmentDownload;
+     document.getElementById('tree').href = receptor.tree;
+     document.getElementById('alignment').href = receptor.alignment;
      document.getElementById('conservationFile').href = receptor.conservationFile;
  
      // External links
