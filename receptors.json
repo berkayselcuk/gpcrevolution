@@ -2424,16 +2424,16 @@
         "svgTree": "receptor_trees/GPR19_orthologs_tree_ordered.svg"
     },
     {
-        "geneName": "GPR1",
+        "geneName": "CML2",
         "class": "A",
         "numOrthologs": 226,
         "lca": "Gnathostomata",
-        "tree": "receptor_trees/GPR1_orthologs_tree.nwk",
-        "alignment": "alignments/GPR1_orthologs_MSA.fasta",
+        "tree": "receptor_trees/CML2_orthologs_tree.nwk",
+        "alignment": "alignments/CML2_orthologs_MSA.fasta",
         "gpcrdbId": "gpr1_human",
-        "conservationFile": "conservation_files/GPR1_conservation.txt",
-        "snakePlot": "snakeplots/GPR1_snakeplot.html",
-        "svgTree": "receptor_trees/GPR1_orthologs_tree_ordered.svg"
+        "conservationFile": "conservation_files/CML2_conservation.txt",
+        "snakePlot": "snakeplots/CML2_snakeplot.html",
+        "svgTree": "receptor_trees/CML2_orthologs_tree_ordered.svg"
     },
     {
         "geneName": "GPR20",
