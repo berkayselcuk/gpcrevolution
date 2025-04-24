@@ -1705,7 +1705,7 @@
     },
     {
         "geneName": "G137A",
-        "class": "U",
+        "class": "Unclassified",
         "numOrthologs": 123,
         "lca": "Gnathostomata",
         "tree": "receptor_trees/G137A_orthologs_tree.nwk",
@@ -1717,7 +1717,7 @@
     },
     {
         "geneName": "G137B",
-        "class": "U",
+        "class": "Unclassified",
         "numOrthologs": 287,
         "lca": "Gnathostomata",
         "tree": "receptor_trees/G137B_orthologs_tree.nwk",
@@ -1729,7 +1729,7 @@
     },
     {
         "geneName": "G137C",
-        "class": "U",
+        "class": "Unclassified",
         "numOrthologs": 245,
         "lca": "Bilateria",
         "tree": "receptor_trees/G137C_orthologs_tree.nwk",
@@ -1945,7 +1945,7 @@
     },
     {
         "geneName": "GP107",
-        "class": "U",
+        "class": "Unclassified",
         "numOrthologs": 172,
         "lca": "Bilateria",
         "tree": "receptor_trees/GP107_orthologs_tree.nwk",
@@ -1957,7 +1957,7 @@
     },
     {
         "geneName": "GP108",
-        "class": "U",
+        "class": "Unclassified",
         "numOrthologs": 187,
         "lca": "Gnathostomata",
         "tree": "receptor_trees/GP108_orthologs_tree.nwk",
@@ -2041,7 +2041,7 @@
     },
     {
         "geneName": "GP143",
-        "class": "U",
+        "class": "Unclassified",
         "numOrthologs": 192,
         "lca": "Eukaryota",
         "tree": "receptor_trees/GP143_orthologs_tree.nwk",
@@ -2149,7 +2149,7 @@
     },
     {
         "geneName": "GP157",
-        "class": "B",
+        "class": "Unclassified",
         "numOrthologs": 268,
         "lca": "Eukaryota",
         "tree": "receptor_trees/GP157_orthologs_tree.nwk",
@@ -9985,7 +9985,7 @@
     },
     {
         "geneName": "TPRA1",
-        "class": "U",
+        "class": "Unclassified",
         "numOrthologs": 254,
         "lca": "Eukaryota",
         "tree": "receptor_trees/TPRA1_orthologs_tree.nwk",
