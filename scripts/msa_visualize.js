@@ -158,13 +158,22 @@
       colNumRow.classList.add('colnum-header');
       const gpcrdbCell = document.createElement('td');
       gpcrdbCell.classList.add('sticky-col');
+      // decide whether we actually have any real GPCRdb numbers to show
+      const hasAnyGPCRdb = Object
+      .values(residueMap)
+      .some(r => r.gpcrdb && r.gpcrdb !== '-');
+      // use that to pick the header text
+      const firstColHeader = hasAnyGPCRdb ? 'GPCRdb #' : 'Residue #';
       gpcrdbCell.textContent = "GPCRdb #";
       colNumRow.appendChild(gpcrdbCell);
       for (let i = 0; i < seqLength; i++) {
         const cell = document.createElement('td');
         cell.classList.add('residue-cell');
         const residueNum = i + 1;
-        let label = (residueMap[residueNum] && residueMap[residueNum].gpcrdb) ? residueMap[residueNum].gpcrdb : residueNum.toString();
+        const gpcrdbVal = residueMap[residueNum]?.gpcrdb;
+        const label = (gpcrdbVal && gpcrdbVal !== '-') 
+              ? gpcrdbVal 
+              : residueNum.toString();
         cell.innerHTML = `<div class="rotate">${label}</div>`;
         colNumRow.appendChild(cell);
       }
