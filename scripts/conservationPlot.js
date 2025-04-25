@@ -120,6 +120,13 @@ function drawConservationPlot(conservationFile, containerId) {
     });
 }
 
+// helper to pick gpcrdb or residue
+function displayGPCRdb(item) {
+  return (item.gpcrdb && item.gpcrdb !== '-') 
+    ? item.gpcrdb 
+    : item.residue;
+}
+
 // Draw a single row (chunk) of the plot
 function drawRow({ chunkData, rowIndex, svgSelection, layout, tooltip, regionColorMapping }) {
   const { rowWidth, rowHeight, margin, chartAreaHeight, infoRowHeight, gapBetweenInfoRows,
@@ -218,7 +225,7 @@ function drawRow({ chunkData, rowIndex, svgSelection, layout, tooltip, regionCol
     .attr("dominant-baseline", "middle")
     .attr("text-anchor", "middle")
     .style("font-size", fontGPCRdb + "px")
-    .text(d => d.gpcrdb)
+    .text(d => displayGPCRdb(d))
     .attr("x", d => x(d.residue) + x.bandwidth() / 2)
     .attr("y", secondRowY + infoRowHeight / 2)
     .attr("transform", d => {
