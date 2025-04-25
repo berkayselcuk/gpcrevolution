@@ -99,6 +99,7 @@ function showBarPlot() {
             if (exists) {
                 // save the path so showSnakePlot knows where to fetch the SVG/HTML
                 window.snakeplotFile = receptor.snakePlot;
+                console.log("Snakeplot is present.");
                 showSnakePlot();
             } else {
                 console.warn("Snakeplot file not found on the server – showing bar plot instead.");
