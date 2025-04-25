@@ -16,32 +16,30 @@ function showBarPlot() {
 
 // Show the snake plot view.
 function showSnakePlot() {
-    // 1) If there’s no file, immediately fall back
-    if (!window.snakeplotFile) {
-      console.warn("No snakePlot file specified for this receptor – showing bar chart instead.");
-      showBarPlot();
-      return;
-    }
+    const barContainer      = document.getElementById('conservation-chart-container');
+    const downloadContainer = document.getElementById('download-button-container');
+    const snakeContainer    = document.getElementById('snakeplot-container');
   
-    // 2) Only after you know there *is* a file do you hide the bar, show download & snake containers
-    document.getElementById('conservation-chart-container').style.display = "none";
-    document.getElementById('download-button-container').style.display = 'block';
-    const snakeContainer = document.getElementById('snakeplot-container');
-    snakeContainer.style.display = "block";
+    // Hide the bar chart, show the snake + download UI
+    barContainer.style.display      = 'none';
+    downloadContainer.style.display = 'block';
+    snakeContainer.style.display    = 'block';
   
-    // 3) Fetch & render the snakeplot
-    fetch(window.snakeplotFile)
-      .then(r => r.text())
+    // Try to fetch the snake‐plot file (if `window.snakeplotFile` is falsy, fetch will 404)
+    fetch(window.snakeplotFile || '')
+      .then(response => {
+        if (!response.ok) throw new Error('not found');
+        return response.text();
+      })
       .then(html => {
         snakeContainer.innerHTML = html;
         updateSnakeplotConservation();
       })
       .catch(err => {
-        console.error("Error loading snakeplot:", err);
-        snakeContainer.innerHTML = "<p>Error loading snakeplot.</p>";
+        console.warn('No snakeplot available, falling back to bar chart.', err);
+        showBarPlot();
       });
   }
-
 // Helper to get a query parameter
 function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
