@@ -16,33 +16,31 @@ function showBarPlot() {
 
 // Show the snake plot view.
 function showSnakePlot() {
+    // 1) If there’s no file, immediately fall back
+    if (!window.snakeplotFile) {
+      console.warn("No snakePlot file specified for this receptor – showing bar chart instead.");
+      showBarPlot();
+      return;
+    }
+  
+    // 2) Only after you know there *is* a file do you hide the bar, show download & snake containers
     document.getElementById('conservation-chart-container').style.display = "none";
     document.getElementById('download-button-container').style.display = 'block';
     const snakeContainer = document.getElementById('snakeplot-container');
     snakeContainer.style.display = "block";
-
-    // Use the snakePlot file from receptor JSON (stored in window.snakeplotFile)
-    if (!window.snakeplotFile) {
-       console.error("No snakePlot file specified in receptor data.");
-       // instead of simply bailing, show the bar plot again:
-       showBarPlot();
-       return;
-     }
-
-    // Always re-fetch the snakeplot file to reinitialize the visualization
+  
+    // 3) Fetch & render the snakeplot
     fetch(window.snakeplotFile)
-        .then(response => response.text())
-        .then(html => {
-            snakeContainer.innerHTML = html;
-            console.log("Snakeplot reloaded.");
-            // Now update the snakeplot with conservation colors
-            updateSnakeplotConservation();
-        })
-        .catch(error => {
-            console.error("Error loading snakeplot:", error);
-            snakeContainer.innerHTML = "<p>Error loading snakeplot.</p>";
-        });
-}
+      .then(r => r.text())
+      .then(html => {
+        snakeContainer.innerHTML = html;
+        updateSnakeplotConservation();
+      })
+      .catch(err => {
+        console.error("Error loading snakeplot:", err);
+        snakeContainer.innerHTML = "<p>Error loading snakeplot.</p>";
+      });
+  }
 
 // Helper to get a query parameter
 function getQueryParam(param) {
