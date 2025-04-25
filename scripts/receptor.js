@@ -1,11 +1,11 @@
-/*************************************************
- * receptor.js
- * 
- * Contains the logic for:
- *  - Loading receptor data from receptors.json
- *  - Initializing the bar chart and snakeplot
- *  - Handling UI toggles (Bar Plot vs. Snake Plot)
- **************************************************/
+// /*************************************************
+//  * receptor.js
+//  * 
+//  * Contains the logic for:
+//  *  - Loading receptor data from receptors.json
+//  *  - Initializing the bar chart and snakeplot
+//  *  - Handling UI toggles (Bar Plot vs. Snake Plot)
+//  **************************************************/
 
 // Show the bar plot view.
 function showBarPlot() {
@@ -20,15 +20,15 @@ function showSnakePlot() {
     const downloadContainer = document.getElementById('download-button-container');
     const snakeContainer    = document.getElementById('snakeplot-container');
   
-    // Hide the bar chart, show the snake + download UI
+    // Hide the bar chart, show snake + download UI
     barContainer.style.display      = 'none';
     downloadContainer.style.display = 'block';
     snakeContainer.style.display    = 'block';
   
-    // Try to fetch the snake‐plot file (if `window.snakeplotFile` is falsy, fetch will 404)
-    fetch(window.snakeplotFile || '')
+    // Fetch the actual snakePlot URL stored in window.snakeplotFile
+    fetch(window.snakeplotFile)
       .then(response => {
-        if (!response.ok) throw new Error('not found');
+        if (!response.ok) throw new Error('Snakeplot not found');
         return response.text();
       })
       .then(html => {
@@ -39,7 +39,8 @@ function showSnakePlot() {
         console.warn('No snakeplot available, falling back to bar chart.', err);
         showBarPlot();
       });
-  }
+}
+
 // Helper to get a query parameter
 function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
@@ -66,29 +67,21 @@ function displayReceptorDetails(receptor) {
     document.getElementById('gpcrdb-link').href = `https://gpcrdb.org/protein/${receptor.gpcrdbId}/`;
     document.getElementById('uniprot-link').href = `https://www.uniprot.org/uniprotkb/${receptor.gpcrdbId}`;
 
-    // Store snakeplot file path from receptor data
+    // Store snakeplot file path and choose initial view
     if (receptor.snakePlot) {
-       showSnakePlot();
-     } else {
-       console.warn("No snakePlot file specified for this receptor.");
-       // make sure the bar‐plot is visible by default
-       showBarPlot();
-     }
+        window.snakeplotFile = receptor.snakePlot;
+        showSnakePlot();
+    } else {
+        console.warn("No snakePlot file specified for this receptor.");
+        showBarPlot();
+    }
 
-   // Draw the conservation plot (bar plot) into its container.
-   // The container is hidden by default in your HTML.
-   if (receptor.conservationFile) {
-       drawConservationPlot(receptor.conservationFile, "#conservation-chart-container");
-   } else {
-       console.warn("No conservationFile specified for this receptor.");
-   }
-
-   // Load and display the snakeplot by default (this will hide the conservation plot container).
-   if (receptor.snakePlot) {
-       showSnakePlot();
-   } else {
-       console.warn("No snakePlot file specified for this receptor.");
-   }
+    // Draw the conservation plot (bar plot)
+    if (receptor.conservationFile) {
+        drawConservationPlot(receptor.conservationFile, "#conservation-chart-container");
+    } else {
+        console.warn("No conservationFile specified for this receptor.");
+    }
 }
 
 // Display an error message in the HTML
@@ -134,6 +127,7 @@ async function loadReceptorData() {
     }
 }
 
+// Download the currently displayed snakeplot SVG
 function downloadSnakeplotSVG() {
     const svgElement = document.getElementById('snakeplot');
     if (!svgElement) {
