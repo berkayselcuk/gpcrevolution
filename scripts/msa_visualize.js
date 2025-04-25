@@ -164,7 +164,7 @@
       .some(r => r.gpcrdb && r.gpcrdb !== '-');
       // use that to pick the header text
       const firstColHeader = hasAnyGPCRdb ? 'GPCRdb #' : 'Residue #';
-      gpcrdbCell.textContent = "GPCRdb #";
+      gpcrdbCell.textContent = firstColHeader;
       colNumRow.appendChild(gpcrdbCell);
       for (let i = 0; i < seqLength; i++) {
         const cell = document.createElement('td');
