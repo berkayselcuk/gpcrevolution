@@ -49,6 +49,15 @@ function showBarPlot() {
      return urlParams.get(param);
  }
  
+ async function fileExists(url) {
+    try {
+        const res = await fetch(url, { method: "HEAD" });
+        return res.ok;               // true if 2xx
+    } catch (_) {
+        return false;                // network error, treat as “missing”
+    }
+}
+
  // Display the receptor details in the HTML
  function displayReceptorDetails(receptor) {
      // Update header/banner
@@ -84,14 +93,22 @@ function showBarPlot() {
         console.warn("No conservationFile specified for this receptor.");
     }
 
-    // Load and display the snakeplot by default (this will hide the conservation plot container).
+    // Decide which visualisation to show *after* we know the file is reachable
     if (receptor.snakePlot) {
-        showSnakePlot();
+        fileExists(receptor.snakePlot).then(exists => {
+            if (exists) {
+                // save the path so showSnakePlot knows where to fetch the SVG/HTML
+                window.snakeplotFile = receptor.snakePlot;
+                showSnakePlot();
+            } else {
+                console.warn("Snakeplot file not found on the server – showing bar plot instead.");
+                showBarPlot();
+            }
+        });
     } else {
-        console.warn("No snakePlot file specified for this receptor.");
-        showBarPlot(); 
-    }
- }
+        console.warn("No snakePlot field in receptor data – showing bar plot.");
+        showBarPlot();
+ }}
  
  // Display an error message in the HTML
  function displayError(message) {
