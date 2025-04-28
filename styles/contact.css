@@ -42,7 +42,7 @@ body {
   .contact-card h2 {
     margin: 0 0 10px;
     font-weight: 600;
-    color: #007bff;
+    color: #424874;
     font-size: 1.5rem;
   }
   
@@ -55,7 +55,7 @@ body {
   /* Button-like link */
   .contact-button {
     display: inline-block;
-    background: #007bff;
+    background: #424874;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
@@ -65,6 +65,6 @@ body {
   }
   
   .contact-button:hover {
-    background: #0056b3;
+    background: #292d49;
   }
   
