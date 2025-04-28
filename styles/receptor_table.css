@@ -4,6 +4,14 @@
    General Styles
    ============================ */
 
+
+.tool-description {
+    margin-bottom: 1.5rem;
+    color: #616161;
+    line-height: 1.5;
+    font-size: 0.95rem;
+    text-align: center;
+  }
 /* Apply a global box-sizing rule within the receptor table page */
 .receptor-table-page * {
     box-sizing: border-box;
