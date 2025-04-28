@@ -14,6 +14,9 @@ header {
     color: white;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; /* push search bar to the right */
 }
 
 /* Keep the header placeholder pinned at the top */
@@ -85,18 +88,23 @@ background-color: #dcd5fc; /* Banner’s color */
     align-items: center;
     margin-left: auto;
     position: relative;
+    flex: 1 1 auto;             /* allow the search-bar container to grow/shrink */
+    min-width: 0;               /* important: lets its children shrink below their content width */
+    display: flex;
+    justify-content: flex-end;  /* keep the button/input aligned to the right */
 }
 
 #search-box {
-    width: 250px;
-    max-width: 100%;
-    max-height: 100%;
     padding: 10px 15px;
     font-size: 16px;
     border: 2px solid white;
     border-radius: 20px 0 0 20px; /* Rounded corners on the left */
     outline: none;
     transition: border-color 0.3s ease;
+    flex: 1 1 auto;             /* fill available space in .search-bar */
+    min-width: 0;               /* lets it shrink below its intrinsic 250px */
+    width: 100%;                /* then it will scale down fluidly */
+    max-width: 250px;           /* optional cap if you want a maximum size */
 }
 
 
