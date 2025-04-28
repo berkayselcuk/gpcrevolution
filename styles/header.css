@@ -97,7 +97,7 @@ background-color: #dcd5fc; /* Banner’s color */
   #search-box {
     flex: 1 1 150px;       /* can grow, can shrink below 150px if needed */
     min-width: 0;          /* critical for proper flex shrinking */
-    max-width: 250px;      /* never wider than 250px */
+    max-width: 300px;      /* never wider than 250px */
     padding: 10px 15px;
     font-size: 16px;
     border: 2px solid white;
