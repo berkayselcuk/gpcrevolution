@@ -89,6 +89,8 @@ background-color: #dcd5fc; /* Banner’s color */
 
 #search-box {
     width: 250px;
+    max-width: 100%;
+    max-height: 100%;
     padding: 10px 15px;
     font-size: 16px;
     border: 2px solid white;

@@ -152,7 +152,6 @@
 .combine-orthologs-page .download-btn {
     /* Inherits styles from .btn and .btn-primary */
     margin-top: 20px; /* Adds space above the download button */
-    display: block; /* Ensures the button spans the full width */
     text-align: center;
 }
 
