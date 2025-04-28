@@ -50,7 +50,7 @@
 .combine-orthologs-page #combine-orthologs-form {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;    /* add this line */
+    align-items: flex-start; 
 }
 
 
