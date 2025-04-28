@@ -22,11 +22,11 @@
 .combine-orthologs-page {
     margin: 20px auto;
     font-family: inherit;
-    max-width: 1000px; /* Ensures the content doesn't exceed 1000px */
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    padding: 0;                   /* clear the padding you had here */
+    background: none;             /* remove white bg */
+    box-shadow: none;             /* remove shadow */
+    border: none;
 }
 
 /* ============================
@@ -50,7 +50,13 @@
 .combine-orthologs-page #combine-orthologs-form {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: flex-start;
+
+    background-color: #ffffff;    /* white box */
+    border: 1px solid #dee2e6;    /* light grey border */
+    border-radius: 10px;          /* match your other pages */
+    padding: 20px;                /* inner spacing */
+    margin-bottom: 20px;          /* space below */
 }
 
 
