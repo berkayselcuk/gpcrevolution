@@ -5,6 +5,8 @@
   <title>Contact Us</title>
   <!-- site-wide header styles -->
   <link rel="stylesheet" href="styles/header.css">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <!-- page-specific styles -->
   <link rel="stylesheet" href="styles/contact.css">
 </head>
@@ -13,14 +15,18 @@
   <!-- header.js will inject your nav -->
   <div id="header-placeholder"></div>
 
-  <main>
-    <h1>Contact Us</h1>
-    <div class="contact-container">
-      <div class="contact-card">
-        <p>
-            For requests, collaboration and feedback: <a href="mailto:selcuk.1@osu.edu">selcuk.1@osu.edu</a>
-        </p>
+  <main class="contact-main">
+    <div class="contact-card">
+      <div class="icon-wrapper">
+        <!-- simple SVG envelope -->
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+          <path d="M2 4h20v16H2V4z" stroke="#007bff" stroke-width="2"/>
+          <polyline points="2,6 12,13 22,6" stroke="#007bff" stroke-width="2" fill="none"/>
+        </svg>
       </div>
+      <h2>Contact Us</h2>
+      <p>For requests, collaboration &amp; feedback:</p>
+      <a href="mailto:selcuk.1@osu.edu" class="contact-button">selcuk.1@osu.edu</a>
     </div>
   </main>
 

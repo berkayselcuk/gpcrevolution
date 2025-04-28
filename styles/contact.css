@@ -1,0 +1,70 @@
+/* Base */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Centering the card */
+  .contact-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px); /* account for header height */
+    padding: 20px;
+  }
+  
+  /* Card */
+  .contact-card {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 360px;
+    width: 100%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.15);
+  }
+  
+  /* Icon */
+  .icon-wrapper {
+    margin-bottom: 20px;
+  }
+  
+  /* Headings & text */
+  .contact-card h2 {
+    margin: 0 0 10px;
+    font-weight: 600;
+    color: #007bff;
+    font-size: 1.5rem;
+  }
+  
+  .contact-card p {
+    margin: 0 0 20px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  
+  /* Button-like link */
+  .contact-button {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 6px;
+    transition: background 0.2s ease;
+  }
+  
+  .contact-button:hover {
+    background: #0056b3;
+  }
+  
