@@ -36,7 +36,7 @@
 /* Styling for the page title outside the main container */
 .combine-orthologs-page-title {
     text-align: center;
-    margin: 40px 20px 20px 20px; /* Top margin increased for spacing */
+    margin-bottom: 20px;
     color: #333333;
     font-size: 2em;
     font-weight: bold;
@@ -64,6 +64,7 @@
 .combine-orthologs-page .form-group {
     position: relative;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 /* Input labels */

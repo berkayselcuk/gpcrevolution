@@ -87,27 +87,26 @@ background-color: #dcd5fc; /* Banner’s color */
 .search-bar {
     display: flex;
     align-items: center;
-    margin-left: auto;     /* push it to the right of the header */
+    margin-left: auto;   /* keep it on the right */
     position: relative;
-    flex: 0 1 auto;        /* only take as much room as its contents */
-    min-width: 0;          /* allow children to shrink below their intrinsic size */
-  }
-  
-  /* Search input */
-  #search-box {
-    width: 100%;
-    max-width: 250px;      /* never wider than 250px */
+    gap: 0;              /* optional – removes double-border gap */
+}
+
+/* ===== updated input ===== */
+#search-box {
+    width: 250px;     /* grow, shrink, start at 250 px */
     padding: 10px 15px;
     font-size: 16px;
     border: 2px solid white;
     border-radius: 20px 0 0 20px;
     outline: none;
     transition: border-color 0.3s ease;
-  }
-  
-  /* Search button */
-  .search-button {
-    flex: 0 0 auto;        /* never grow or shrink */
+
+}
+
+/* ===== updated button ===== */
+.search-button {
+    flex: 0 0 auto;      /* keep its natural width */
     padding: 10px 15px;
     border: 2px solid white;
     font-size: 16px;
@@ -116,7 +115,8 @@ background-color: #dcd5fc; /* Banner’s color */
     border-radius: 0 20px 20px 0;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
+    margin-left: -2px;   /* overlap borders for a seamless join */
+}
 
 .search-button:hover {
     background-color: #292d49; /* Darker color on hover */
