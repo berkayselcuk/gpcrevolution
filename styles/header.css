@@ -95,6 +95,7 @@ background-color: #dcd5fc; /* Banner’s color */
   
   /* Search input */
   #search-box {
+    width: 100%;
     max-width: 250px;      /* never wider than 250px */
     padding: 10px 15px;
     font-size: 16px;
