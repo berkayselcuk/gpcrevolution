@@ -88,10 +88,10 @@ background-color: #dcd5fc; /* Banner’s color */
     align-items: center;
     margin-left: auto;
     position: relative;
-    flex: 1 1 auto;             /* allow the search-bar container to grow/shrink */
+    flex: 0 1 auto;             /* allow the search-bar container to grow/shrink */
     min-width: 0;               /* important: lets its children shrink below their content width */
     display: flex;
-    justify-content: flex-end;  /* keep the button/input aligned to the right */
+    align-items: center;  
 }
 
 #search-box {
