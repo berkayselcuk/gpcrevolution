@@ -83,42 +83,41 @@ background-color: #dcd5fc; /* Banner’s color */
 
 
 /* Search bar styling */
+/* Search bar container */
 .search-bar {
     display: flex;
     align-items: center;
-    margin-left: auto;
+    margin-left: auto;     /* push it to the right of the header */
     position: relative;
-    flex: 0 1 auto;             /* allow the search-bar container to grow/shrink */
-    min-width: 0;               /* important: lets its children shrink below their content width */
-    display: flex;
-    align-items: center;  
-}
-
-#search-box {
+    flex: 0 1 auto;        /* only take as much room as its contents */
+    min-width: 0;          /* allow children to shrink below their intrinsic size */
+  }
+  
+  /* Search input */
+  #search-box {
+    flex: 1 1 150px;       /* can grow, can shrink below 150px if needed */
+    min-width: 0;          /* critical for proper flex shrinking */
+    max-width: 250px;      /* never wider than 250px */
     padding: 10px 15px;
     font-size: 16px;
     border: 2px solid white;
-    border-radius: 20px 0 0 20px; /* Rounded corners on the left */
+    border-radius: 20px 0 0 20px;
     outline: none;
     transition: border-color 0.3s ease;
-    flex: 1 1 auto;             /* fill available space in .search-bar */
-    min-width: 0;               /* lets it shrink below its intrinsic 250px */
-    width: 100%;                /* then it will scale down fluidly */
-    max-width: 250px;           /* optional cap if you want a maximum size */
-}
-
-
-
-.search-button {
+  }
+  
+  /* Search button */
+  .search-button {
+    flex: 0 0 auto;        /* never grow or shrink */
     padding: 10px 15px;
     border: 2px solid white;
     font-size: 16px;
     background-color: #424874;
     color: white;
-    border-radius: 0 20px 20px 0; /* Rounded corners on the right */
+    border-radius: 0 20px 20px 0;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
+  }
 
 .search-button:hover {
     background-color: #292d49; /* Darker color on hover */
