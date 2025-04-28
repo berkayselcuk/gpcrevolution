@@ -75,7 +75,8 @@
 
 /* Text input fields */
 .combine-orthologs-page .form-group input[type="text"] {
-    width: 100%;
+    width: 800px;
+    max-width: 100%;
     padding: 10px;
     border: 1px solid #ced4da;
     border-radius: 4px;
