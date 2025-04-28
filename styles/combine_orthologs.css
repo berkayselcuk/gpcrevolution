@@ -5,6 +5,13 @@
    ============================ */
 
 /* Apply a global box-sizing rule within the combine orthologs page */
+.tool-description {
+    margin-bottom: 1.5rem;
+    color: #616161;
+    line-height: 1.5;
+    font-size: 0.95rem;
+    text-align: center; 
+  }
 .combine-orthologs-page * {
     box-sizing: border-box;
 }
