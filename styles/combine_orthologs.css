@@ -52,7 +52,7 @@
     flex-direction: column;
     align-items: flex-start;    /* add this line */
 }
-}
+
 
 /* Grouping input sections */
 .combine-orthologs-page .form-group {
