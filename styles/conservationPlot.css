@@ -64,10 +64,16 @@
   background-color: #555;   /* hover color for the thumb */
 }
 
+#conservation-scroll-container svg {
+  display: block;      /* kill inline-svg whitespace */
+  max-width: 1040px;    /* never grow beyond 900px */
+
+}          
+
 /* Modern scrollbar styling for Firefox */
 #conservation-chart-container {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1100px;
   max-height: 520px;       /* optional “viewport” height */
   overflow-y: auto;        /* vertical scroll if needed */
   overflow-x: auto;
@@ -77,3 +83,5 @@
   scrollbar-width: auto;
   scrollbar-color: #888 #f1f1f1;
 }
+
+

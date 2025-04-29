@@ -5,7 +5,7 @@ function drawConservationPlot(conservationFile, containerId) {
   const CHUNK_SIZE = 60;
   const rowWidth  = 1040;
   const rowHeight = 260;
-  const margin    = { top: 26, right: 26, bottom: 26, left: 104 };
+  const margin    = { top: 26, right: 0, bottom: 26, left: 80 };
   const chartAreaHeight = 130;
   const infoRowHeight   = 20;
   const gapBetweenInfoRows = 10;

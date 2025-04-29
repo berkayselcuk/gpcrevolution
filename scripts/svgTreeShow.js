@@ -28,7 +28,6 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Update the section header to include the gene name.
         const treeHeader = document.querySelector('.tree-of-orthologs h2');
-        treeHeader.textContent = `Tree of Orthologs for ${receptor.geneName}`;
   
         // If receptor.svgTree is provided as a file path, fetch its content.
         if (receptor.svgTree) {
