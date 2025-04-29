@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;          /* Centers the header text */
+    margin-bottom: 20px;         /* Adds space below the header */
+    color: #333333;              /* Sets a dark gray color for the text */
+    font-size: 2em;              /* Increases the font size */
+    font-weight: bold;           /* Makes the header bold */
+}
+
+p {
+    text-align: center;          /* Centers the header text */
+}
