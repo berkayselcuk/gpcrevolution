@@ -1,96 +1,100 @@
-    /* Receptor-specific styles */
-    .banner {
-        background-color: #dcd5fc; 
-        color: black;
-        padding: 15px;
-        text-align: center;
-        font-size: 1.8em;
-        font-weight: bold;
-        margin: 0;
-      }
-      /* Center main content and leave room for sidebar */
-      main {
-        margin: 0 auto;
-        max-width: 900px;
-        padding: 20px;
-        text-align: left;
-        margin-left: 250px; /* adjust to match sidebar width */
-      }
-      .section {
-        margin-bottom: 30px;
-      }
-      a {
-        color: #1a0dab;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-      /* Sidebar styling */
-      .sidebar {
-        position: fixed;
-        top: 100px;  /* Adjust this if needed (accounting for header/banner height) */
-        left: 20px;
-        width: 200px;
-        background: #f8f8f8;
-        padding: 10px;
-        border: 1px solid #ddd;
-        max-height: calc(100vh - 120px);
-        overflow-y: auto;
-      }
-      .sidebar ul {
-        list-style: none;
-        padding-left: 0;
-      }
-      .sidebar li {
-        margin-bottom: 10px;
-      }
-      /* CSS Variables for easy color changes */
-      :root {
-      --sidebar-bg-color: #ffffff; 
-      --sidebar-text-color: #333;
-      --sidebar-link-color: #424874;
-      }
-  
-      .sidebar {
-      position: fixed;
-      top: 160px; /* adjust as needed */
-      left: 20px;
-      width: 180px;
-      background-color: transparent; /* remove background */
-      padding: 0;                  /* adjust or remove padding */
-      font-weight: bold;
-      border: none;
-      }
-  
-  
-      .sidebar ul {
-      list-style: none;
-      padding-left: 0;
-      margin: 0;
-      }
-  
-      .sidebar li {
-      margin-bottom: 12px;
-      }
-  
-      .sidebar a {
-      color: var(--sidebar-link-color);
-      text-decoration: none;
-      display: block;
-      padding: 5px;
-      border-radius: 5px; /* slight rounding on links */
-      transition: background-color 0.2s ease;
-      }
-  
-      .sidebar a:hover {
-      background-color: rgba(26, 13, 171, 0.1); /* light hover effect */
-  
-      }
-      .section, h2 {
-        scroll-margin-top: 150px;
-      }
+/* Receptor-specific styles */
+.banner {
+    background-color: #dcd5fc; 
+    color: black;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0;
+  }
+/* Center main content and leave room for sidebar */
+main {
+  margin: 0 auto;
+  width: calc(100% - 300px);  /* full width minus sidebar */
+  max-width: none;
+  padding: 20px;
+  text-align: left;
+  margin-left: 250px;         /* reserve space for your sidebar */
+}
+.section {
+  margin-bottom: 30px;
+}
+a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* Sidebar styling */
+.sidebar {
+  position: fixed;
+  top: 100px;  /* Adjust this if needed (accounting for header/banner height) */
+  left: 20px;
+  width: 200px;
+  background: #f8f8f8;
+  padding: 10px;
+  border: 1px solid #ddd;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
+}
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+.sidebar li {
+  margin-bottom: 10px;
+}
+/* CSS Variables for easy color changes */
+:root {
+--sidebar-bg-color: #ffffff; 
+--sidebar-text-color: #333;
+--sidebar-link-color: #424874;
+}
 
-      #snakeplot-container {
-        display: block; /* ensure visibility */
-    }
+.sidebar {
+position: fixed;
+top: 160px; /* adjust as needed */
+left: 20px;
+width: 180px;
+background-color: transparent; /* remove background */
+padding: 0;                  /* adjust or remove padding */
+font-weight: bold;
+border: none;
+}
+
+
+.sidebar ul {
+list-style: none;
+padding-left: 0;
+margin: 0;
+}
+
+.sidebar li {
+margin-bottom: 12px;
+}
+
+.sidebar a {
+color: var(--sidebar-link-color);
+text-decoration: none;
+display: block;
+padding: 5px;
+border-radius: 5px; /* slight rounding on links */
+transition: background-color 0.2s ease;
+}
+
+.sidebar a:hover {
+background-color: rgba(26, 13, 171, 0.1); /* light hover effect */
+
+}
+.section, h2 {
+  scroll-margin-top: 150px;
+}
+
+#snakeplot-container {
+  display: block; /* ensure visibility */
+  height: auto;
+  overflow: auto;
+}
+

@@ -6,9 +6,10 @@
   
 /* Scrollable container for the table */
 .table-container {
-  width: 1050px;
-  height: 500px;
-  overflow: auto;
+  width: 100%;
+  max-width:1000px;
+  max-height: 500px;   /* keeps a fixed vertical viewport */
+  overflow: auto;      /* scroll both axes if needed */
 }
 
 /* Table styling */

@@ -65,20 +65,15 @@
 }
 
 /* Modern scrollbar styling for Firefox */
-#conservation-scroll-container {
-  width: 1050px;
-  height: 520px;
-  overflow-y: auto;   /* vertical scrollbar */
-  overflow-x: hidden; /* hide horizontal scrollbar */
+#conservation-chart-container {
+  width: 100%;
+  max-width: 1000px;
+  max-height: 520px;       /* optional “viewport” height */
+  overflow-y: auto;        /* vertical scroll if needed */
+  overflow-x: auto;
   margin-bottom: 20px;
-
-  /* Remove the border around the container */
-  border: none;       
-
-  /* Optional margin as before */
-  margin-bottom: 20px;
-
-  /* For Firefox: scrollbar width and color */
-  scrollbar-width: auto;               /* "auto" or "thin" */
-  scrollbar-color: #888 #f1f1f1;       /* thumb color, track color */
+  border: none;             /* remove any border */
+  /* Firefox scrollbar styling */
+  scrollbar-width: auto;
+  scrollbar-color: #888 #f1f1f1;
 }
