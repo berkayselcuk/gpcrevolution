@@ -1,0 +1,61 @@
+
+  /* Centered container */
+  .faq-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  /* Heading */
+  .faq-container h1 {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  /* Each FAQ item */
+  .faq-item {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    overflow: hidden;
+  }
+  
+  /* The clickable question */
+  .faq-item summary {
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #424874;
+    list-style: none;   /* remove default triangle indent */
+    cursor: pointer;
+  }
+  
+  /* Remove default summary marker in Firefox */
+  .faq-item summary::-webkit-details-marker {
+    display: none;
+  }
+  .faq-item summary::marker {
+    display: none;
+  }
+  
+  /* Custom marker */
+  .faq-item summary::before {
+    content: "▶";
+    display: inline-block;
+    margin-right: 8px;
+    transition: transform 0.2s ease;
+  }
+  
+  /* Rotate marker when open */
+  .faq-item[open] summary::before {
+    transform: rotate(90deg);
+  }
+  
+  /* The answer panel */
+  .faq-answer {
+    padding: 0 16px 16px;
+    line-height: 1.5;
+    border-top: 1px solid #e0e0e0;
+  }
+  
