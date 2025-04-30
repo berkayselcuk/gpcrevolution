@@ -35,21 +35,32 @@ z-index: 9998;
 background-color: #dcd5fc; /* Banner’s color */
 }
 
+/* 1. Change #home-button to auto‐size */
 #home-button {
-    display: inline-flex;        /* make it a flex container, but still inline */
-    justify-content: center;     /* horizontal centering */
-    align-items: center;         /* vertical centering */
-    width: 50px;
-    height: 50px;
-    background: white;
+    display: inline-flex;
+    align-items: center;
+    /* instead of fixed 35×35, let it size to its content */
+    width: auto;
+    height: auto;
     margin-right: 20px;
     text-decoration: none;
-  }
-  
-  #home-button img {
-    max-width: 100%;   /* prevent overflow if logo is ever bigger */
+}
+
+/* 2. Give the img a fixed height */
+#home-button img {
+    max-width: 30px;   /* prevent overflow if logo is ever bigger */
     max-height: 100%;  /* ditto */
-  }
+}
+
+/* 3. Style the new text */
+#home-button .brand-text {
+    margin-left: 8px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    white-space: nowrap; /* prevent wrapping under the icon */
+}
+  
 
 /* Dropdown menu styling */
 .dropdown {
