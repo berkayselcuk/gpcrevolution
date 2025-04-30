@@ -36,12 +36,20 @@ background-color: #dcd5fc; /* Banner’s color */
 }
 
 #home-button {
-    font-size: 18px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+    display: inline-flex;        /* make it a flex container, but still inline */
+    justify-content: center;     /* horizontal centering */
+    align-items: center;         /* vertical centering */
+    width: 50px;
+    height: 50px;
+    background: white;
     margin-right: 20px;
-}
+    text-decoration: none;
+  }
+  
+  #home-button img {
+    max-width: 100%;   /* prevent overflow if logo is ever bigger */
+    max-height: 100%;  /* ditto */
+  }
 
 /* Dropdown menu styling */
 .dropdown {
