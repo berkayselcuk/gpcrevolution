@@ -293,12 +293,19 @@ async function residueMap_handleFormSubmit(event) {
     const includeConservation = conservationCheckbox.checked; // Checkbox state
 
     // Parse target receptor names
-    const targetReceptorNames = targetInputValue.split(",").map(name => name.trim()).filter(name => name !== "");
+    const targetReceptorNames = targetInputValue
+        .split(",")
+        .map(name => name.trim())
+        .filter(name => name !== "");
 
     // Parse residue numbers if provided
     let residueNumbers = [];
     if (residueInputValue) {
-        residueNumbers = residueInputValue.split(",").map(num => num.trim()).filter(num => num !== "").map(num => parseInt(num, 10));
+        residueNumbers = residueInputValue
+            .split(",")
+            .map(num => num.trim())
+            .filter(num => num !== "")
+            .map(num => parseInt(num, 10));
         const invalidNumbers = residueNumbers.filter(num => isNaN(num) || num <= 0);
         if (invalidNumbers.length > 0) {
             resultDiv.innerHTML = "<div class='alert alert-warning'>Please enter valid positive integers for residue numbers, separated by commas.</div>";
@@ -322,19 +329,32 @@ async function residueMap_handleFormSubmit(event) {
     }
 
     // Retrieve receptor data from receptorsData loaded from receptor.json
-    const referenceReceptor = receptorsData.find(r => r.geneName.toLowerCase() === referenceInputValue.toLowerCase());
+    const referenceReceptor = receptorsData.find(
+        r => r.geneName.toLowerCase() === referenceInputValue.toLowerCase()
+    );
     const targetReceptors = targetReceptorNames.map(name =>
         receptorsData.find(r => r.geneName.toLowerCase() === name.toLowerCase())
     );
 
+    // Check reference receptor
     if (!referenceReceptor) {
-        resultDiv.innerHTML = "<div class='alert alert-danger'>Error: Reference receptor not found.</div>";
-        console.error("Reference receptor data not found for:", referenceInputValue);
+        resultDiv.innerHTML = 
+            `<div class='alert alert-danger'>
+               Error: Reference receptor “<strong>${referenceInputValue}</strong>” not found.
+             </div>`;
+        console.error("Reference receptor not found:", referenceInputValue);
         return;
     }
-    if (targetReceptors.includes(undefined)) {
-        resultDiv.innerHTML = "<div class='alert alert-danger'>Error: One or more target receptors not found.</div>";
-        console.error("Target receptor data not found for:", targetReceptorNames);
+
+    // Check for any missing target receptors
+    const missingTargets = targetReceptorNames.filter((name, idx) => !targetReceptors[idx]);
+    if (missingTargets.length) {
+        resultDiv.innerHTML = 
+            `<div class='alert alert-danger'>
+               Error: Target receptor${missingTargets.length > 1 ? 's' : ''} not found: 
+               <strong>${missingTargets.join(", ")}</strong>.
+             </div>`;
+        console.error("Missing target receptors:", missingTargets);
         return;
     }
 
@@ -366,10 +386,9 @@ async function residueMap_handleFormSubmit(event) {
         if (includeConservation) {
             // Load conservation data using each receptor's conservationFile property from receptor.json
             const conservationPromises = receptorSequences.map(receptor => {
-                const conservationFilePath = receptor.conservationFile;
-                return readConservationData(conservationFilePath)
+                return readConservationData(receptor.conservationFile)
                     .then(data => ({ geneName: receptor.geneName, data }))
-                    .catch(error => {
+                    .catch(() => {
                         console.warn(`Conservation data for ${receptor.geneName} could not be loaded.`);
                         return { geneName: receptor.geneName, data: {} };
                     });
@@ -407,6 +426,7 @@ async function residueMap_handleFormSubmit(event) {
         console.error(error);
     }
 }
+
 
 /**
  * Reads aligned sequences from a FASTA file.
